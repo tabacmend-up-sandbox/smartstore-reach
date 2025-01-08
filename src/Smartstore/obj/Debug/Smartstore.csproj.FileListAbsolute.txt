@@ -1,0 +1,13 @@
+/root/Smartstore/src/Smartstore/bin/Debug/Smartstore.deps.json
+/root/Smartstore/src/Smartstore/bin/Debug/Smartstore.dll
+/root/Smartstore/src/Smartstore/bin/Debug/Smartstore.pdb
+/root/Smartstore/src/Smartstore/obj/Debug/Smartstore.csproj.AssemblyReference.cache
+/root/Smartstore/src/Smartstore/obj/Debug/Smartstore.GeneratedMSBuildEditorConfig.editorconfig
+/root/Smartstore/src/Smartstore/obj/Debug/Smartstore.AssemblyInfoInputs.cache
+/root/Smartstore/src/Smartstore/obj/Debug/Smartstore.AssemblyInfo.cs
+/root/Smartstore/src/Smartstore/obj/Debug/Smartstore.csproj.CoreCompileInputs.cache
+/root/Smartstore/src/Smartstore/obj/Debug/Smartstore.sourcelink.json
+/root/Smartstore/src/Smartstore/obj/Debug/Smartstore.dll
+/root/Smartstore/src/Smartstore/obj/Debug/refint/Smartstore.dll
+/root/Smartstore/src/Smartstore/obj/Debug/Smartstore.pdb
+/root/Smartstore/src/Smartstore/obj/Debug/ref/Smartstore.dll

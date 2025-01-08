@@ -1,0 +1,77 @@
+{
+  "Version": 1,
+  "Hash": "9NRA8admJ6Dj5NJFrQYB/UCrwq2Zn346rqHte8rUi1I=",
+  "Source": "Smartstore.Google.MerchantCenter",
+  "BasePath": "_content/Smartstore.Google.MerchantCenter",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Smartstore.Google.MerchantCenter/wwwroot",
+      "Source": "Smartstore.Google.MerchantCenter",
+      "ContentRoot": "/root/Smartstore/src/Smartstore.Modules/Smartstore.Google.MerchantCenter/wwwroot/",
+      "BasePath": "_content/Smartstore.Google.MerchantCenter",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/root/Smartstore/src/Smartstore.Modules/Smartstore.Google.MerchantCenter/wwwroot/branding.png",
+      "SourceId": "Smartstore.Google.MerchantCenter",
+      "SourceType": "Discovered",
+      "ContentRoot": "/root/Smartstore/src/Smartstore.Modules/Smartstore.Google.MerchantCenter/wwwroot/",
+      "BasePath": "_content/Smartstore.Google.MerchantCenter",
+      "RelativePath": "branding.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/branding.png"
+    },
+    {
+      "Identity": "/root/Smartstore/src/Smartstore.Modules/Smartstore.Google.MerchantCenter/wwwroot/icon.png",
+      "SourceId": "Smartstore.Google.MerchantCenter",
+      "SourceType": "Discovered",
+      "ContentRoot": "/root/Smartstore/src/Smartstore.Modules/Smartstore.Google.MerchantCenter/wwwroot/",
+      "BasePath": "_content/Smartstore.Google.MerchantCenter",
+      "RelativePath": "icon.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/icon.png"
+    },
+    {
+      "Identity": "/root/Smartstore/src/Smartstore.Modules/Smartstore.Google.MerchantCenter/wwwroot/js/taxonomy.js",
+      "SourceId": "Smartstore.Google.MerchantCenter",
+      "SourceType": "Discovered",
+      "ContentRoot": "/root/Smartstore/src/Smartstore.Modules/Smartstore.Google.MerchantCenter/wwwroot/",
+      "BasePath": "_content/Smartstore.Google.MerchantCenter",
+      "RelativePath": "js/taxonomy.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/js/taxonomy.js"
+    }
+  ]
+}

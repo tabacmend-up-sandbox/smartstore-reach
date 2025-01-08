@@ -1,0 +1,15 @@
+/root/Smartstore/src/Smartstore.Data/Smartstore.Data.MySql/bin/Debug/MySqlConnector.dll
+/root/Smartstore/src/Smartstore.Data/Smartstore.Data.MySql/bin/Debug/Pomelo.EntityFrameworkCore.MySql.dll
+/root/Smartstore/src/Smartstore.Data/Smartstore.Data.MySql/bin/Debug/Smartstore.Data.MySql.deps.json
+/root/Smartstore/src/Smartstore.Data/Smartstore.Data.MySql/bin/Debug/Smartstore.Data.MySql.dll
+/root/Smartstore/src/Smartstore.Data/Smartstore.Data.MySql/bin/Debug/Smartstore.Data.MySql.pdb
+/root/Smartstore/src/Smartstore.Data/Smartstore.Data.MySql/obj/Debug/Smartstore.Data.MySql.csproj.AssemblyReference.cache
+/root/Smartstore/src/Smartstore.Data/Smartstore.Data.MySql/obj/Debug/Smartstore.Data.MySql.GeneratedMSBuildEditorConfig.editorconfig
+/root/Smartstore/src/Smartstore.Data/Smartstore.Data.MySql/obj/Debug/Smartstore.Data.MySql.AssemblyInfoInputs.cache
+/root/Smartstore/src/Smartstore.Data/Smartstore.Data.MySql/obj/Debug/Smartstore.Data.MySql.AssemblyInfo.cs
+/root/Smartstore/src/Smartstore.Data/Smartstore.Data.MySql/obj/Debug/Smartstore.Data.MySql.csproj.CoreCompileInputs.cache
+/root/Smartstore/src/Smartstore.Data/Smartstore.Data.MySql/obj/Debug/Smartstore.Data.MySql.sourcelink.json
+/root/Smartstore/src/Smartstore.Data/Smartstore.Data.MySql/obj/Debug/Smartstore.Data.MySql.dll
+/root/Smartstore/src/Smartstore.Data/Smartstore.Data.MySql/obj/Debug/refint/Smartstore.Data.MySql.dll
+/root/Smartstore/src/Smartstore.Data/Smartstore.Data.MySql/obj/Debug/Smartstore.Data.MySql.pdb
+/root/Smartstore/src/Smartstore.Data/Smartstore.Data.MySql/obj/Debug/ref/Smartstore.Data.MySql.dll

@@ -1,0 +1,539 @@
+{
+  "format": 1,
+  "restore": {
+    "/root/Smartstore/src/Smartstore.Modules/Smartstore.Tax/Smartstore.Tax.csproj": {}
+  },
+  "projects": {
+    "/root/Smartstore/src/Smartstore.Core/Smartstore.Core.csproj": {
+      "version": "6.0.0",
+      "restore": {
+        "projectUniqueName": "/root/Smartstore/src/Smartstore.Core/Smartstore.Core.csproj",
+        "projectName": "Smartstore.Core",
+        "projectPath": "/root/Smartstore/src/Smartstore.Core/Smartstore.Core.csproj",
+        "packagesPath": "/root/.nuget/packages/",
+        "outputPath": "/root/Smartstore/src/Smartstore.Core/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/root/Smartstore/nuget.config",
+          "/root/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.myget.org/F/miniprofiler/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/root/Smartstore/src/Smartstore/Smartstore.csproj": {
+                "projectPath": "/root/Smartstore/src/Smartstore/Smartstore.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Autofac.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[10.0.0, )"
+            },
+            "DotLiquid": {
+              "target": "Package",
+              "version": "[2.2.692, )"
+            },
+            "ExcelDataReader": {
+              "target": "Package",
+              "version": "[3.7.0, )"
+            },
+            "FluentFTP": {
+              "target": "Package",
+              "version": "[52.0.0, )"
+            },
+            "FluentMigrator": {
+              "target": "Package",
+              "version": "[6.2.0, )"
+            },
+            "FluentMigrator.Runner.MySql": {
+              "target": "Package",
+              "version": "[6.2.0, )"
+            },
+            "FluentMigrator.Runner.Postgres": {
+              "target": "Package",
+              "version": "[6.2.0, )"
+            },
+            "FluentMigrator.Runner.SQLite": {
+              "target": "Package",
+              "version": "[6.2.0, )"
+            },
+            "FluentMigrator.Runner.SqlServer": {
+              "target": "Package",
+              "version": "[6.2.0, )"
+            },
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[11.3.0, )"
+            },
+            "LumenWorksCsvReader": {
+              "target": "Package",
+              "version": "[4.0.0, )"
+            },
+            "MaxMind.Db": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
+            "MaxMind.GeoIP2": {
+              "target": "Package",
+              "version": "[5.2.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "Parlot": {
+              "target": "Package",
+              "version": "[1.0.2, )"
+            },
+            "Polly": {
+              "target": "Package",
+              "version": "[8.4.2, )"
+            },
+            "PreMailer.Net": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[8.0.3, )"
+            },
+            "Serilog.Expressions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Serilog.Sinks.Async": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "Serilog.Sinks.Map": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "Serilog.Sinks.PeriodicBatching": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "System.Linq.Dynamic.Core": {
+              "target": "Package",
+              "version": "[1.4.6, )"
+            },
+            "System.Memory.Data": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "System.ServiceModel.Http": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "System.Threading.RateLimiting": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.403/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/root/Smartstore/src/Smartstore.Modules/Smartstore.Tax/Smartstore.Tax.csproj": {
+      "version": "6.0.0",
+      "restore": {
+        "projectUniqueName": "/root/Smartstore/src/Smartstore.Modules/Smartstore.Tax/Smartstore.Tax.csproj",
+        "projectName": "Smartstore.Tax",
+        "projectPath": "/root/Smartstore/src/Smartstore.Modules/Smartstore.Tax/Smartstore.Tax.csproj",
+        "packagesPath": "/root/.nuget/packages/",
+        "outputPath": "/root/Smartstore/src/Smartstore.Modules/Smartstore.Tax/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/root/Smartstore/nuget.config",
+          "/root/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.myget.org/F/miniprofiler/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/root/Smartstore/src/Smartstore.Core/Smartstore.Core.csproj": {
+                "projectPath": "/root/Smartstore/src/Smartstore.Core/Smartstore.Core.csproj"
+              },
+              "/root/Smartstore/src/Smartstore.Web.Common/Smartstore.Web.Common.csproj": {
+                "projectPath": "/root/Smartstore/src/Smartstore.Web.Common/Smartstore.Web.Common.csproj"
+              },
+              "/root/Smartstore/src/Smartstore/Smartstore.csproj": {
+                "projectPath": "/root/Smartstore/src/Smartstore/Smartstore.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.403/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/root/Smartstore/src/Smartstore.Web.Common/Smartstore.Web.Common.csproj": {
+      "version": "6.0.0",
+      "restore": {
+        "projectUniqueName": "/root/Smartstore/src/Smartstore.Web.Common/Smartstore.Web.Common.csproj",
+        "projectName": "Smartstore.Web.Common",
+        "projectPath": "/root/Smartstore/src/Smartstore.Web.Common/Smartstore.Web.Common.csproj",
+        "packagesPath": "/root/.nuget/packages/",
+        "outputPath": "/root/Smartstore/src/Smartstore.Web.Common/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/root/Smartstore/nuget.config",
+          "/root/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.myget.org/F/miniprofiler/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/root/Smartstore/src/Smartstore.Core/Smartstore.Core.csproj": {
+                "projectPath": "/root/Smartstore/src/Smartstore.Core/Smartstore.Core.csproj"
+              },
+              "/root/Smartstore/src/Smartstore/Smartstore.csproj": {
+                "projectPath": "/root/Smartstore/src/Smartstore/Smartstore.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Autofac.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[10.0.0, )"
+            },
+            "AutoprefixerHost": {
+              "target": "Package",
+              "version": "[3.0.36, )"
+            },
+            "DouglasCrockford.JsMin": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[11.3.0, )"
+            },
+            "JavaScriptEngineSwitcher.V8": {
+              "target": "Package",
+              "version": "[3.24.2, )"
+            },
+            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
+            "Microsoft.AspNetCore.OData": {
+              "target": "Package",
+              "version": "[9.1.1, )"
+            },
+            "NUglify": {
+              "target": "Package",
+              "version": "[1.21.9, )"
+            },
+            "SharpScss": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "Smartstore.Licensing": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.403/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/root/Smartstore/src/Smartstore/Smartstore.csproj": {
+      "version": "6.0.0",
+      "restore": {
+        "projectUniqueName": "/root/Smartstore/src/Smartstore/Smartstore.csproj",
+        "projectName": "Smartstore",
+        "projectPath": "/root/Smartstore/src/Smartstore/Smartstore.csproj",
+        "packagesPath": "/root/.nuget/packages/",
+        "outputPath": "/root/Smartstore/src/Smartstore/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/root/Smartstore/nuget.config",
+          "/root/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.myget.org/F/miniprofiler/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AngleSharp": {
+              "target": "Package",
+              "version": "[0.17.1, )"
+            },
+            "AngleSharp.Css": {
+              "target": "Package",
+              "version": "[0.17.0, )"
+            },
+            "AsyncKeyedLock": {
+              "target": "Package",
+              "version": "[7.1.3, )"
+            },
+            "Autofac": {
+              "target": "Package",
+              "version": "[8.1.1, )"
+            },
+            "Autofac.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[10.0.0, )"
+            },
+            "Barcoder": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "CronExpressionDescriptor": {
+              "target": "Package",
+              "version": "[2.36.0, )"
+            },
+            "HtmlSanitizer": {
+              "target": "Package",
+              "version": "[8.1.870, )"
+            },
+            "Humanizer": {
+              "target": "Package",
+              "version": "[2.14.1, )"
+            },
+            "MailKit": {
+              "target": "Package",
+              "version": "[4.8.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
+            "Microsoft.Extensions.DependencyModel": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "NCrontab.Signed": {
+              "target": "Package",
+              "version": "[3.3.3, )"
+            },
+            "Newtonsoft.Json.Bson": {
+              "target": "Package",
+              "version": "[1.0.2, )"
+            },
+            "NuGet.Protocol": {
+              "target": "Package",
+              "version": "[6.6.1, )"
+            },
+            "PreMailer.Net": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            },
+            "SixLabors.ImageSharp": {
+              "target": "Package",
+              "version": "[3.1.5, )"
+            },
+            "SixLabors.ImageSharp.Drawing": {
+              "target": "Package",
+              "version": "[2.1.4, )"
+            },
+            "System.IO.Hashing": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "System.Linq.Async": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "System.Linq.Dynamic.Core": {
+              "target": "Package",
+              "version": "[1.4.6, )"
+            },
+            "System.ServiceModel.Syndication": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.403/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Modules/Smartstore.Stripe/wwwroot/branding.png",
+      "PackagePath": "staticwebassets/branding.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Modules/Smartstore.Stripe/wwwroot/brands/default.png",
+      "PackagePath": "staticwebassets/brands/default.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Modules/Smartstore.Stripe/wwwroot/icon.png",
+      "PackagePath": "staticwebassets/icon.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Modules/Smartstore.Stripe/wwwroot/public.scss",
+      "PackagePath": "staticwebassets/public.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Modules/Smartstore.Stripe/wwwroot/smartstore.stripe.js",
+      "PackagePath": "staticwebassets/smartstore.stripe.js"
+    },
+    {
+      "Id": "obj/Debug/staticwebassets/msbuild.Smartstore.Stripe.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/staticwebassets/msbuild.build.Smartstore.Stripe.props",
+      "PackagePath": "build\\Smartstore.Stripe.props"
+    },
+    {
+      "Id": "obj/Debug/staticwebassets/msbuild.buildMultiTargeting.Smartstore.Stripe.props",
+      "PackagePath": "buildMultiTargeting\\Smartstore.Stripe.props"
+    },
+    {
+      "Id": "obj/Debug/staticwebassets/msbuild.buildTransitive.Smartstore.Stripe.props",
+      "PackagePath": "buildTransitive\\Smartstore.Stripe.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

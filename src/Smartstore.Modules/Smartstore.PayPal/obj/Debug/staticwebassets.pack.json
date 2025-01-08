@@ -1,0 +1,73 @@
+{
+  "Files": [
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Modules/Smartstore.PayPal/wwwroot/branding.png",
+      "PackagePath": "staticwebassets/branding.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Modules/Smartstore.PayPal/wwwroot/brands/default.png",
+      "PackagePath": "staticwebassets/brands/default.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Modules/Smartstore.PayPal/wwwroot/brands/payments.paypalbancontact.png",
+      "PackagePath": "staticwebassets/brands/payments.paypalbancontact.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Modules/Smartstore.PayPal/wwwroot/brands/payments.paypalblik.png",
+      "PackagePath": "staticwebassets/brands/payments.paypalblik.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Modules/Smartstore.PayPal/wwwroot/brands/payments.paypaleps.png",
+      "PackagePath": "staticwebassets/brands/payments.paypaleps.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Modules/Smartstore.PayPal/wwwroot/brands/payments.paypalgiropay.png",
+      "PackagePath": "staticwebassets/brands/payments.paypalgiropay.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Modules/Smartstore.PayPal/wwwroot/brands/payments.paypalideal.png",
+      "PackagePath": "staticwebassets/brands/payments.paypalideal.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Modules/Smartstore.PayPal/wwwroot/brands/payments.paypalmybank.png",
+      "PackagePath": "staticwebassets/brands/payments.paypalmybank.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Modules/Smartstore.PayPal/wwwroot/brands/payments.paypalprzelewy24.png",
+      "PackagePath": "staticwebassets/brands/payments.paypalprzelewy24.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Modules/Smartstore.PayPal/wwwroot/brands/payments.paypalsofort.png",
+      "PackagePath": "staticwebassets/brands/payments.paypalsofort.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Modules/Smartstore.PayPal/wwwroot/icon.png",
+      "PackagePath": "staticwebassets/icon.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Modules/Smartstore.PayPal/wwwroot/js/paypal.utils.js",
+      "PackagePath": "staticwebassets/js/paypal.utils.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Modules/Smartstore.PayPal/wwwroot/public.scss",
+      "PackagePath": "staticwebassets/public.scss"
+    },
+    {
+      "Id": "obj/Debug/staticwebassets/msbuild.Smartstore.PayPal.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/staticwebassets/msbuild.build.Smartstore.PayPal.props",
+      "PackagePath": "build\\Smartstore.PayPal.props"
+    },
+    {
+      "Id": "obj/Debug/staticwebassets/msbuild.buildMultiTargeting.Smartstore.PayPal.props",
+      "PackagePath": "buildMultiTargeting\\Smartstore.PayPal.props"
+    },
+    {
+      "Id": "obj/Debug/staticwebassets/msbuild.buildTransitive.Smartstore.PayPal.props",
+      "PackagePath": "buildTransitive\\Smartstore.PayPal.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

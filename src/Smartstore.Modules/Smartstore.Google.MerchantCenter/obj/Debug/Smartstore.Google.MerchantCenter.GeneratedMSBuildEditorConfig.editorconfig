@@ -1,0 +1,59 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Smartstore.Google.MerchantCenter
+build_property.RootNamespace = Smartstore.Google.MerchantCenter
+build_property.ProjectDir = /root/Smartstore/src/Smartstore.Modules/Smartstore.Google.MerchantCenter/
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = true
+build_property.MSBuildProjectDirectory = /root/Smartstore/src/Smartstore.Modules/Smartstore.Google.MerchantCenter
+build_property._RazorSourceGeneratorDebug = 
+
+[/root/Smartstore/src/Smartstore.Modules/Smartstore.Google.MerchantCenter/Views/GoogleMerchantCenter/Configure.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvR29vZ2xlTWVyY2hhbnRDZW50ZXIvQ29uZmlndXJlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/root/Smartstore/src/Smartstore.Modules/Smartstore.Google.MerchantCenter/Views/GoogleMerchantCenter/ProductEditTab.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvR29vZ2xlTWVyY2hhbnRDZW50ZXIvUHJvZHVjdEVkaXRUYWIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/root/Smartstore/src/Smartstore.Modules/Smartstore.Google.MerchantCenter/Views/GoogleMerchantCenter/_Grid.GoogleProducts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvR29vZ2xlTWVyY2hhbnRDZW50ZXIvX0dyaWQuR29vZ2xlUHJvZHVjdHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/root/Smartstore/src/Smartstore.Modules/Smartstore.Google.MerchantCenter/Views/GoogleMerchantCenter/_Grid.GoogleProducts.Search.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvR29vZ2xlTWVyY2hhbnRDZW50ZXIvX0dyaWQuR29vZ2xlUHJvZHVjdHMuU2VhcmNoLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/root/Smartstore/src/Smartstore.Modules/Smartstore.Google.MerchantCenter/Views/Shared/Components/GmcConfiguration/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvR21jQ29uZmlndXJhdGlvbi9EZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/root/Smartstore/src/Smartstore.Modules/Smartstore.Google.MerchantCenter/Views/Shared/EditorTemplates/AgeGroup.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0VkaXRvclRlbXBsYXRlcy9BZ2VHcm91cC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/root/Smartstore/src/Smartstore.Modules/Smartstore.Google.MerchantCenter/Views/Shared/EditorTemplates/EnergyEfficiencyClass.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0VkaXRvclRlbXBsYXRlcy9FbmVyZ3lFZmZpY2llbmN5Q2xhc3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/root/Smartstore/src/Smartstore.Modules/Smartstore.Google.MerchantCenter/Views/Shared/EditorTemplates/Gender.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0VkaXRvclRlbXBsYXRlcy9HZW5kZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/root/Smartstore/src/Smartstore.Modules/Smartstore.Google.MerchantCenter/Views/Shared/EditorTemplates/Taxonomy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0VkaXRvclRlbXBsYXRlcy9UYXhvbm9teS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/root/Smartstore/src/Smartstore.Modules/Smartstore.Google.MerchantCenter/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 

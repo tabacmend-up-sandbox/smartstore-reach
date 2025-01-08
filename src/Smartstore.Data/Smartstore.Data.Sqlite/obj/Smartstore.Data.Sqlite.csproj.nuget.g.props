@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <RestoreSuccess Condition=" '$(RestoreSuccess)' == '' ">True</RestoreSuccess>
+    <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
+    <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
+    <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">/root/.nuget/packages/</NuGetPackageRoot>
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">/root/.nuget/packages/</NuGetPackageFolders>
+    <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
+    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">6.11.1</NuGetToolVersion>
+  </PropertyGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <SourceRoot Include="/root/.nuget/packages/" />
+  </ItemGroup>
+  <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)microsoft.entityframeworkcore/8.0.10/buildTransitive/net8.0/Microsoft.EntityFrameworkCore.props" Condition="Exists('$(NuGetPackageRoot)microsoft.entityframeworkcore/8.0.10/buildTransitive/net8.0/Microsoft.EntityFrameworkCore.props')" />
+  </ImportGroup>
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgSQLitePCLRaw_core Condition=" '$(PkgSQLitePCLRaw_core)' == '' ">/root/.nuget/packages/sqlitepclraw.core/2.1.10</PkgSQLitePCLRaw_core>
+    <PkgSQLitePCLRaw_provider_e_sqlite3 Condition=" '$(PkgSQLitePCLRaw_provider_e_sqlite3)' == '' ">/root/.nuget/packages/sqlitepclraw.provider.e_sqlite3/2.1.10</PkgSQLitePCLRaw_provider_e_sqlite3>
+    <PkgSQLitePCLRaw_lib_e_sqlite3 Condition=" '$(PkgSQLitePCLRaw_lib_e_sqlite3)' == '' ">/root/.nuget/packages/sqlitepclraw.lib.e_sqlite3/2.1.10</PkgSQLitePCLRaw_lib_e_sqlite3>
+    <PkgSQLitePCLRaw_bundle_e_sqlite3 Condition=" '$(PkgSQLitePCLRaw_bundle_e_sqlite3)' == '' ">/root/.nuget/packages/sqlitepclraw.bundle_e_sqlite3/2.1.10</PkgSQLitePCLRaw_bundle_e_sqlite3>
+    <PkgMicrosoft_Data_Sqlite_Core Condition=" '$(PkgMicrosoft_Data_Sqlite_Core)' == '' ">/root/.nuget/packages/microsoft.data.sqlite.core/8.0.10</PkgMicrosoft_Data_Sqlite_Core>
+    <PkgMicrosoft_EntityFrameworkCore_Sqlite_Core Condition=" '$(PkgMicrosoft_EntityFrameworkCore_Sqlite_Core)' == '' ">/root/.nuget/packages/microsoft.entityframeworkcore.sqlite.core/8.0.10</PkgMicrosoft_EntityFrameworkCore_Sqlite_Core>
+  </PropertyGroup>
+</Project>

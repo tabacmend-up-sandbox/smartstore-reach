@@ -1,0 +1,75 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Smartstore.PayPal
+build_property.RootNamespace = Smartstore.PayPal
+build_property.ProjectDir = /root/Smartstore/src/Smartstore.Modules/Smartstore.PayPal/
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = true
+build_property.MSBuildProjectDirectory = /root/Smartstore/src/Smartstore.Modules/Smartstore.PayPal
+build_property._RazorSourceGeneratorDebug = 
+
+[/root/Smartstore/src/Smartstore.Modules/Smartstore.PayPal/Views/PayPalAdmin/Configure.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGF5UGFsQWRtaW4vQ29uZmlndXJlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/root/Smartstore/src/Smartstore.Modules/Smartstore.PayPal/Views/PayPalAdmin/SupportTools.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGF5UGFsQWRtaW4vU3VwcG9ydFRvb2xzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/root/Smartstore/src/Smartstore.Modules/Smartstore.PayPal/Views/Shared/Components/PayPal/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvUGF5UGFsL0RlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/root/Smartstore/src/Smartstore.Modules/Smartstore.PayPal/Views/Shared/Components/PayPalApm/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvUGF5UGFsQXBtL0RlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/root/Smartstore/src/Smartstore.Modules/Smartstore.PayPal/Views/Shared/Components/PayPalCreditCard/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvUGF5UGFsQ3JlZGl0Q2FyZC9EZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/root/Smartstore/src/Smartstore.Modules/Smartstore.PayPal/Views/Shared/Components/PayPalInvoice/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvUGF5UGFsSW52b2ljZS9EZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/root/Smartstore/src/Smartstore.Modules/Smartstore.PayPal/Views/Shared/Components/PayPalPayLater/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvUGF5UGFsUGF5TGF0ZXIvRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/root/Smartstore/src/Smartstore.Modules/Smartstore.PayPal/Views/Shared/Components/PayPalPayLaterMessage/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvUGF5UGFsUGF5TGF0ZXJNZXNzYWdlL0RlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/root/Smartstore/src/Smartstore.Modules/Smartstore.PayPal/Views/Shared/Components/PayPalPaymentSelection/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvUGF5UGFsUGF5bWVudFNlbGVjdGlvbi9EZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/root/Smartstore/src/Smartstore.Modules/Smartstore.PayPal/Views/Shared/Components/PayPalSepa/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvUGF5UGFsU2VwYS9EZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/root/Smartstore/src/Smartstore.Modules/Smartstore.PayPal/Views/Shared/_CheckoutConfirm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19DaGVja291dENvbmZpcm0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/root/Smartstore/src/Smartstore.Modules/Smartstore.PayPal/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "plUQaQA02RQ992R/dWaLs+jr40QUs1M/0vOaOZl8mpU=",
+  "Source": "Smartstore.ShippingByWeight",
+  "BasePath": "_content/Smartstore.ShippingByWeight",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

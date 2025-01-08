@@ -1,0 +1,29 @@
+{
+  "Files": [
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Modules/Smartstore.Clickatell/wwwroot/branding.png",
+      "PackagePath": "staticwebassets/branding.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Modules/Smartstore.Clickatell/wwwroot/icon.png",
+      "PackagePath": "staticwebassets/icon.png"
+    },
+    {
+      "Id": "obj/Debug/staticwebassets/msbuild.Smartstore.Clickatell.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/staticwebassets/msbuild.build.Smartstore.Clickatell.props",
+      "PackagePath": "build\\Smartstore.Clickatell.props"
+    },
+    {
+      "Id": "obj/Debug/staticwebassets/msbuild.buildMultiTargeting.Smartstore.Clickatell.props",
+      "PackagePath": "buildMultiTargeting\\Smartstore.Clickatell.props"
+    },
+    {
+      "Id": "obj/Debug/staticwebassets/msbuild.buildTransitive.Smartstore.Clickatell.props",
+      "PackagePath": "buildTransitive\\Smartstore.Clickatell.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

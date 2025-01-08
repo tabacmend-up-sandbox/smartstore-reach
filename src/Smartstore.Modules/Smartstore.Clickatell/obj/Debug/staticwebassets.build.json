@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "Hash": "A4jTwkDJs/W2nUFQfjlZuUZ0lJqjv59FQuDV7/+Mr30=",
+  "Source": "Smartstore.Clickatell",
+  "BasePath": "_content/Smartstore.Clickatell",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Smartstore.Clickatell/wwwroot",
+      "Source": "Smartstore.Clickatell",
+      "ContentRoot": "/root/Smartstore/src/Smartstore.Modules/Smartstore.Clickatell/wwwroot/",
+      "BasePath": "_content/Smartstore.Clickatell",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/root/Smartstore/src/Smartstore.Modules/Smartstore.Clickatell/wwwroot/branding.png",
+      "SourceId": "Smartstore.Clickatell",
+      "SourceType": "Discovered",
+      "ContentRoot": "/root/Smartstore/src/Smartstore.Modules/Smartstore.Clickatell/wwwroot/",
+      "BasePath": "_content/Smartstore.Clickatell",
+      "RelativePath": "branding.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/branding.png"
+    },
+    {
+      "Identity": "/root/Smartstore/src/Smartstore.Modules/Smartstore.Clickatell/wwwroot/icon.png",
+      "SourceId": "Smartstore.Clickatell",
+      "SourceType": "Discovered",
+      "ContentRoot": "/root/Smartstore/src/Smartstore.Modules/Smartstore.Clickatell/wwwroot/",
+      "BasePath": "_content/Smartstore.Clickatell",
+      "RelativePath": "icon.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/icon.png"
+    }
+  ]
+}

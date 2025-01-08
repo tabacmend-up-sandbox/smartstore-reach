@@ -1,0 +1,14 @@
+/root/Smartstore/src/Smartstore.Data/Smartstore.Data.SqlServer/bin/Debug/Microsoft.EntityFrameworkCore.SqlServer.dll
+/root/Smartstore/src/Smartstore.Data/Smartstore.Data.SqlServer/bin/Debug/Smartstore.Data.SqlServer.deps.json
+/root/Smartstore/src/Smartstore.Data/Smartstore.Data.SqlServer/bin/Debug/Smartstore.Data.SqlServer.dll
+/root/Smartstore/src/Smartstore.Data/Smartstore.Data.SqlServer/bin/Debug/Smartstore.Data.SqlServer.pdb
+/root/Smartstore/src/Smartstore.Data/Smartstore.Data.SqlServer/obj/Debug/Smartstore.Data.SqlServer.csproj.AssemblyReference.cache
+/root/Smartstore/src/Smartstore.Data/Smartstore.Data.SqlServer/obj/Debug/Smartstore.Data.SqlServer.GeneratedMSBuildEditorConfig.editorconfig
+/root/Smartstore/src/Smartstore.Data/Smartstore.Data.SqlServer/obj/Debug/Smartstore.Data.SqlServer.AssemblyInfoInputs.cache
+/root/Smartstore/src/Smartstore.Data/Smartstore.Data.SqlServer/obj/Debug/Smartstore.Data.SqlServer.AssemblyInfo.cs
+/root/Smartstore/src/Smartstore.Data/Smartstore.Data.SqlServer/obj/Debug/Smartstore.Data.SqlServer.csproj.CoreCompileInputs.cache
+/root/Smartstore/src/Smartstore.Data/Smartstore.Data.SqlServer/obj/Debug/Smartstore.Data.SqlServer.sourcelink.json
+/root/Smartstore/src/Smartstore.Data/Smartstore.Data.SqlServer/obj/Debug/Smartstore.Data.SqlServer.dll
+/root/Smartstore/src/Smartstore.Data/Smartstore.Data.SqlServer/obj/Debug/refint/Smartstore.Data.SqlServer.dll
+/root/Smartstore/src/Smartstore.Data/Smartstore.Data.SqlServer/obj/Debug/Smartstore.Data.SqlServer.pdb
+/root/Smartstore/src/Smartstore.Data/Smartstore.Data.SqlServer/obj/Debug/ref/Smartstore.Data.SqlServer.dll

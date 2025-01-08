@@ -1,0 +1,39 @@
+{
+  "Version": 1,
+  "Hash": "3eR/WUBip15dwoGzhTdbSeKd3769x3alMNox3ubJj/Q=",
+  "Source": "Smartstore.Microsoft.Auth",
+  "BasePath": "_content/Smartstore.Microsoft.Auth",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Smartstore.Microsoft.Auth/wwwroot",
+      "Source": "Smartstore.Microsoft.Auth",
+      "ContentRoot": "/root/Smartstore/src/Smartstore.Modules/Smartstore.Microsoft.Auth/wwwroot/",
+      "BasePath": "_content/Smartstore.Microsoft.Auth",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/root/Smartstore/src/Smartstore.Modules/Smartstore.Microsoft.Auth/wwwroot/icon.png",
+      "SourceId": "Smartstore.Microsoft.Auth",
+      "SourceType": "Discovered",
+      "ContentRoot": "/root/Smartstore/src/Smartstore.Modules/Smartstore.Microsoft.Auth/wwwroot/",
+      "BasePath": "_content/Smartstore.Microsoft.Auth",
+      "RelativePath": "icon.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/icon.png"
+    }
+  ]
+}

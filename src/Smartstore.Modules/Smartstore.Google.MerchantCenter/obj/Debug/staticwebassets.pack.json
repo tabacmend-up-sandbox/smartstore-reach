@@ -1,0 +1,33 @@
+{
+  "Files": [
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Modules/Smartstore.Google.MerchantCenter/wwwroot/branding.png",
+      "PackagePath": "staticwebassets/branding.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Modules/Smartstore.Google.MerchantCenter/wwwroot/icon.png",
+      "PackagePath": "staticwebassets/icon.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Modules/Smartstore.Google.MerchantCenter/wwwroot/js/taxonomy.js",
+      "PackagePath": "staticwebassets/js/taxonomy.js"
+    },
+    {
+      "Id": "obj/Debug/staticwebassets/msbuild.Smartstore.Google.MerchantCenter.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/staticwebassets/msbuild.build.Smartstore.Google.MerchantCenter.props",
+      "PackagePath": "build\\Smartstore.Google.MerchantCenter.props"
+    },
+    {
+      "Id": "obj/Debug/staticwebassets/msbuild.buildMultiTargeting.Smartstore.Google.MerchantCenter.props",
+      "PackagePath": "buildMultiTargeting\\Smartstore.Google.MerchantCenter.props"
+    },
+    {
+      "Id": "obj/Debug/staticwebassets/msbuild.buildTransitive.Smartstore.Google.MerchantCenter.props",
+      "PackagePath": "buildTransitive\\Smartstore.Google.MerchantCenter.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

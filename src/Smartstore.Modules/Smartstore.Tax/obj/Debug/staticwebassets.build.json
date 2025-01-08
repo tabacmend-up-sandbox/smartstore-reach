@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "4nV/wCxJ+X0DHsVwqrcoCav8pYEMV8Nsk3qVkCfhJD0=",
+  "Source": "Smartstore.Tax",
+  "BasePath": "_content/Smartstore.Tax",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

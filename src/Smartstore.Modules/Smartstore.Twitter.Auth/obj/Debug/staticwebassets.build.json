@@ -1,0 +1,39 @@
+{
+  "Version": 1,
+  "Hash": "uCOkNI4OBnjHdaq47B8iStsYyeevjsE/8tNAD8nMeS8=",
+  "Source": "Smartstore.Twitter.Auth",
+  "BasePath": "_content/Smartstore.Twitter.Auth",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Smartstore.Twitter.Auth/wwwroot",
+      "Source": "Smartstore.Twitter.Auth",
+      "ContentRoot": "/root/Smartstore/src/Smartstore.Modules/Smartstore.Twitter.Auth/wwwroot/",
+      "BasePath": "_content/Smartstore.Twitter.Auth",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/root/Smartstore/src/Smartstore.Modules/Smartstore.Twitter.Auth/wwwroot/icon.png",
+      "SourceId": "Smartstore.Twitter.Auth",
+      "SourceType": "Discovered",
+      "ContentRoot": "/root/Smartstore/src/Smartstore.Modules/Smartstore.Twitter.Auth/wwwroot/",
+      "BasePath": "_content/Smartstore.Twitter.Auth",
+      "RelativePath": "icon.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/icon.png"
+    }
+  ]
+}

@@ -1,0 +1,3521 @@
+{
+  "Files": [
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/admin/_admin.scss",
+      "PackagePath": "staticwebassets/admin/_admin.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/admin/_dashboard.scss",
+      "PackagePath": "staticwebassets/admin/_dashboard.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/admin/_rtl.scss",
+      "PackagePath": "staticwebassets/admin/_rtl.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/admin/_variables.scss",
+      "PackagePath": "staticwebassets/admin/_variables.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/admin/favicon-wrench.ico",
+      "PackagePath": "staticwebassets/admin/favicon-wrench.ico"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/admin/favicon.ico",
+      "PackagePath": "staticwebassets/admin/favicon.ico"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/admin/images/ajax_loader_small.gif",
+      "PackagePath": "staticwebassets/admin/images/ajax_loader_small.gif"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/admin/images/bg-desktop.jpg",
+      "PackagePath": "staticwebassets/admin/images/bg-desktop.jpg"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/admin/images/bg-mobile.jpg",
+      "PackagePath": "staticwebassets/admin/images/bg-mobile.jpg"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/admin/images/bg-tablet.jpg",
+      "PackagePath": "staticwebassets/admin/images/bg-tablet.jpg"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/admin/images/ico-content-negative.png",
+      "PackagePath": "staticwebassets/admin/images/ico-content-negative.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/admin/images/ico-content-o60.png",
+      "PackagePath": "staticwebassets/admin/images/ico-content-o60.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/admin/images/ico-content.png",
+      "PackagePath": "staticwebassets/admin/images/ico-content.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/admin/images/icon-module-admin.png",
+      "PackagePath": "staticwebassets/admin/images/icon-module-admin.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/admin/images/icon-module-analytics.png",
+      "PackagePath": "staticwebassets/admin/images/icon-module-analytics.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/admin/images/icon-module-api.png",
+      "PackagePath": "staticwebassets/admin/images/icon-module-api.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/admin/images/icon-module-cms.png",
+      "PackagePath": "staticwebassets/admin/images/icon-module-cms.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/admin/images/icon-module-currencyexchange.png",
+      "PackagePath": "staticwebassets/admin/images/icon-module-currencyexchange.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/admin/images/icon-module-data.png",
+      "PackagePath": "staticwebassets/admin/images/icon-module-data.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/admin/images/icon-module-default.png",
+      "PackagePath": "staticwebassets/admin/images/icon-module-default.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/admin/images/icon-module-design.png",
+      "PackagePath": "staticwebassets/admin/images/icon-module-design.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/admin/images/icon-module-developer.png",
+      "PackagePath": "staticwebassets/admin/images/icon-module-developer.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/admin/images/icon-module-discountrequirement.png",
+      "PackagePath": "staticwebassets/admin/images/icon-module-discountrequirement.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/admin/images/icon-module-globalization.png",
+      "PackagePath": "staticwebassets/admin/images/icon-module-globalization.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/admin/images/icon-module-import.png",
+      "PackagePath": "staticwebassets/admin/images/icon-module-import.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/admin/images/icon-module-marketing.png",
+      "PackagePath": "staticwebassets/admin/images/icon-module-marketing.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/admin/images/icon-module-media.png",
+      "PackagePath": "staticwebassets/admin/images/icon-module-media.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/admin/images/icon-module-mobile.png",
+      "PackagePath": "staticwebassets/admin/images/icon-module-mobile.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/admin/images/icon-module-payment.png",
+      "PackagePath": "staticwebassets/admin/images/icon-module-payment.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/admin/images/icon-module-sales.png",
+      "PackagePath": "staticwebassets/admin/images/icon-module-sales.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/admin/images/icon-module-security.png",
+      "PackagePath": "staticwebassets/admin/images/icon-module-security.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/admin/images/icon-module-seo.png",
+      "PackagePath": "staticwebassets/admin/images/icon-module-seo.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/admin/images/icon-module-shipping.png",
+      "PackagePath": "staticwebassets/admin/images/icon-module-shipping.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/admin/images/icon-module-social.png",
+      "PackagePath": "staticwebassets/admin/images/icon-module-social.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/admin/images/icon-module-tax.png",
+      "PackagePath": "staticwebassets/admin/images/icon-module-tax.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/admin/images/loading.gif",
+      "PackagePath": "staticwebassets/admin/images/loading.gif"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/admin/images/smartstore-icon.svg",
+      "PackagePath": "staticwebassets/admin/images/smartstore-icon.svg"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/admin/images/smartstore.svg",
+      "PackagePath": "staticwebassets/admin/images/smartstore.svg"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/admin/js/admin.ai.js",
+      "PackagePath": "staticwebassets/admin/js/admin.ai.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/admin/js/admin.common.js",
+      "PackagePath": "staticwebassets/admin/js/admin.common.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/admin/js/admin.dashboard.js",
+      "PackagePath": "staticwebassets/admin/js/admin.dashboard.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/admin/js/admin.globalinit.js",
+      "PackagePath": "staticwebassets/admin/js/admin.globalinit.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/admin/js/admin.media.js",
+      "PackagePath": "staticwebassets/admin/js/admin.media.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/admin/js/jquery-shims.js",
+      "PackagePath": "staticwebassets/admin/js/jquery-shims.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/admin/js/jquery.tmpl.min.js",
+      "PackagePath": "staticwebassets/admin/js/jquery.tmpl.min.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/admin/js/smartstore.download.js",
+      "PackagePath": "staticwebassets/admin/js/smartstore.download.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/admin/js/smartstore.iconchooser.js",
+      "PackagePath": "staticwebassets/admin/js/smartstore.iconchooser.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/admin/js/smartstore.rules.js",
+      "PackagePath": "staticwebassets/admin/js/smartstore.rules.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/admin/references.scss",
+      "PackagePath": "staticwebassets/admin/references.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/admin/theme-rtl.scss",
+      "PackagePath": "staticwebassets/admin/theme-rtl.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/admin/theme.scss",
+      "PackagePath": "staticwebassets/admin/theme.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/components/datagrid/datagrid-pager.js",
+      "PackagePath": "staticwebassets/components/datagrid/datagrid-pager.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/components/datagrid/datagrid-tools.js",
+      "PackagePath": "staticwebassets/components/datagrid/datagrid-tools.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/components/datagrid/datagrid.js",
+      "PackagePath": "staticwebassets/components/datagrid/datagrid.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/components/datagrid/datagrid.scss",
+      "PackagePath": "staticwebassets/components/datagrid/datagrid.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/css/print-rtl.css",
+      "PackagePath": "staticwebassets/css/print-rtl.css"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/css/print.css",
+      "PackagePath": "staticwebassets/css/print.css"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/css/site.css",
+      "PackagePath": "staticwebassets/css/site.css"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/favicon.ico",
+      "PackagePath": "staticwebassets/favicon.ico"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/.gitignore",
+      "PackagePath": "staticwebassets/images/.gitignore"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/ajax_loader_small.gif",
+      "PackagePath": "staticwebassets/images/ajax_loader_small.gif"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/default-image-alt.png",
+      "PackagePath": "staticwebassets/images/default-image-alt.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/default-image.png",
+      "PackagePath": "staticwebassets/images/default-image.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/default-payment-icon.png",
+      "PackagePath": "staticwebassets/images/default-payment-icon.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/ad.png",
+      "PackagePath": "staticwebassets/images/flags/ad.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/ae.png",
+      "PackagePath": "staticwebassets/images/flags/ae.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/af.png",
+      "PackagePath": "staticwebassets/images/flags/af.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/ag.png",
+      "PackagePath": "staticwebassets/images/flags/ag.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/ai.png",
+      "PackagePath": "staticwebassets/images/flags/ai.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/al.png",
+      "PackagePath": "staticwebassets/images/flags/al.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/am.png",
+      "PackagePath": "staticwebassets/images/flags/am.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/an.png",
+      "PackagePath": "staticwebassets/images/flags/an.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/ao.png",
+      "PackagePath": "staticwebassets/images/flags/ao.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/aq.png",
+      "PackagePath": "staticwebassets/images/flags/aq.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/ar.png",
+      "PackagePath": "staticwebassets/images/flags/ar.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/as.png",
+      "PackagePath": "staticwebassets/images/flags/as.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/at.png",
+      "PackagePath": "staticwebassets/images/flags/at.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/au.png",
+      "PackagePath": "staticwebassets/images/flags/au.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/aw.png",
+      "PackagePath": "staticwebassets/images/flags/aw.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/ax.png",
+      "PackagePath": "staticwebassets/images/flags/ax.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/az.png",
+      "PackagePath": "staticwebassets/images/flags/az.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/ba.png",
+      "PackagePath": "staticwebassets/images/flags/ba.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/bb.png",
+      "PackagePath": "staticwebassets/images/flags/bb.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/bd.png",
+      "PackagePath": "staticwebassets/images/flags/bd.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/be.png",
+      "PackagePath": "staticwebassets/images/flags/be.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/bf.png",
+      "PackagePath": "staticwebassets/images/flags/bf.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/bg.png",
+      "PackagePath": "staticwebassets/images/flags/bg.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/bh.png",
+      "PackagePath": "staticwebassets/images/flags/bh.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/bi.png",
+      "PackagePath": "staticwebassets/images/flags/bi.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/bj.png",
+      "PackagePath": "staticwebassets/images/flags/bj.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/bl.png",
+      "PackagePath": "staticwebassets/images/flags/bl.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/bm.png",
+      "PackagePath": "staticwebassets/images/flags/bm.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/bn.png",
+      "PackagePath": "staticwebassets/images/flags/bn.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/bo.png",
+      "PackagePath": "staticwebassets/images/flags/bo.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/bq.png",
+      "PackagePath": "staticwebassets/images/flags/bq.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/br.png",
+      "PackagePath": "staticwebassets/images/flags/br.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/bs.png",
+      "PackagePath": "staticwebassets/images/flags/bs.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/bt.png",
+      "PackagePath": "staticwebassets/images/flags/bt.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/bv.png",
+      "PackagePath": "staticwebassets/images/flags/bv.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/bw.png",
+      "PackagePath": "staticwebassets/images/flags/bw.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/by.png",
+      "PackagePath": "staticwebassets/images/flags/by.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/bz.png",
+      "PackagePath": "staticwebassets/images/flags/bz.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/ca.png",
+      "PackagePath": "staticwebassets/images/flags/ca.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/cc.png",
+      "PackagePath": "staticwebassets/images/flags/cc.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/cd.png",
+      "PackagePath": "staticwebassets/images/flags/cd.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/cf.png",
+      "PackagePath": "staticwebassets/images/flags/cf.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/cg.png",
+      "PackagePath": "staticwebassets/images/flags/cg.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/ch.png",
+      "PackagePath": "staticwebassets/images/flags/ch.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/ci.png",
+      "PackagePath": "staticwebassets/images/flags/ci.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/ck.png",
+      "PackagePath": "staticwebassets/images/flags/ck.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/cl.png",
+      "PackagePath": "staticwebassets/images/flags/cl.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/cm.png",
+      "PackagePath": "staticwebassets/images/flags/cm.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/cn.png",
+      "PackagePath": "staticwebassets/images/flags/cn.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/co.png",
+      "PackagePath": "staticwebassets/images/flags/co.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/cr.png",
+      "PackagePath": "staticwebassets/images/flags/cr.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/cu.png",
+      "PackagePath": "staticwebassets/images/flags/cu.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/cv.png",
+      "PackagePath": "staticwebassets/images/flags/cv.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/cw.png",
+      "PackagePath": "staticwebassets/images/flags/cw.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/cx.png",
+      "PackagePath": "staticwebassets/images/flags/cx.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/cy.png",
+      "PackagePath": "staticwebassets/images/flags/cy.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/cz.png",
+      "PackagePath": "staticwebassets/images/flags/cz.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/de.png",
+      "PackagePath": "staticwebassets/images/flags/de.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/dj.png",
+      "PackagePath": "staticwebassets/images/flags/dj.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/dk.png",
+      "PackagePath": "staticwebassets/images/flags/dk.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/dm.png",
+      "PackagePath": "staticwebassets/images/flags/dm.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/do.png",
+      "PackagePath": "staticwebassets/images/flags/do.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/dz.png",
+      "PackagePath": "staticwebassets/images/flags/dz.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/ec.png",
+      "PackagePath": "staticwebassets/images/flags/ec.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/ee.png",
+      "PackagePath": "staticwebassets/images/flags/ee.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/eg.png",
+      "PackagePath": "staticwebassets/images/flags/eg.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/eh.png",
+      "PackagePath": "staticwebassets/images/flags/eh.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/er.png",
+      "PackagePath": "staticwebassets/images/flags/er.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/es.png",
+      "PackagePath": "staticwebassets/images/flags/es.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/et.png",
+      "PackagePath": "staticwebassets/images/flags/et.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/eu.png",
+      "PackagePath": "staticwebassets/images/flags/eu.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/fi.png",
+      "PackagePath": "staticwebassets/images/flags/fi.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/fj.png",
+      "PackagePath": "staticwebassets/images/flags/fj.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/fk.png",
+      "PackagePath": "staticwebassets/images/flags/fk.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/fm.png",
+      "PackagePath": "staticwebassets/images/flags/fm.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/fo.png",
+      "PackagePath": "staticwebassets/images/flags/fo.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/fr.png",
+      "PackagePath": "staticwebassets/images/flags/fr.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/ga.png",
+      "PackagePath": "staticwebassets/images/flags/ga.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/gb-eng.png",
+      "PackagePath": "staticwebassets/images/flags/gb-eng.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/gb-nir.png",
+      "PackagePath": "staticwebassets/images/flags/gb-nir.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/gb-sct.png",
+      "PackagePath": "staticwebassets/images/flags/gb-sct.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/gb-wls.png",
+      "PackagePath": "staticwebassets/images/flags/gb-wls.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/gb.png",
+      "PackagePath": "staticwebassets/images/flags/gb.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/gd.png",
+      "PackagePath": "staticwebassets/images/flags/gd.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/ge.png",
+      "PackagePath": "staticwebassets/images/flags/ge.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/gf.png",
+      "PackagePath": "staticwebassets/images/flags/gf.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/gg.png",
+      "PackagePath": "staticwebassets/images/flags/gg.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/gh.png",
+      "PackagePath": "staticwebassets/images/flags/gh.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/gi.png",
+      "PackagePath": "staticwebassets/images/flags/gi.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/gl.png",
+      "PackagePath": "staticwebassets/images/flags/gl.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/gm.png",
+      "PackagePath": "staticwebassets/images/flags/gm.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/gn.png",
+      "PackagePath": "staticwebassets/images/flags/gn.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/gp.png",
+      "PackagePath": "staticwebassets/images/flags/gp.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/gq.png",
+      "PackagePath": "staticwebassets/images/flags/gq.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/gr.png",
+      "PackagePath": "staticwebassets/images/flags/gr.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/gs.png",
+      "PackagePath": "staticwebassets/images/flags/gs.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/gt.png",
+      "PackagePath": "staticwebassets/images/flags/gt.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/gu.png",
+      "PackagePath": "staticwebassets/images/flags/gu.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/gw.png",
+      "PackagePath": "staticwebassets/images/flags/gw.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/gy.png",
+      "PackagePath": "staticwebassets/images/flags/gy.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/hk.png",
+      "PackagePath": "staticwebassets/images/flags/hk.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/hm.png",
+      "PackagePath": "staticwebassets/images/flags/hm.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/hn.png",
+      "PackagePath": "staticwebassets/images/flags/hn.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/hr.png",
+      "PackagePath": "staticwebassets/images/flags/hr.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/ht.png",
+      "PackagePath": "staticwebassets/images/flags/ht.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/hu.png",
+      "PackagePath": "staticwebassets/images/flags/hu.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/id.png",
+      "PackagePath": "staticwebassets/images/flags/id.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/ie.png",
+      "PackagePath": "staticwebassets/images/flags/ie.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/il.png",
+      "PackagePath": "staticwebassets/images/flags/il.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/im.png",
+      "PackagePath": "staticwebassets/images/flags/im.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/in.png",
+      "PackagePath": "staticwebassets/images/flags/in.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/io.png",
+      "PackagePath": "staticwebassets/images/flags/io.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/iq.png",
+      "PackagePath": "staticwebassets/images/flags/iq.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/ir.png",
+      "PackagePath": "staticwebassets/images/flags/ir.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/is.png",
+      "PackagePath": "staticwebassets/images/flags/is.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/it.png",
+      "PackagePath": "staticwebassets/images/flags/it.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/je.png",
+      "PackagePath": "staticwebassets/images/flags/je.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/jm.png",
+      "PackagePath": "staticwebassets/images/flags/jm.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/jo.png",
+      "PackagePath": "staticwebassets/images/flags/jo.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/jp.png",
+      "PackagePath": "staticwebassets/images/flags/jp.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/ke.png",
+      "PackagePath": "staticwebassets/images/flags/ke.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/kg.png",
+      "PackagePath": "staticwebassets/images/flags/kg.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/kh.png",
+      "PackagePath": "staticwebassets/images/flags/kh.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/ki.png",
+      "PackagePath": "staticwebassets/images/flags/ki.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/km.png",
+      "PackagePath": "staticwebassets/images/flags/km.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/kn.png",
+      "PackagePath": "staticwebassets/images/flags/kn.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/kp.png",
+      "PackagePath": "staticwebassets/images/flags/kp.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/kr.png",
+      "PackagePath": "staticwebassets/images/flags/kr.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/kw.png",
+      "PackagePath": "staticwebassets/images/flags/kw.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/ky.png",
+      "PackagePath": "staticwebassets/images/flags/ky.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/kz.png",
+      "PackagePath": "staticwebassets/images/flags/kz.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/la.png",
+      "PackagePath": "staticwebassets/images/flags/la.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/lb.png",
+      "PackagePath": "staticwebassets/images/flags/lb.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/lc.png",
+      "PackagePath": "staticwebassets/images/flags/lc.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/li.png",
+      "PackagePath": "staticwebassets/images/flags/li.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/lk.png",
+      "PackagePath": "staticwebassets/images/flags/lk.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/lr.png",
+      "PackagePath": "staticwebassets/images/flags/lr.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/ls.png",
+      "PackagePath": "staticwebassets/images/flags/ls.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/lt.png",
+      "PackagePath": "staticwebassets/images/flags/lt.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/lu.png",
+      "PackagePath": "staticwebassets/images/flags/lu.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/lv.png",
+      "PackagePath": "staticwebassets/images/flags/lv.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/ly.png",
+      "PackagePath": "staticwebassets/images/flags/ly.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/ma.png",
+      "PackagePath": "staticwebassets/images/flags/ma.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/mc.png",
+      "PackagePath": "staticwebassets/images/flags/mc.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/md.png",
+      "PackagePath": "staticwebassets/images/flags/md.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/me.png",
+      "PackagePath": "staticwebassets/images/flags/me.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/mf.png",
+      "PackagePath": "staticwebassets/images/flags/mf.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/mg.png",
+      "PackagePath": "staticwebassets/images/flags/mg.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/mh.png",
+      "PackagePath": "staticwebassets/images/flags/mh.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/mk.png",
+      "PackagePath": "staticwebassets/images/flags/mk.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/ml.png",
+      "PackagePath": "staticwebassets/images/flags/ml.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/mm.png",
+      "PackagePath": "staticwebassets/images/flags/mm.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/mn.png",
+      "PackagePath": "staticwebassets/images/flags/mn.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/mo.png",
+      "PackagePath": "staticwebassets/images/flags/mo.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/mp.png",
+      "PackagePath": "staticwebassets/images/flags/mp.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/mq.png",
+      "PackagePath": "staticwebassets/images/flags/mq.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/mr.png",
+      "PackagePath": "staticwebassets/images/flags/mr.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/ms.png",
+      "PackagePath": "staticwebassets/images/flags/ms.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/mt.png",
+      "PackagePath": "staticwebassets/images/flags/mt.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/mu.png",
+      "PackagePath": "staticwebassets/images/flags/mu.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/mv.png",
+      "PackagePath": "staticwebassets/images/flags/mv.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/mw.png",
+      "PackagePath": "staticwebassets/images/flags/mw.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/mx.png",
+      "PackagePath": "staticwebassets/images/flags/mx.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/my.png",
+      "PackagePath": "staticwebassets/images/flags/my.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/mz.png",
+      "PackagePath": "staticwebassets/images/flags/mz.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/na.png",
+      "PackagePath": "staticwebassets/images/flags/na.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/nc.png",
+      "PackagePath": "staticwebassets/images/flags/nc.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/ne.png",
+      "PackagePath": "staticwebassets/images/flags/ne.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/nf.png",
+      "PackagePath": "staticwebassets/images/flags/nf.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/ng.png",
+      "PackagePath": "staticwebassets/images/flags/ng.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/ni.png",
+      "PackagePath": "staticwebassets/images/flags/ni.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/nl.png",
+      "PackagePath": "staticwebassets/images/flags/nl.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/no.png",
+      "PackagePath": "staticwebassets/images/flags/no.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/np.png",
+      "PackagePath": "staticwebassets/images/flags/np.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/nr.png",
+      "PackagePath": "staticwebassets/images/flags/nr.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/nu.png",
+      "PackagePath": "staticwebassets/images/flags/nu.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/nz.png",
+      "PackagePath": "staticwebassets/images/flags/nz.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/om.png",
+      "PackagePath": "staticwebassets/images/flags/om.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/pa.png",
+      "PackagePath": "staticwebassets/images/flags/pa.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/pe.png",
+      "PackagePath": "staticwebassets/images/flags/pe.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/pf.png",
+      "PackagePath": "staticwebassets/images/flags/pf.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/pg.png",
+      "PackagePath": "staticwebassets/images/flags/pg.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/ph.png",
+      "PackagePath": "staticwebassets/images/flags/ph.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/pk.png",
+      "PackagePath": "staticwebassets/images/flags/pk.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/pl.png",
+      "PackagePath": "staticwebassets/images/flags/pl.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/pm.png",
+      "PackagePath": "staticwebassets/images/flags/pm.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/pn.png",
+      "PackagePath": "staticwebassets/images/flags/pn.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/pr.png",
+      "PackagePath": "staticwebassets/images/flags/pr.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/ps.png",
+      "PackagePath": "staticwebassets/images/flags/ps.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/pt.png",
+      "PackagePath": "staticwebassets/images/flags/pt.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/pw.png",
+      "PackagePath": "staticwebassets/images/flags/pw.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/py.png",
+      "PackagePath": "staticwebassets/images/flags/py.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/qa.png",
+      "PackagePath": "staticwebassets/images/flags/qa.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/re.png",
+      "PackagePath": "staticwebassets/images/flags/re.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/ro.png",
+      "PackagePath": "staticwebassets/images/flags/ro.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/rs.png",
+      "PackagePath": "staticwebassets/images/flags/rs.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/ru.png",
+      "PackagePath": "staticwebassets/images/flags/ru.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/rw.png",
+      "PackagePath": "staticwebassets/images/flags/rw.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/sa.png",
+      "PackagePath": "staticwebassets/images/flags/sa.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/sb.png",
+      "PackagePath": "staticwebassets/images/flags/sb.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/sc.png",
+      "PackagePath": "staticwebassets/images/flags/sc.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/sd.png",
+      "PackagePath": "staticwebassets/images/flags/sd.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/se.png",
+      "PackagePath": "staticwebassets/images/flags/se.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/sg.png",
+      "PackagePath": "staticwebassets/images/flags/sg.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/sh.png",
+      "PackagePath": "staticwebassets/images/flags/sh.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/si.png",
+      "PackagePath": "staticwebassets/images/flags/si.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/sj.png",
+      "PackagePath": "staticwebassets/images/flags/sj.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/sk.png",
+      "PackagePath": "staticwebassets/images/flags/sk.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/sl.png",
+      "PackagePath": "staticwebassets/images/flags/sl.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/sm.png",
+      "PackagePath": "staticwebassets/images/flags/sm.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/sn.png",
+      "PackagePath": "staticwebassets/images/flags/sn.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/so.png",
+      "PackagePath": "staticwebassets/images/flags/so.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/sr.png",
+      "PackagePath": "staticwebassets/images/flags/sr.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/ss.png",
+      "PackagePath": "staticwebassets/images/flags/ss.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/st.png",
+      "PackagePath": "staticwebassets/images/flags/st.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/sv.png",
+      "PackagePath": "staticwebassets/images/flags/sv.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/sx.png",
+      "PackagePath": "staticwebassets/images/flags/sx.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/sy.png",
+      "PackagePath": "staticwebassets/images/flags/sy.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/sz.png",
+      "PackagePath": "staticwebassets/images/flags/sz.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/tc.png",
+      "PackagePath": "staticwebassets/images/flags/tc.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/td.png",
+      "PackagePath": "staticwebassets/images/flags/td.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/tf.png",
+      "PackagePath": "staticwebassets/images/flags/tf.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/tg.png",
+      "PackagePath": "staticwebassets/images/flags/tg.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/th.png",
+      "PackagePath": "staticwebassets/images/flags/th.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/tj.png",
+      "PackagePath": "staticwebassets/images/flags/tj.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/tk.png",
+      "PackagePath": "staticwebassets/images/flags/tk.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/tl.png",
+      "PackagePath": "staticwebassets/images/flags/tl.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/tm.png",
+      "PackagePath": "staticwebassets/images/flags/tm.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/tn.png",
+      "PackagePath": "staticwebassets/images/flags/tn.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/to.png",
+      "PackagePath": "staticwebassets/images/flags/to.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/tr.png",
+      "PackagePath": "staticwebassets/images/flags/tr.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/tt.png",
+      "PackagePath": "staticwebassets/images/flags/tt.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/tv.png",
+      "PackagePath": "staticwebassets/images/flags/tv.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/tw.png",
+      "PackagePath": "staticwebassets/images/flags/tw.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/tz.png",
+      "PackagePath": "staticwebassets/images/flags/tz.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/ua.png",
+      "PackagePath": "staticwebassets/images/flags/ua.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/ug.png",
+      "PackagePath": "staticwebassets/images/flags/ug.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/um.png",
+      "PackagePath": "staticwebassets/images/flags/um.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/us.png",
+      "PackagePath": "staticwebassets/images/flags/us.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/uy.png",
+      "PackagePath": "staticwebassets/images/flags/uy.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/uz.png",
+      "PackagePath": "staticwebassets/images/flags/uz.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/va.png",
+      "PackagePath": "staticwebassets/images/flags/va.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/vc.png",
+      "PackagePath": "staticwebassets/images/flags/vc.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/ve.png",
+      "PackagePath": "staticwebassets/images/flags/ve.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/vg.png",
+      "PackagePath": "staticwebassets/images/flags/vg.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/vi.png",
+      "PackagePath": "staticwebassets/images/flags/vi.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/vn.png",
+      "PackagePath": "staticwebassets/images/flags/vn.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/vu.png",
+      "PackagePath": "staticwebassets/images/flags/vu.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/wf.png",
+      "PackagePath": "staticwebassets/images/flags/wf.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/ws.png",
+      "PackagePath": "staticwebassets/images/flags/ws.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/xk.png",
+      "PackagePath": "staticwebassets/images/flags/xk.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/ye.png",
+      "PackagePath": "staticwebassets/images/flags/ye.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/yt.png",
+      "PackagePath": "staticwebassets/images/flags/yt.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/za.png",
+      "PackagePath": "staticwebassets/images/flags/za.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/zm.png",
+      "PackagePath": "staticwebassets/images/flags/zm.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/flags/zw.png",
+      "PackagePath": "staticwebassets/images/flags/zw.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/grip-h.png",
+      "PackagePath": "staticwebassets/images/grip-h.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/grip-ne.png",
+      "PackagePath": "staticwebassets/images/grip-ne.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/grip-se.png",
+      "PackagePath": "staticwebassets/images/grip-se.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/grip-v.png",
+      "PackagePath": "staticwebassets/images/grip-v.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/grippy.png",
+      "PackagePath": "staticwebassets/images/grippy.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/logo.png",
+      "PackagePath": "staticwebassets/images/logo.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/sad.png",
+      "PackagePath": "staticwebassets/images/sad.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/smartstore-icon.svg",
+      "PackagePath": "staticwebassets/images/smartstore-icon.svg"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/smartstore.svg",
+      "PackagePath": "staticwebassets/images/smartstore.svg"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/star-off-12.png",
+      "PackagePath": "staticwebassets/images/star-off-12.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/star-off.png",
+      "PackagePath": "staticwebassets/images/star-off.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/star-on-12.png",
+      "PackagePath": "staticwebassets/images/star-on-12.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/images/star-on.png",
+      "PackagePath": "staticwebassets/images/star-on.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/js/jquery.validate.unobtrusive.custom.js",
+      "PackagePath": "staticwebassets/js/jquery.validate.unobtrusive.custom.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/js/public.common.js",
+      "PackagePath": "staticwebassets/js/public.common.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/js/public.offcanvas-cart.js",
+      "PackagePath": "staticwebassets/js/public.offcanvas-cart.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/js/public.offcanvas-menu.js",
+      "PackagePath": "staticwebassets/js/public.offcanvas-menu.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/js/public.product.js",
+      "PackagePath": "staticwebassets/js/public.product.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/js/public.refreshcart.js",
+      "PackagePath": "staticwebassets/js/public.refreshcart.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/js/public.reviews.js",
+      "PackagePath": "staticwebassets/js/public.reviews.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/js/public.search.js",
+      "PackagePath": "staticwebassets/js/public.search.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/js/public.voting.js",
+      "PackagePath": "staticwebassets/js/public.voting.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/js/smartstore.ajax.js",
+      "PackagePath": "staticwebassets/js/smartstore.ajax.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/js/smartstore.articlelist.js",
+      "PackagePath": "staticwebassets/js/smartstore.articlelist.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/js/smartstore.cmp.js",
+      "PackagePath": "staticwebassets/js/smartstore.cmp.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/js/smartstore.common.js",
+      "PackagePath": "staticwebassets/js/smartstore.common.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/js/smartstore.dialogs.js",
+      "PackagePath": "staticwebassets/js/smartstore.dialogs.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/js/smartstore.dropzoneWrapper.js",
+      "PackagePath": "staticwebassets/js/smartstore.dropzoneWrapper.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/js/smartstore.editortemplates.js",
+      "PackagePath": "staticwebassets/js/smartstore.editortemplates.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/js/smartstore.entitypicker.js",
+      "PackagePath": "staticwebassets/js/smartstore.entitypicker.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/js/smartstore.eventbroker.js",
+      "PackagePath": "staticwebassets/js/smartstore.eventbroker.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/js/smartstore.gallery.js",
+      "PackagePath": "staticwebassets/js/smartstore.gallery.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/js/smartstore.globalinit.js",
+      "PackagePath": "staticwebassets/js/smartstore.globalinit.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/js/smartstore.globalization.adapter.js",
+      "PackagePath": "staticwebassets/js/smartstore.globalization.adapter.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/js/smartstore.globalization.js",
+      "PackagePath": "staticwebassets/js/smartstore.globalization.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/js/smartstore.instantsearch.js",
+      "PackagePath": "staticwebassets/js/smartstore.instantsearch.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/js/smartstore.jquery.utils.js",
+      "PackagePath": "staticwebassets/js/smartstore.jquery.utils.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/js/smartstore.keynav.js",
+      "PackagePath": "staticwebassets/js/smartstore.keynav.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/js/smartstore.linkbuilder.js",
+      "PackagePath": "staticwebassets/js/smartstore.linkbuilder.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/js/smartstore.media.js",
+      "PackagePath": "staticwebassets/js/smartstore.media.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/js/smartstore.megamenu.js",
+      "PackagePath": "staticwebassets/js/smartstore.megamenu.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/js/smartstore.numberinput.js",
+      "PackagePath": "staticwebassets/js/smartstore.numberinput.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/js/smartstore.offcanvas.js",
+      "PackagePath": "staticwebassets/js/smartstore.offcanvas.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/js/smartstore.parallax.js",
+      "PackagePath": "staticwebassets/js/smartstore.parallax.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/js/smartstore.rangeslider.js",
+      "PackagePath": "staticwebassets/js/smartstore.rangeslider.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/js/smartstore.scrollto.js",
+      "PackagePath": "staticwebassets/js/smartstore.scrollto.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/js/smartstore.selectwrapper.js",
+      "PackagePath": "staticwebassets/js/smartstore.selectwrapper.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/js/smartstore.system.js",
+      "PackagePath": "staticwebassets/js/smartstore.system.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/js/smartstore.tabs.js",
+      "PackagePath": "staticwebassets/js/smartstore.tabs.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/js/smartstore.throbber.js",
+      "PackagePath": "staticwebassets/js/smartstore.throbber.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/js/smartstore.thumbzoomer.js",
+      "PackagePath": "staticwebassets/js/smartstore.thumbzoomer.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/js/smartstore.touchevents.js",
+      "PackagePath": "staticwebassets/js/smartstore.touchevents.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/js/smartstore.tree.js",
+      "PackagePath": "staticwebassets/js/smartstore.tree.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/js/smartstore.viewport.js",
+      "PackagePath": "staticwebassets/js/smartstore.viewport.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/js/underscore.mixins.js",
+      "PackagePath": "staticwebassets/js/underscore.mixins.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/Chart.js/Chart.js",
+      "PackagePath": "staticwebassets/lib/Chart.js/Chart.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/Chart.js/Chart.min.js",
+      "PackagePath": "staticwebassets/lib/Chart.js/Chart.min.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/aos/js/aos.js",
+      "PackagePath": "staticwebassets/lib/aos/js/aos.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/aos/scss/_animations.scss",
+      "PackagePath": "staticwebassets/lib/aos/scss/_animations.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/aos/scss/_core.scss",
+      "PackagePath": "staticwebassets/lib/aos/scss/_core.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/aos/scss/_easing.scss",
+      "PackagePath": "staticwebassets/lib/aos/scss/_easing.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/aos/scss/aos.scss",
+      "PackagePath": "staticwebassets/lib/aos/scss/aos.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/beautify/beautify-css.min.js",
+      "PackagePath": "staticwebassets/lib/beautify/beautify-css.min.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/beautify/beautify-html.min.js",
+      "PackagePath": "staticwebassets/lib/beautify/beautify-html.min.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/beautify/beautify.min.js",
+      "PackagePath": "staticwebassets/lib/beautify/beautify.min.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/bi/README.md",
+      "PackagePath": "staticwebassets/lib/bi/README.md"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/bi/bootstrap-icons.svg",
+      "PackagePath": "staticwebassets/lib/bi/bootstrap-icons.svg"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/bootstrap/.editorconfig",
+      "PackagePath": "staticwebassets/lib/bootstrap/.editorconfig"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/bootstrap/LICENSE",
+      "PackagePath": "staticwebassets/lib/bootstrap"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/bootstrap/README.md",
+      "PackagePath": "staticwebassets/lib/bootstrap/README.md"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/bootstrap/js/bootstrap.bundle.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/js/bootstrap.bundle.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/bootstrap/js/bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/js/bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/bootstrap/js/bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/js/bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/bootstrap/js/bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/js/bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/bootstrap/js/bootstrap.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/js/bootstrap.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/bootstrap/js/bootstrap.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/js/bootstrap.js.map"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/bootstrap/js/bootstrap.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/js/bootstrap.min.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/bootstrap/js/bootstrap.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/js/bootstrap.min.js.map"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/bootstrap/scss/_alert.scss",
+      "PackagePath": "staticwebassets/lib/bootstrap/scss/_alert.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/bootstrap/scss/_badge.scss",
+      "PackagePath": "staticwebassets/lib/bootstrap/scss/_badge.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/bootstrap/scss/_breadcrumb.scss",
+      "PackagePath": "staticwebassets/lib/bootstrap/scss/_breadcrumb.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/bootstrap/scss/_button-group.scss",
+      "PackagePath": "staticwebassets/lib/bootstrap/scss/_button-group.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/bootstrap/scss/_buttons.scss",
+      "PackagePath": "staticwebassets/lib/bootstrap/scss/_buttons.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/bootstrap/scss/_card.scss",
+      "PackagePath": "staticwebassets/lib/bootstrap/scss/_card.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/bootstrap/scss/_carousel.scss",
+      "PackagePath": "staticwebassets/lib/bootstrap/scss/_carousel.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/bootstrap/scss/_close.scss",
+      "PackagePath": "staticwebassets/lib/bootstrap/scss/_close.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/bootstrap/scss/_code.scss",
+      "PackagePath": "staticwebassets/lib/bootstrap/scss/_code.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/bootstrap/scss/_custom-forms.scss",
+      "PackagePath": "staticwebassets/lib/bootstrap/scss/_custom-forms.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/bootstrap/scss/_dropdown.scss",
+      "PackagePath": "staticwebassets/lib/bootstrap/scss/_dropdown.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/bootstrap/scss/_floating-labels.scss",
+      "PackagePath": "staticwebassets/lib/bootstrap/scss/_floating-labels.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/bootstrap/scss/_forms.scss",
+      "PackagePath": "staticwebassets/lib/bootstrap/scss/_forms.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/bootstrap/scss/_functions.scss",
+      "PackagePath": "staticwebassets/lib/bootstrap/scss/_functions.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/bootstrap/scss/_grid.scss",
+      "PackagePath": "staticwebassets/lib/bootstrap/scss/_grid.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/bootstrap/scss/_helpers.scss",
+      "PackagePath": "staticwebassets/lib/bootstrap/scss/_helpers.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/bootstrap/scss/_images.scss",
+      "PackagePath": "staticwebassets/lib/bootstrap/scss/_images.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/bootstrap/scss/_input-group.scss",
+      "PackagePath": "staticwebassets/lib/bootstrap/scss/_input-group.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/bootstrap/scss/_jumbotron.scss",
+      "PackagePath": "staticwebassets/lib/bootstrap/scss/_jumbotron.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/bootstrap/scss/_list-group.scss",
+      "PackagePath": "staticwebassets/lib/bootstrap/scss/_list-group.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/bootstrap/scss/_maps.scss",
+      "PackagePath": "staticwebassets/lib/bootstrap/scss/_maps.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/bootstrap/scss/_media.scss",
+      "PackagePath": "staticwebassets/lib/bootstrap/scss/_media.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/bootstrap/scss/_mixins.scss",
+      "PackagePath": "staticwebassets/lib/bootstrap/scss/_mixins.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/bootstrap/scss/_modal.scss",
+      "PackagePath": "staticwebassets/lib/bootstrap/scss/_modal.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/bootstrap/scss/_nav.scss",
+      "PackagePath": "staticwebassets/lib/bootstrap/scss/_nav.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/bootstrap/scss/_navbar.scss",
+      "PackagePath": "staticwebassets/lib/bootstrap/scss/_navbar.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/bootstrap/scss/_pagination.scss",
+      "PackagePath": "staticwebassets/lib/bootstrap/scss/_pagination.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/bootstrap/scss/_placeholders.scss",
+      "PackagePath": "staticwebassets/lib/bootstrap/scss/_placeholders.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/bootstrap/scss/_popover.scss",
+      "PackagePath": "staticwebassets/lib/bootstrap/scss/_popover.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/bootstrap/scss/_print.scss",
+      "PackagePath": "staticwebassets/lib/bootstrap/scss/_print.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/bootstrap/scss/_progress.scss",
+      "PackagePath": "staticwebassets/lib/bootstrap/scss/_progress.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/bootstrap/scss/_reboot.scss",
+      "PackagePath": "staticwebassets/lib/bootstrap/scss/_reboot.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/bootstrap/scss/_root.scss",
+      "PackagePath": "staticwebassets/lib/bootstrap/scss/_root.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/bootstrap/scss/_spinners.scss",
+      "PackagePath": "staticwebassets/lib/bootstrap/scss/_spinners.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/bootstrap/scss/_tables.scss",
+      "PackagePath": "staticwebassets/lib/bootstrap/scss/_tables.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/bootstrap/scss/_toasts.scss",
+      "PackagePath": "staticwebassets/lib/bootstrap/scss/_toasts.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/bootstrap/scss/_tooltip.scss",
+      "PackagePath": "staticwebassets/lib/bootstrap/scss/_tooltip.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/bootstrap/scss/_transitions.scss",
+      "PackagePath": "staticwebassets/lib/bootstrap/scss/_transitions.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/bootstrap/scss/_type.scss",
+      "PackagePath": "staticwebassets/lib/bootstrap/scss/_type.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/bootstrap/scss/_utilities.scss",
+      "PackagePath": "staticwebassets/lib/bootstrap/scss/_utilities.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/bootstrap/scss/_variables.scss",
+      "PackagePath": "staticwebassets/lib/bootstrap/scss/_variables.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/bootstrap/scss/bootstrap-grid.scss",
+      "PackagePath": "staticwebassets/lib/bootstrap/scss/bootstrap-grid.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/bootstrap/scss/bootstrap-head.scss",
+      "PackagePath": "staticwebassets/lib/bootstrap/scss/bootstrap-head.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/bootstrap/scss/bootstrap-main.scss",
+      "PackagePath": "staticwebassets/lib/bootstrap/scss/bootstrap-main.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/bootstrap/scss/bootstrap-reboot.scss",
+      "PackagePath": "staticwebassets/lib/bootstrap/scss/bootstrap-reboot.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/bootstrap/scss/bootstrap.scss",
+      "PackagePath": "staticwebassets/lib/bootstrap/scss/bootstrap.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/bootstrap/scss/mixins/_alert.scss",
+      "PackagePath": "staticwebassets/lib/bootstrap/scss/mixins/_alert.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/bootstrap/scss/mixins/_backdrop.scss",
+      "PackagePath": "staticwebassets/lib/bootstrap/scss/mixins/_backdrop.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/bootstrap/scss/mixins/_background-variant.scss",
+      "PackagePath": "staticwebassets/lib/bootstrap/scss/mixins/_background-variant.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/bootstrap/scss/mixins/_badge.scss",
+      "PackagePath": "staticwebassets/lib/bootstrap/scss/mixins/_badge.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/bootstrap/scss/mixins/_border-radius.scss",
+      "PackagePath": "staticwebassets/lib/bootstrap/scss/mixins/_border-radius.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/bootstrap/scss/mixins/_box-shadow.scss",
+      "PackagePath": "staticwebassets/lib/bootstrap/scss/mixins/_box-shadow.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/bootstrap/scss/mixins/_breakpoints.scss",
+      "PackagePath": "staticwebassets/lib/bootstrap/scss/mixins/_breakpoints.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/bootstrap/scss/mixins/_buttons.scss",
+      "PackagePath": "staticwebassets/lib/bootstrap/scss/mixins/_buttons.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/bootstrap/scss/mixins/_caret.scss",
+      "PackagePath": "staticwebassets/lib/bootstrap/scss/mixins/_caret.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/bootstrap/scss/mixins/_clearfix.scss",
+      "PackagePath": "staticwebassets/lib/bootstrap/scss/mixins/_clearfix.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/bootstrap/scss/mixins/_deprecate.scss",
+      "PackagePath": "staticwebassets/lib/bootstrap/scss/mixins/_deprecate.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/bootstrap/scss/mixins/_float.scss",
+      "PackagePath": "staticwebassets/lib/bootstrap/scss/mixins/_float.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/bootstrap/scss/mixins/_forms.scss",
+      "PackagePath": "staticwebassets/lib/bootstrap/scss/mixins/_forms.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/bootstrap/scss/mixins/_gradients.scss",
+      "PackagePath": "staticwebassets/lib/bootstrap/scss/mixins/_gradients.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/bootstrap/scss/mixins/_grid-framework.scss",
+      "PackagePath": "staticwebassets/lib/bootstrap/scss/mixins/_grid-framework.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/bootstrap/scss/mixins/_grid.scss",
+      "PackagePath": "staticwebassets/lib/bootstrap/scss/mixins/_grid.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/bootstrap/scss/mixins/_hover.scss",
+      "PackagePath": "staticwebassets/lib/bootstrap/scss/mixins/_hover.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/bootstrap/scss/mixins/_image.scss",
+      "PackagePath": "staticwebassets/lib/bootstrap/scss/mixins/_image.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/bootstrap/scss/mixins/_list-group.scss",
+      "PackagePath": "staticwebassets/lib/bootstrap/scss/mixins/_list-group.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/bootstrap/scss/mixins/_lists.scss",
+      "PackagePath": "staticwebassets/lib/bootstrap/scss/mixins/_lists.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/bootstrap/scss/mixins/_nav-divider.scss",
+      "PackagePath": "staticwebassets/lib/bootstrap/scss/mixins/_nav-divider.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/bootstrap/scss/mixins/_pagination.scss",
+      "PackagePath": "staticwebassets/lib/bootstrap/scss/mixins/_pagination.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/bootstrap/scss/mixins/_reset-text.scss",
+      "PackagePath": "staticwebassets/lib/bootstrap/scss/mixins/_reset-text.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/bootstrap/scss/mixins/_resize.scss",
+      "PackagePath": "staticwebassets/lib/bootstrap/scss/mixins/_resize.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/bootstrap/scss/mixins/_screen-reader.scss",
+      "PackagePath": "staticwebassets/lib/bootstrap/scss/mixins/_screen-reader.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/bootstrap/scss/mixins/_size.scss",
+      "PackagePath": "staticwebassets/lib/bootstrap/scss/mixins/_size.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/bootstrap/scss/mixins/_table-row.scss",
+      "PackagePath": "staticwebassets/lib/bootstrap/scss/mixins/_table-row.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/bootstrap/scss/mixins/_text-emphasis.scss",
+      "PackagePath": "staticwebassets/lib/bootstrap/scss/mixins/_text-emphasis.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/bootstrap/scss/mixins/_text-hide.scss",
+      "PackagePath": "staticwebassets/lib/bootstrap/scss/mixins/_text-hide.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/bootstrap/scss/mixins/_text-truncate.scss",
+      "PackagePath": "staticwebassets/lib/bootstrap/scss/mixins/_text-truncate.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/bootstrap/scss/mixins/_transition.scss",
+      "PackagePath": "staticwebassets/lib/bootstrap/scss/mixins/_transition.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/bootstrap/scss/mixins/_utilities.scss",
+      "PackagePath": "staticwebassets/lib/bootstrap/scss/mixins/_utilities.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/bootstrap/scss/mixins/_visibility.scss",
+      "PackagePath": "staticwebassets/lib/bootstrap/scss/mixins/_visibility.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/bootstrap/scss/utilities/_align.scss",
+      "PackagePath": "staticwebassets/lib/bootstrap/scss/utilities/_align.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/bootstrap/scss/utilities/_api.scss",
+      "PackagePath": "staticwebassets/lib/bootstrap/scss/utilities/_api.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/bootstrap/scss/utilities/_background.scss",
+      "PackagePath": "staticwebassets/lib/bootstrap/scss/utilities/_background.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/bootstrap/scss/utilities/_borders.scss",
+      "PackagePath": "staticwebassets/lib/bootstrap/scss/utilities/_borders.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/bootstrap/scss/utilities/_clearfix.scss",
+      "PackagePath": "staticwebassets/lib/bootstrap/scss/utilities/_clearfix.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/bootstrap/scss/utilities/_color-bg.scss",
+      "PackagePath": "staticwebassets/lib/bootstrap/scss/utilities/_color-bg.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/bootstrap/scss/utilities/_colored-links.scss",
+      "PackagePath": "staticwebassets/lib/bootstrap/scss/utilities/_colored-links.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/bootstrap/scss/utilities/_display.scss",
+      "PackagePath": "staticwebassets/lib/bootstrap/scss/utilities/_display.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/bootstrap/scss/utilities/_embed.scss",
+      "PackagePath": "staticwebassets/lib/bootstrap/scss/utilities/_embed.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/bootstrap/scss/utilities/_flex.scss",
+      "PackagePath": "staticwebassets/lib/bootstrap/scss/utilities/_flex.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/bootstrap/scss/utilities/_float.scss",
+      "PackagePath": "staticwebassets/lib/bootstrap/scss/utilities/_float.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/bootstrap/scss/utilities/_interactions.scss",
+      "PackagePath": "staticwebassets/lib/bootstrap/scss/utilities/_interactions.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/bootstrap/scss/utilities/_overflow.scss",
+      "PackagePath": "staticwebassets/lib/bootstrap/scss/utilities/_overflow.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/bootstrap/scss/utilities/_position.scss",
+      "PackagePath": "staticwebassets/lib/bootstrap/scss/utilities/_position.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/bootstrap/scss/utilities/_screenreaders.scss",
+      "PackagePath": "staticwebassets/lib/bootstrap/scss/utilities/_screenreaders.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/bootstrap/scss/utilities/_shadows.scss",
+      "PackagePath": "staticwebassets/lib/bootstrap/scss/utilities/_shadows.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/bootstrap/scss/utilities/_sizing.scss",
+      "PackagePath": "staticwebassets/lib/bootstrap/scss/utilities/_sizing.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/bootstrap/scss/utilities/_spacing.scss",
+      "PackagePath": "staticwebassets/lib/bootstrap/scss/utilities/_spacing.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/bootstrap/scss/utilities/_stretched-link.scss",
+      "PackagePath": "staticwebassets/lib/bootstrap/scss/utilities/_stretched-link.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/bootstrap/scss/utilities/_text.scss",
+      "PackagePath": "staticwebassets/lib/bootstrap/scss/utilities/_text.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/bootstrap/scss/utilities/_visibility.scss",
+      "PackagePath": "staticwebassets/lib/bootstrap/scss/utilities/_visibility.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/bootstrap/scss/vendor/_rfs.scss",
+      "PackagePath": "staticwebassets/lib/bootstrap/scss/vendor/_rfs.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/colorpicker/js/bootstrap-colorpicker-globalinit.js",
+      "PackagePath": "staticwebassets/lib/colorpicker/js/bootstrap-colorpicker-globalinit.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/colorpicker/js/bootstrap-colorpicker.js",
+      "PackagePath": "staticwebassets/lib/colorpicker/js/bootstrap-colorpicker.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/colorpicker/js/bootstrap-colorpicker.min.js",
+      "PackagePath": "staticwebassets/lib/colorpicker/js/bootstrap-colorpicker.min.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/colorpicker/scss/_colorpicker.scss",
+      "PackagePath": "staticwebassets/lib/colorpicker/scss/_colorpicker.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/datetimepicker/js/tempusdominus-bootstrap-4.js",
+      "PackagePath": "staticwebassets/lib/datetimepicker/js/tempusdominus-bootstrap-4.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/datetimepicker/js/tempusdominus-bootstrap-4.min.js",
+      "PackagePath": "staticwebassets/lib/datetimepicker/js/tempusdominus-bootstrap-4.min.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/datetimepicker/scss/_tempusdominus.scss",
+      "PackagePath": "staticwebassets/lib/datetimepicker/scss/_tempusdominus.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/drift/Drift.js",
+      "PackagePath": "staticwebassets/lib/drift/Drift.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/drift/Drift.min.js",
+      "PackagePath": "staticwebassets/lib/drift/Drift.min.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/drift/LICENSE",
+      "PackagePath": "staticwebassets/lib/drift"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/dropzone/dropzone.js",
+      "PackagePath": "staticwebassets/lib/dropzone/dropzone.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/dropzone/dropzone.min.js",
+      "PackagePath": "staticwebassets/lib/dropzone/dropzone.min.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/editors/BBEditor/ed.js",
+      "PackagePath": "staticwebassets/lib/editors/BBEditor/ed.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/editors/CodeMirror/addon/display/fullscreen.css",
+      "PackagePath": "staticwebassets/lib/editors/CodeMirror/addon/display/fullscreen.css"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/editors/CodeMirror/addon/display/fullscreen.min.js",
+      "PackagePath": "staticwebassets/lib/editors/CodeMirror/addon/display/fullscreen.min.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/editors/CodeMirror/addon/edit/closebrackets.min.js",
+      "PackagePath": "staticwebassets/lib/editors/CodeMirror/addon/edit/closebrackets.min.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/editors/CodeMirror/addon/edit/closetag.min.js",
+      "PackagePath": "staticwebassets/lib/editors/CodeMirror/addon/edit/closetag.min.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/editors/CodeMirror/addon/edit/matchbrackets.min.js",
+      "PackagePath": "staticwebassets/lib/editors/CodeMirror/addon/edit/matchbrackets.min.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/editors/CodeMirror/addon/edit/matchtags.min.js",
+      "PackagePath": "staticwebassets/lib/editors/CodeMirror/addon/edit/matchtags.min.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/editors/CodeMirror/addon/fold/xml-fold.min.js",
+      "PackagePath": "staticwebassets/lib/editors/CodeMirror/addon/fold/xml-fold.min.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/editors/CodeMirror/addon/hint/css-hint.min.js",
+      "PackagePath": "staticwebassets/lib/editors/CodeMirror/addon/hint/css-hint.min.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/editors/CodeMirror/addon/hint/html-hint.min.js",
+      "PackagePath": "staticwebassets/lib/editors/CodeMirror/addon/hint/html-hint.min.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/editors/CodeMirror/addon/hint/javascript-hint.min.js",
+      "PackagePath": "staticwebassets/lib/editors/CodeMirror/addon/hint/javascript-hint.min.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/editors/CodeMirror/addon/hint/show-hint.min.css",
+      "PackagePath": "staticwebassets/lib/editors/CodeMirror/addon/hint/show-hint.min.css"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/editors/CodeMirror/addon/hint/show-hint.min.js",
+      "PackagePath": "staticwebassets/lib/editors/CodeMirror/addon/hint/show-hint.min.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/editors/CodeMirror/addon/hint/xml-hint.min.js",
+      "PackagePath": "staticwebassets/lib/editors/CodeMirror/addon/hint/xml-hint.min.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/editors/CodeMirror/addon/mode/multiplex.min.js",
+      "PackagePath": "staticwebassets/lib/editors/CodeMirror/addon/mode/multiplex.min.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/editors/CodeMirror/addon/mode/overlay.min.js",
+      "PackagePath": "staticwebassets/lib/editors/CodeMirror/addon/mode/overlay.min.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/editors/CodeMirror/addon/selection/active-line.min.js",
+      "PackagePath": "staticwebassets/lib/editors/CodeMirror/addon/selection/active-line.min.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/editors/CodeMirror/codemirror.custom.css",
+      "PackagePath": "staticwebassets/lib/editors/CodeMirror/codemirror.custom.css"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/editors/CodeMirror/codemirror.min.css",
+      "PackagePath": "staticwebassets/lib/editors/CodeMirror/codemirror.min.css"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/editors/CodeMirror/codemirror.min.js",
+      "PackagePath": "staticwebassets/lib/editors/CodeMirror/codemirror.min.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/editors/CodeMirror/mode/css/css.min.js",
+      "PackagePath": "staticwebassets/lib/editors/CodeMirror/mode/css/css.min.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/editors/CodeMirror/mode/htmlmixed/htmlmixed.min.js",
+      "PackagePath": "staticwebassets/lib/editors/CodeMirror/mode/htmlmixed/htmlmixed.min.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/editors/CodeMirror/mode/javascript/javascript.min.js",
+      "PackagePath": "staticwebassets/lib/editors/CodeMirror/mode/javascript/javascript.min.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/editors/CodeMirror/mode/liquid/liquid.css",
+      "PackagePath": "staticwebassets/lib/editors/CodeMirror/mode/liquid/liquid.css"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/editors/CodeMirror/mode/liquid/liquid.js",
+      "PackagePath": "staticwebassets/lib/editors/CodeMirror/mode/liquid/liquid.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/editors/CodeMirror/mode/xml/xml.min.js",
+      "PackagePath": "staticwebassets/lib/editors/CodeMirror/mode/xml/xml.min.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/editors/CodeMirror/theme/eclipse.min.css",
+      "PackagePath": "staticwebassets/lib/editors/CodeMirror/theme/eclipse.min.css"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/editors/summernote/globalinit.js",
+      "PackagePath": "staticwebassets/lib/editors/summernote/globalinit.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/editors/summernote/lang/summernote-ar-AR.js",
+      "PackagePath": "staticwebassets/lib/editors/summernote/lang/summernote-ar-AR.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/editors/summernote/lang/summernote-az-AZ.js",
+      "PackagePath": "staticwebassets/lib/editors/summernote/lang/summernote-az-AZ.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/editors/summernote/lang/summernote-bg-BG.js",
+      "PackagePath": "staticwebassets/lib/editors/summernote/lang/summernote-bg-BG.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/editors/summernote/lang/summernote-bn-BD.js",
+      "PackagePath": "staticwebassets/lib/editors/summernote/lang/summernote-bn-BD.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/editors/summernote/lang/summernote-ca-ES.js",
+      "PackagePath": "staticwebassets/lib/editors/summernote/lang/summernote-ca-ES.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/editors/summernote/lang/summernote-cs-CZ.js",
+      "PackagePath": "staticwebassets/lib/editors/summernote/lang/summernote-cs-CZ.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/editors/summernote/lang/summernote-da-DK.js",
+      "PackagePath": "staticwebassets/lib/editors/summernote/lang/summernote-da-DK.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/editors/summernote/lang/summernote-de-CH.js",
+      "PackagePath": "staticwebassets/lib/editors/summernote/lang/summernote-de-CH.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/editors/summernote/lang/summernote-de-DE.js",
+      "PackagePath": "staticwebassets/lib/editors/summernote/lang/summernote-de-DE.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/editors/summernote/lang/summernote-el-GR.js",
+      "PackagePath": "staticwebassets/lib/editors/summernote/lang/summernote-el-GR.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/editors/summernote/lang/summernote-es-ES.js",
+      "PackagePath": "staticwebassets/lib/editors/summernote/lang/summernote-es-ES.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/editors/summernote/lang/summernote-es-EU.js",
+      "PackagePath": "staticwebassets/lib/editors/summernote/lang/summernote-es-EU.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/editors/summernote/lang/summernote-fa-IR.js",
+      "PackagePath": "staticwebassets/lib/editors/summernote/lang/summernote-fa-IR.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/editors/summernote/lang/summernote-fi-FI.js",
+      "PackagePath": "staticwebassets/lib/editors/summernote/lang/summernote-fi-FI.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/editors/summernote/lang/summernote-fr-FR.js",
+      "PackagePath": "staticwebassets/lib/editors/summernote/lang/summernote-fr-FR.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/editors/summernote/lang/summernote-gl-ES.js",
+      "PackagePath": "staticwebassets/lib/editors/summernote/lang/summernote-gl-ES.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/editors/summernote/lang/summernote-he-IL.js",
+      "PackagePath": "staticwebassets/lib/editors/summernote/lang/summernote-he-IL.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/editors/summernote/lang/summernote-hr-HR.js",
+      "PackagePath": "staticwebassets/lib/editors/summernote/lang/summernote-hr-HR.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/editors/summernote/lang/summernote-hu-HU.js",
+      "PackagePath": "staticwebassets/lib/editors/summernote/lang/summernote-hu-HU.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/editors/summernote/lang/summernote-id-ID.js",
+      "PackagePath": "staticwebassets/lib/editors/summernote/lang/summernote-id-ID.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/editors/summernote/lang/summernote-it-IT.js",
+      "PackagePath": "staticwebassets/lib/editors/summernote/lang/summernote-it-IT.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/editors/summernote/lang/summernote-ja-JP.js",
+      "PackagePath": "staticwebassets/lib/editors/summernote/lang/summernote-ja-JP.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/editors/summernote/lang/summernote-ko-KR.js",
+      "PackagePath": "staticwebassets/lib/editors/summernote/lang/summernote-ko-KR.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/editors/summernote/lang/summernote-lt-LT.js",
+      "PackagePath": "staticwebassets/lib/editors/summernote/lang/summernote-lt-LT.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/editors/summernote/lang/summernote-lt-LV.js",
+      "PackagePath": "staticwebassets/lib/editors/summernote/lang/summernote-lt-LV.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/editors/summernote/lang/summernote-mn-MN.js",
+      "PackagePath": "staticwebassets/lib/editors/summernote/lang/summernote-mn-MN.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/editors/summernote/lang/summernote-nb-NO.js",
+      "PackagePath": "staticwebassets/lib/editors/summernote/lang/summernote-nb-NO.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/editors/summernote/lang/summernote-nl-NL.js",
+      "PackagePath": "staticwebassets/lib/editors/summernote/lang/summernote-nl-NL.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/editors/summernote/lang/summernote-pl-PL.js",
+      "PackagePath": "staticwebassets/lib/editors/summernote/lang/summernote-pl-PL.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/editors/summernote/lang/summernote-pt-BR.js",
+      "PackagePath": "staticwebassets/lib/editors/summernote/lang/summernote-pt-BR.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/editors/summernote/lang/summernote-pt-PT.js",
+      "PackagePath": "staticwebassets/lib/editors/summernote/lang/summernote-pt-PT.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/editors/summernote/lang/summernote-ro-RO.js",
+      "PackagePath": "staticwebassets/lib/editors/summernote/lang/summernote-ro-RO.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/editors/summernote/lang/summernote-ru-RU.js",
+      "PackagePath": "staticwebassets/lib/editors/summernote/lang/summernote-ru-RU.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/editors/summernote/lang/summernote-sk-SK.js",
+      "PackagePath": "staticwebassets/lib/editors/summernote/lang/summernote-sk-SK.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/editors/summernote/lang/summernote-sl-SI.js",
+      "PackagePath": "staticwebassets/lib/editors/summernote/lang/summernote-sl-SI.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/editors/summernote/lang/summernote-sr-RS-Latin.js",
+      "PackagePath": "staticwebassets/lib/editors/summernote/lang/summernote-sr-RS-Latin.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/editors/summernote/lang/summernote-sr-RS.js",
+      "PackagePath": "staticwebassets/lib/editors/summernote/lang/summernote-sr-RS.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/editors/summernote/lang/summernote-sv-SE.js",
+      "PackagePath": "staticwebassets/lib/editors/summernote/lang/summernote-sv-SE.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/editors/summernote/lang/summernote-ta-IN.js",
+      "PackagePath": "staticwebassets/lib/editors/summernote/lang/summernote-ta-IN.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/editors/summernote/lang/summernote-th-TH.js",
+      "PackagePath": "staticwebassets/lib/editors/summernote/lang/summernote-th-TH.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/editors/summernote/lang/summernote-tr-TR.js",
+      "PackagePath": "staticwebassets/lib/editors/summernote/lang/summernote-tr-TR.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/editors/summernote/lang/summernote-uk-UA.js",
+      "PackagePath": "staticwebassets/lib/editors/summernote/lang/summernote-uk-UA.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/editors/summernote/lang/summernote-uz-UZ.js",
+      "PackagePath": "staticwebassets/lib/editors/summernote/lang/summernote-uz-UZ.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/editors/summernote/lang/summernote-vi-VN.js",
+      "PackagePath": "staticwebassets/lib/editors/summernote/lang/summernote-vi-VN.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/editors/summernote/lang/summernote-zh-CN.js",
+      "PackagePath": "staticwebassets/lib/editors/summernote/lang/summernote-zh-CN.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/editors/summernote/lang/summernote-zh-TW.js",
+      "PackagePath": "staticwebassets/lib/editors/summernote/lang/summernote-zh-TW.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/editors/summernote/scss/summernote.scss",
+      "PackagePath": "staticwebassets/lib/editors/summernote/scss/summernote.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/editors/summernote/summernote-sm.js",
+      "PackagePath": "staticwebassets/lib/editors/summernote/summernote-sm.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/editors/summernote/summernote-sm.js.map",
+      "PackagePath": "staticwebassets/lib/editors/summernote/summernote-sm.js.map"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/fa6/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/fa6/LICENSE.txt"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/fa6/css/all.css",
+      "PackagePath": "staticwebassets/lib/fa6/css/all.css"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/fa6/css/all.min.css",
+      "PackagePath": "staticwebassets/lib/fa6/css/all.min.css"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/fa6/css/brands.css",
+      "PackagePath": "staticwebassets/lib/fa6/css/brands.css"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/fa6/css/brands.min.css",
+      "PackagePath": "staticwebassets/lib/fa6/css/brands.min.css"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/fa6/css/fontawesome.css",
+      "PackagePath": "staticwebassets/lib/fa6/css/fontawesome.css"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/fa6/css/fontawesome.min.css",
+      "PackagePath": "staticwebassets/lib/fa6/css/fontawesome.min.css"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/fa6/css/regular.css",
+      "PackagePath": "staticwebassets/lib/fa6/css/regular.css"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/fa6/css/regular.min.css",
+      "PackagePath": "staticwebassets/lib/fa6/css/regular.min.css"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/fa6/css/solid.css",
+      "PackagePath": "staticwebassets/lib/fa6/css/solid.css"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/fa6/css/solid.min.css",
+      "PackagePath": "staticwebassets/lib/fa6/css/solid.min.css"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/fa6/css/svg-with-js.css",
+      "PackagePath": "staticwebassets/lib/fa6/css/svg-with-js.css"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/fa6/css/svg-with-js.min.css",
+      "PackagePath": "staticwebassets/lib/fa6/css/svg-with-js.min.css"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/fa6/css/v4-font-face.css",
+      "PackagePath": "staticwebassets/lib/fa6/css/v4-font-face.css"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/fa6/css/v4-font-face.min.css",
+      "PackagePath": "staticwebassets/lib/fa6/css/v4-font-face.min.css"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/fa6/css/v4-shims.css",
+      "PackagePath": "staticwebassets/lib/fa6/css/v4-shims.css"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/fa6/css/v4-shims.min.css",
+      "PackagePath": "staticwebassets/lib/fa6/css/v4-shims.min.css"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/fa6/css/v5-font-face.css",
+      "PackagePath": "staticwebassets/lib/fa6/css/v5-font-face.css"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/fa6/css/v5-font-face.min.css",
+      "PackagePath": "staticwebassets/lib/fa6/css/v5-font-face.min.css"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/fa6/scss/_animated.scss",
+      "PackagePath": "staticwebassets/lib/fa6/scss/_animated.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/fa6/scss/_bordered-pulled.scss",
+      "PackagePath": "staticwebassets/lib/fa6/scss/_bordered-pulled.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/fa6/scss/_core.scss",
+      "PackagePath": "staticwebassets/lib/fa6/scss/_core.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/fa6/scss/_fixed-width.scss",
+      "PackagePath": "staticwebassets/lib/fa6/scss/_fixed-width.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/fa6/scss/_functions.scss",
+      "PackagePath": "staticwebassets/lib/fa6/scss/_functions.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/fa6/scss/_icons.scss",
+      "PackagePath": "staticwebassets/lib/fa6/scss/_icons.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/fa6/scss/_list.scss",
+      "PackagePath": "staticwebassets/lib/fa6/scss/_list.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/fa6/scss/_mixins.scss",
+      "PackagePath": "staticwebassets/lib/fa6/scss/_mixins.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/fa6/scss/_rotated-flipped.scss",
+      "PackagePath": "staticwebassets/lib/fa6/scss/_rotated-flipped.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/fa6/scss/_screen-reader.scss",
+      "PackagePath": "staticwebassets/lib/fa6/scss/_screen-reader.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/fa6/scss/_shims.scss",
+      "PackagePath": "staticwebassets/lib/fa6/scss/_shims.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/fa6/scss/_sizing.scss",
+      "PackagePath": "staticwebassets/lib/fa6/scss/_sizing.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/fa6/scss/_stacked.scss",
+      "PackagePath": "staticwebassets/lib/fa6/scss/_stacked.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/fa6/scss/_variables.scss",
+      "PackagePath": "staticwebassets/lib/fa6/scss/_variables.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/fa6/scss/brands.scss",
+      "PackagePath": "staticwebassets/lib/fa6/scss/brands.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/fa6/scss/fontawesome.scss",
+      "PackagePath": "staticwebassets/lib/fa6/scss/fontawesome.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/fa6/scss/regular.scss",
+      "PackagePath": "staticwebassets/lib/fa6/scss/regular.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/fa6/scss/solid.scss",
+      "PackagePath": "staticwebassets/lib/fa6/scss/solid.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/fa6/scss/v4-shims.scss",
+      "PackagePath": "staticwebassets/lib/fa6/scss/v4-shims.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/fa6/webfonts/fa-brands-400.ttf",
+      "PackagePath": "staticwebassets/lib/fa6/webfonts/fa-brands-400.ttf"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/fa6/webfonts/fa-brands-400.woff2",
+      "PackagePath": "staticwebassets/lib/fa6/webfonts/fa-brands-400.woff2"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/fa6/webfonts/fa-regular-400.ttf",
+      "PackagePath": "staticwebassets/lib/fa6/webfonts/fa-regular-400.ttf"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/fa6/webfonts/fa-regular-400.woff2",
+      "PackagePath": "staticwebassets/lib/fa6/webfonts/fa-regular-400.woff2"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/fa6/webfonts/fa-solid-900.ttf",
+      "PackagePath": "staticwebassets/lib/fa6/webfonts/fa-solid-900.ttf"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/fa6/webfonts/fa-solid-900.woff2",
+      "PackagePath": "staticwebassets/lib/fa6/webfonts/fa-solid-900.woff2"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/fa6/webfonts/fa-v4compatibility.ttf",
+      "PackagePath": "staticwebassets/lib/fa6/webfonts/fa-v4compatibility.ttf"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/fa6/webfonts/fa-v4compatibility.woff2",
+      "PackagePath": "staticwebassets/lib/fa6/webfonts/fa-v4compatibility.woff2"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/fontastic/fontastic.css",
+      "PackagePath": "staticwebassets/lib/fontastic/fontastic.css"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/fontastic/fonts/fontastic.svg",
+      "PackagePath": "staticwebassets/lib/fontastic/fonts/fontastic.svg"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/fontastic/fonts/fontastic.ttf",
+      "PackagePath": "staticwebassets/lib/fontastic/fonts/fontastic.ttf"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/fontastic/fonts/fontastic.woff",
+      "PackagePath": "staticwebassets/lib/fontastic/fonts/fontastic.woff"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/fontastic/fonts/fontastic.woff2",
+      "PackagePath": "staticwebassets/lib/fontastic/fonts/fontastic.woff2"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/imagesloaded/imagesloaded.pkgd.min.js",
+      "PackagePath": "staticwebassets/lib/imagesloaded/imagesloaded.pkgd.min.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/jquery-ui/core.js",
+      "PackagePath": "staticwebassets/lib/jquery-ui/core.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/jquery-ui/effect-shake.js",
+      "PackagePath": "staticwebassets/lib/jquery-ui/effect-shake.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/jquery-ui/effect-transfer.js",
+      "PackagePath": "staticwebassets/lib/jquery-ui/effect-transfer.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/jquery-ui/effect.js",
+      "PackagePath": "staticwebassets/lib/jquery-ui/effect.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/jquery-ui/position.js",
+      "PackagePath": "staticwebassets/lib/jquery-ui/position.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/jquery-ui/widget.js",
+      "PackagePath": "staticwebassets/lib/jquery-ui/widget.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/jquery/jquery-3.7.1.js",
+      "PackagePath": "staticwebassets/lib/jquery/jquery-3.7.1.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/jquery/jquery-3.7.1.min.js",
+      "PackagePath": "staticwebassets/lib/jquery/jquery-3.7.1.min.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/jquery/jquery-migrate-3.0.0.js",
+      "PackagePath": "staticwebassets/lib/jquery/jquery-migrate-3.0.0.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/jquery/jquery-migrate-3.0.0.min.js",
+      "PackagePath": "staticwebassets/lib/jquery/jquery-migrate-3.0.0.min.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/jquery/jquery.addeasing.js",
+      "PackagePath": "staticwebassets/lib/jquery/jquery.addeasing.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/jquery/jquery.ba-outside-events.js",
+      "PackagePath": "staticwebassets/lib/jquery/jquery.ba-outside-events.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/jquery/jquery.ba-outside-events.min.js",
+      "PackagePath": "staticwebassets/lib/jquery/jquery.ba-outside-events.min.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/jquery/jquery.deserialize.js",
+      "PackagePath": "staticwebassets/lib/jquery/jquery.deserialize.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/jquery/jquery.serializeToJSON.min.js",
+      "PackagePath": "staticwebassets/lib/jquery/jquery.serializeToJSON.min.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/jquery/jquery.unobtrusive-ajax.js",
+      "PackagePath": "staticwebassets/lib/jquery/jquery.unobtrusive-ajax.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/jquery/jquery.unobtrusive-ajax.min.js",
+      "PackagePath": "staticwebassets/lib/jquery/jquery.unobtrusive-ajax.min.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/jquery/jquery.validate-vsdoc.js",
+      "PackagePath": "staticwebassets/lib/jquery/jquery.validate-vsdoc.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/jquery/jquery.validate.js",
+      "PackagePath": "staticwebassets/lib/jquery/jquery.validate.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/jquery/jquery.validate.min.js",
+      "PackagePath": "staticwebassets/lib/jquery/jquery.validate.min.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/jquery/jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets/lib/jquery/jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/jquery/jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets/lib/jquery/jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/modernizr/modernizr.js",
+      "PackagePath": "staticwebassets/lib/modernizr/modernizr.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/moment/locale/ar-dz.js",
+      "PackagePath": "staticwebassets/lib/moment/locale/ar-dz.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/moment/locale/ar-kw.js",
+      "PackagePath": "staticwebassets/lib/moment/locale/ar-kw.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/moment/locale/ar-ly.js",
+      "PackagePath": "staticwebassets/lib/moment/locale/ar-ly.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/moment/locale/ar-ma.js",
+      "PackagePath": "staticwebassets/lib/moment/locale/ar-ma.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/moment/locale/ar-sa.js",
+      "PackagePath": "staticwebassets/lib/moment/locale/ar-sa.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/moment/locale/ar-tn.js",
+      "PackagePath": "staticwebassets/lib/moment/locale/ar-tn.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/moment/locale/ar.js",
+      "PackagePath": "staticwebassets/lib/moment/locale/ar.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/moment/locale/be.js",
+      "PackagePath": "staticwebassets/lib/moment/locale/be.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/moment/locale/bg.js",
+      "PackagePath": "staticwebassets/lib/moment/locale/bg.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/moment/locale/br.js",
+      "PackagePath": "staticwebassets/lib/moment/locale/br.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/moment/locale/cs.js",
+      "PackagePath": "staticwebassets/lib/moment/locale/cs.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/moment/locale/da.js",
+      "PackagePath": "staticwebassets/lib/moment/locale/da.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/moment/locale/de-at.js",
+      "PackagePath": "staticwebassets/lib/moment/locale/de-at.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/moment/locale/de-ch.js",
+      "PackagePath": "staticwebassets/lib/moment/locale/de-ch.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/moment/locale/de.js",
+      "PackagePath": "staticwebassets/lib/moment/locale/de.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/moment/locale/el.js",
+      "PackagePath": "staticwebassets/lib/moment/locale/el.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/moment/locale/en-au.js",
+      "PackagePath": "staticwebassets/lib/moment/locale/en-au.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/moment/locale/en-ca.js",
+      "PackagePath": "staticwebassets/lib/moment/locale/en-ca.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/moment/locale/en-gb.js",
+      "PackagePath": "staticwebassets/lib/moment/locale/en-gb.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/moment/locale/en-ie.js",
+      "PackagePath": "staticwebassets/lib/moment/locale/en-ie.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/moment/locale/en-nz.js",
+      "PackagePath": "staticwebassets/lib/moment/locale/en-nz.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/moment/locale/es.js",
+      "PackagePath": "staticwebassets/lib/moment/locale/es.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/moment/locale/fa.js",
+      "PackagePath": "staticwebassets/lib/moment/locale/fa.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/moment/locale/fi.js",
+      "PackagePath": "staticwebassets/lib/moment/locale/fi.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/moment/locale/fr-ca.js",
+      "PackagePath": "staticwebassets/lib/moment/locale/fr-ca.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/moment/locale/fr-ch.js",
+      "PackagePath": "staticwebassets/lib/moment/locale/fr-ch.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/moment/locale/fr.js",
+      "PackagePath": "staticwebassets/lib/moment/locale/fr.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/moment/locale/he.js",
+      "PackagePath": "staticwebassets/lib/moment/locale/he.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/moment/locale/hi.js",
+      "PackagePath": "staticwebassets/lib/moment/locale/hi.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/moment/locale/hr.js",
+      "PackagePath": "staticwebassets/lib/moment/locale/hr.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/moment/locale/hu.js",
+      "PackagePath": "staticwebassets/lib/moment/locale/hu.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/moment/locale/id.js",
+      "PackagePath": "staticwebassets/lib/moment/locale/id.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/moment/locale/is.js",
+      "PackagePath": "staticwebassets/lib/moment/locale/is.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/moment/locale/it.js",
+      "PackagePath": "staticwebassets/lib/moment/locale/it.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/moment/locale/ja.js",
+      "PackagePath": "staticwebassets/lib/moment/locale/ja.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/moment/locale/jv.js",
+      "PackagePath": "staticwebassets/lib/moment/locale/jv.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/moment/locale/ka.js",
+      "PackagePath": "staticwebassets/lib/moment/locale/ka.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/moment/locale/ko.js",
+      "PackagePath": "staticwebassets/lib/moment/locale/ko.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/moment/locale/nl.js",
+      "PackagePath": "staticwebassets/lib/moment/locale/nl.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/moment/locale/pl.js",
+      "PackagePath": "staticwebassets/lib/moment/locale/pl.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/moment/locale/pt-br.js",
+      "PackagePath": "staticwebassets/lib/moment/locale/pt-br.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/moment/locale/pt.js",
+      "PackagePath": "staticwebassets/lib/moment/locale/pt.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/moment/locale/ro.js",
+      "PackagePath": "staticwebassets/lib/moment/locale/ro.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/moment/locale/ru.js",
+      "PackagePath": "staticwebassets/lib/moment/locale/ru.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/moment/locale/se.js",
+      "PackagePath": "staticwebassets/lib/moment/locale/se.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/moment/locale/sk.js",
+      "PackagePath": "staticwebassets/lib/moment/locale/sk.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/moment/locale/sv.js",
+      "PackagePath": "staticwebassets/lib/moment/locale/sv.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/moment/locale/tr.js",
+      "PackagePath": "staticwebassets/lib/moment/locale/tr.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/moment/locale/uk.js",
+      "PackagePath": "staticwebassets/lib/moment/locale/uk.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/moment/locale/x-pseudo.js",
+      "PackagePath": "staticwebassets/lib/moment/locale/x-pseudo.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/moment/locale/zh-cn.js",
+      "PackagePath": "staticwebassets/lib/moment/locale/zh-cn.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/moment/locale/zh-hk.js",
+      "PackagePath": "staticwebassets/lib/moment/locale/zh-hk.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/moment/moment.js",
+      "PackagePath": "staticwebassets/lib/moment/moment.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/moment/moment.min.js",
+      "PackagePath": "staticwebassets/lib/moment/moment.min.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/photoswipe/LICENSE",
+      "PackagePath": "staticwebassets/lib/photoswipe"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/photoswipe/_main-settings.scss",
+      "PackagePath": "staticwebassets/lib/photoswipe/_main-settings.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/photoswipe/photoswipe-ui-default.js",
+      "PackagePath": "staticwebassets/lib/photoswipe/photoswipe-ui-default.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/photoswipe/photoswipe-ui-default.min.js",
+      "PackagePath": "staticwebassets/lib/photoswipe/photoswipe-ui-default.min.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/photoswipe/photoswipe.js",
+      "PackagePath": "staticwebassets/lib/photoswipe/photoswipe.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/photoswipe/photoswipe.min.js",
+      "PackagePath": "staticwebassets/lib/photoswipe/photoswipe.min.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/photoswipe/photoswipe.scss",
+      "PackagePath": "staticwebassets/lib/photoswipe/photoswipe.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/pnotify/css/pnotify.buttons.css",
+      "PackagePath": "staticwebassets/lib/pnotify/css/pnotify.buttons.css"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/pnotify/css/pnotify.css",
+      "PackagePath": "staticwebassets/lib/pnotify/css/pnotify.css"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/pnotify/css/pnotify.mobile.css",
+      "PackagePath": "staticwebassets/lib/pnotify/css/pnotify.mobile.css"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/pnotify/js/pnotify.animate.js",
+      "PackagePath": "staticwebassets/lib/pnotify/js/pnotify.animate.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/pnotify/js/pnotify.buttons.js",
+      "PackagePath": "staticwebassets/lib/pnotify/js/pnotify.buttons.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/pnotify/js/pnotify.js",
+      "PackagePath": "staticwebassets/lib/pnotify/js/pnotify.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/pnotify/js/pnotify.mobile.js",
+      "PackagePath": "staticwebassets/lib/pnotify/js/pnotify.mobile.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/popper/popper-utils.js",
+      "PackagePath": "staticwebassets/lib/popper/popper-utils.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/popper/popper-utils.min.js",
+      "PackagePath": "staticwebassets/lib/popper/popper-utils.min.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/popper/popper.js",
+      "PackagePath": "staticwebassets/lib/popper/popper.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/popper/popper.min.js",
+      "PackagePath": "staticwebassets/lib/popper/popper.min.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/rfs/_rfs.scss",
+      "PackagePath": "staticwebassets/lib/rfs/_rfs.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/roxyfm/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/roxyfm/LICENSE.txt"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/roxyfm/conf.json",
+      "PackagePath": "staticwebassets/lib/roxyfm/conf.json"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/roxyfm/css/images/animated-overlay.gif",
+      "PackagePath": "staticwebassets/lib/roxyfm/css/images/animated-overlay.gif"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/roxyfm/css/images/ui-icons_444444_256x240.png",
+      "PackagePath": "staticwebassets/lib/roxyfm/css/images/ui-icons_444444_256x240.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/roxyfm/css/images/ui-icons_555555_256x240.png",
+      "PackagePath": "staticwebassets/lib/roxyfm/css/images/ui-icons_555555_256x240.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/roxyfm/css/images/ui-icons_777620_256x240.png",
+      "PackagePath": "staticwebassets/lib/roxyfm/css/images/ui-icons_777620_256x240.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/roxyfm/css/images/ui-icons_777777_256x240.png",
+      "PackagePath": "staticwebassets/lib/roxyfm/css/images/ui-icons_777777_256x240.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/roxyfm/css/images/ui-icons_cc0000_256x240.png",
+      "PackagePath": "staticwebassets/lib/roxyfm/css/images/ui-icons_cc0000_256x240.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/roxyfm/css/images/ui-icons_ffffff_256x240.png",
+      "PackagePath": "staticwebassets/lib/roxyfm/css/images/ui-icons_ffffff_256x240.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/roxyfm/css/jquery-ui-1.10.4.custom.css",
+      "PackagePath": "staticwebassets/lib/roxyfm/css/jquery-ui-1.10.4.custom.css"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/roxyfm/css/jquery-ui-1.10.4.custom.min.css",
+      "PackagePath": "staticwebassets/lib/roxyfm/css/jquery-ui-1.10.4.custom.min.css"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/roxyfm/css/main.scss",
+      "PackagePath": "staticwebassets/lib/roxyfm/css/main.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/roxyfm/images/blank.gif",
+      "PackagePath": "staticwebassets/lib/roxyfm/images/blank.gif"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/roxyfm/images/file-upload.png",
+      "PackagePath": "staticwebassets/lib/roxyfm/images/file-upload.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/roxyfm/images/folder-green.png",
+      "PackagePath": "staticwebassets/lib/roxyfm/images/folder-green.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/roxyfm/images/folder-opened.png",
+      "PackagePath": "staticwebassets/lib/roxyfm/images/folder-opened.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/roxyfm/images/folder.png",
+      "PackagePath": "staticwebassets/lib/roxyfm/images/folder.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/roxyfm/images/loading-dir.gif",
+      "PackagePath": "staticwebassets/lib/roxyfm/images/loading-dir.gif"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/roxyfm/images/loading.gif",
+      "PackagePath": "staticwebassets/lib/roxyfm/images/loading.gif"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/roxyfm/images/remove-upload.png",
+      "PackagePath": "staticwebassets/lib/roxyfm/images/remove-upload.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/roxyfm/images/sprite.png",
+      "PackagePath": "staticwebassets/lib/roxyfm/images/sprite.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/roxyfm/images/stripes-reverse.gif",
+      "PackagePath": "staticwebassets/lib/roxyfm/images/stripes-reverse.gif"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/roxyfm/images/stripes.gif",
+      "PackagePath": "staticwebassets/lib/roxyfm/images/stripes.gif"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/roxyfm/images/upload-big.png",
+      "PackagePath": "staticwebassets/lib/roxyfm/images/upload-big.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/roxyfm/js/custom.js",
+      "PackagePath": "staticwebassets/lib/roxyfm/js/custom.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/roxyfm/js/directory.js",
+      "PackagePath": "staticwebassets/lib/roxyfm/js/directory.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/roxyfm/js/file.js",
+      "PackagePath": "staticwebassets/lib/roxyfm/js/file.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/roxyfm/js/filetypes.js",
+      "PackagePath": "staticwebassets/lib/roxyfm/js/filetypes.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/roxyfm/js/jquery-2.1.1.min.js",
+      "PackagePath": "staticwebassets/lib/roxyfm/js/jquery-2.1.1.min.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/roxyfm/js/jquery-dateFormat.min.js",
+      "PackagePath": "staticwebassets/lib/roxyfm/js/jquery-dateFormat.min.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/roxyfm/js/jquery-ui-1.10.4.custom.min.js",
+      "PackagePath": "staticwebassets/lib/roxyfm/js/jquery-ui-1.10.4.custom.min.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/roxyfm/js/main.js",
+      "PackagePath": "staticwebassets/lib/roxyfm/js/main.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/roxyfm/js/utils.js",
+      "PackagePath": "staticwebassets/lib/roxyfm/js/utils.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/roxyfm/lang/bg.js",
+      "PackagePath": "staticwebassets/lib/roxyfm/lang/bg.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/roxyfm/lang/ca.js",
+      "PackagePath": "staticwebassets/lib/roxyfm/lang/ca.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/roxyfm/lang/cs.js",
+      "PackagePath": "staticwebassets/lib/roxyfm/lang/cs.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/roxyfm/lang/cs1.js",
+      "PackagePath": "staticwebassets/lib/roxyfm/lang/cs1.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/roxyfm/lang/da.js",
+      "PackagePath": "staticwebassets/lib/roxyfm/lang/da.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/roxyfm/lang/de.js",
+      "PackagePath": "staticwebassets/lib/roxyfm/lang/de.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/roxyfm/lang/en.js",
+      "PackagePath": "staticwebassets/lib/roxyfm/lang/en.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/roxyfm/lang/es.js",
+      "PackagePath": "staticwebassets/lib/roxyfm/lang/es.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/roxyfm/lang/fr.js",
+      "PackagePath": "staticwebassets/lib/roxyfm/lang/fr.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/roxyfm/lang/hu.js",
+      "PackagePath": "staticwebassets/lib/roxyfm/lang/hu.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/roxyfm/lang/it.js",
+      "PackagePath": "staticwebassets/lib/roxyfm/lang/it.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/roxyfm/lang/nl.js",
+      "PackagePath": "staticwebassets/lib/roxyfm/lang/nl.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/roxyfm/lang/pl.js",
+      "PackagePath": "staticwebassets/lib/roxyfm/lang/pl.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/roxyfm/lang/pt.js",
+      "PackagePath": "staticwebassets/lib/roxyfm/lang/pt.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/roxyfm/lang/ru.js",
+      "PackagePath": "staticwebassets/lib/roxyfm/lang/ru.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/roxyfm/lang/sk.js",
+      "PackagePath": "staticwebassets/lib/roxyfm/lang/sk.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/roxyfm/lang/tr.js",
+      "PackagePath": "staticwebassets/lib/roxyfm/lang/tr.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/roxyfm/third-party.txt",
+      "PackagePath": "staticwebassets/lib/roxyfm/third-party.txt"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/select2/js/i18n/ar.js",
+      "PackagePath": "staticwebassets/lib/select2/js/i18n/ar.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/select2/js/i18n/da.js",
+      "PackagePath": "staticwebassets/lib/select2/js/i18n/da.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/select2/js/i18n/de.js",
+      "PackagePath": "staticwebassets/lib/select2/js/i18n/de.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/select2/js/i18n/el.js",
+      "PackagePath": "staticwebassets/lib/select2/js/i18n/el.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/select2/js/i18n/es.js",
+      "PackagePath": "staticwebassets/lib/select2/js/i18n/es.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/select2/js/i18n/fa.js",
+      "PackagePath": "staticwebassets/lib/select2/js/i18n/fa.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/select2/js/i18n/fr.js",
+      "PackagePath": "staticwebassets/lib/select2/js/i18n/fr.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/select2/js/i18n/it.js",
+      "PackagePath": "staticwebassets/lib/select2/js/i18n/it.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/select2/js/i18n/ja.js",
+      "PackagePath": "staticwebassets/lib/select2/js/i18n/ja.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/select2/js/i18n/ko.js",
+      "PackagePath": "staticwebassets/lib/select2/js/i18n/ko.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/select2/js/i18n/nl.js",
+      "PackagePath": "staticwebassets/lib/select2/js/i18n/nl.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/select2/js/i18n/pl.js",
+      "PackagePath": "staticwebassets/lib/select2/js/i18n/pl.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/select2/js/i18n/pt.js",
+      "PackagePath": "staticwebassets/lib/select2/js/i18n/pt.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/select2/js/i18n/ru.js",
+      "PackagePath": "staticwebassets/lib/select2/js/i18n/ru.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/select2/js/i18n/tr.js",
+      "PackagePath": "staticwebassets/lib/select2/js/i18n/tr.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/select2/js/i18n/uk.js",
+      "PackagePath": "staticwebassets/lib/select2/js/i18n/uk.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/select2/js/i18n/zh-CN.js",
+      "PackagePath": "staticwebassets/lib/select2/js/i18n/zh-CN.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/select2/js/i18n/zh-TW.js",
+      "PackagePath": "staticwebassets/lib/select2/js/i18n/zh-TW.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/select2/js/select2.js",
+      "PackagePath": "staticwebassets/lib/select2/js/select2.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/select2/js/select2.min.js",
+      "PackagePath": "staticwebassets/lib/select2/js/select2.min.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/select2/scss/_dropdown.scss",
+      "PackagePath": "staticwebassets/lib/select2/scss/_dropdown.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/select2/scss/_multiple.scss",
+      "PackagePath": "staticwebassets/lib/select2/scss/_multiple.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/select2/scss/_single.scss",
+      "PackagePath": "staticwebassets/lib/select2/scss/_single.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/select2/scss/core.scss",
+      "PackagePath": "staticwebassets/lib/select2/scss/core.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/slick/slick.js",
+      "PackagePath": "staticwebassets/lib/slick/slick.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/slick/slick.scss",
+      "PackagePath": "staticwebassets/lib/slick/slick.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/sortable/jquery-sortable.js",
+      "PackagePath": "staticwebassets/lib/sortable/jquery-sortable.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/sortable/sortable.js",
+      "PackagePath": "staticwebassets/lib/sortable/sortable.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/underscore/underscore.js",
+      "PackagePath": "staticwebassets/lib/underscore/underscore.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/underscore/underscore.min.js",
+      "PackagePath": "staticwebassets/lib/underscore/underscore.min.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/underscore/underscore.min.map",
+      "PackagePath": "staticwebassets/lib/underscore/underscore.min.map"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/vue/vue.js",
+      "PackagePath": "staticwebassets/lib/vue/vue.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/lib/vue/vue.min.js",
+      "PackagePath": "staticwebassets/lib/vue/vue.min.js"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/shared/_alert.scss",
+      "PackagePath": "staticwebassets/shared/_alert.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/shared/_badge.scss",
+      "PackagePath": "staticwebassets/shared/_badge.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/shared/_bg.scss",
+      "PackagePath": "staticwebassets/shared/_bg.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/shared/_bootstrap-icons.scss",
+      "PackagePath": "staticwebassets/shared/_bootstrap-icons.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/shared/_box.scss",
+      "PackagePath": "staticwebassets/shared/_box.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/shared/_breadcrumb.scss",
+      "PackagePath": "staticwebassets/shared/_breadcrumb.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/shared/_buttons.scss",
+      "PackagePath": "staticwebassets/shared/_buttons.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/shared/_card.scss",
+      "PackagePath": "staticwebassets/shared/_card.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/shared/_choice.scss",
+      "PackagePath": "staticwebassets/shared/_choice.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/shared/_colors.scss",
+      "PackagePath": "staticwebassets/shared/_colors.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/shared/_custom-scrollbar-buttons.scss",
+      "PackagePath": "staticwebassets/shared/_custom-scrollbar-buttons.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/shared/_custom-scrollbar.scss",
+      "PackagePath": "staticwebassets/shared/_custom-scrollbar.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/shared/_dropdown.scss",
+      "PackagePath": "staticwebassets/shared/_dropdown.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/shared/_entity-picker.scss",
+      "PackagePath": "staticwebassets/shared/_entity-picker.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/shared/_fa.scss",
+      "PackagePath": "staticwebassets/shared/_fa.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/shared/_forms.scss",
+      "PackagePath": "staticwebassets/shared/_forms.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/shared/_functions.scss",
+      "PackagePath": "staticwebassets/shared/_functions.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/shared/_media.scss",
+      "PackagePath": "staticwebassets/shared/_media.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/shared/_mixins.scss",
+      "PackagePath": "staticwebassets/shared/_mixins.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/shared/_modal.scss",
+      "PackagePath": "staticwebassets/shared/_modal.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/shared/_nav-collapsible.scss",
+      "PackagePath": "staticwebassets/shared/_nav-collapsible.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/shared/_nav.scss",
+      "PackagePath": "staticwebassets/shared/_nav.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/shared/_numberinput.scss",
+      "PackagePath": "staticwebassets/shared/_numberinput.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/shared/_offcanvas.scss",
+      "PackagePath": "staticwebassets/shared/_offcanvas.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/shared/_pagination.scss",
+      "PackagePath": "staticwebassets/shared/_pagination.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/shared/_rangeslider.scss",
+      "PackagePath": "staticwebassets/shared/_rangeslider.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/shared/_root.scss",
+      "PackagePath": "staticwebassets/shared/_root.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/shared/_rtl-bootstrap.scss",
+      "PackagePath": "staticwebassets/shared/_rtl-bootstrap.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/shared/_rtl.scss",
+      "PackagePath": "staticwebassets/shared/_rtl.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/shared/_sections.scss",
+      "PackagePath": "staticwebassets/shared/_sections.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/shared/_sortable-grip.scss",
+      "PackagePath": "staticwebassets/shared/_sortable-grip.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/shared/_spacing.scss",
+      "PackagePath": "staticwebassets/shared/_spacing.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/shared/_spinner.scss",
+      "PackagePath": "staticwebassets/shared/_spinner.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/shared/_star-rating.scss",
+      "PackagePath": "staticwebassets/shared/_star-rating.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/shared/_switch.scss",
+      "PackagePath": "staticwebassets/shared/_switch.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/shared/_text-expander.scss",
+      "PackagePath": "staticwebassets/shared/_text-expander.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/shared/_throbber.scss",
+      "PackagePath": "staticwebassets/shared/_throbber.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/shared/_tree.scss",
+      "PackagePath": "staticwebassets/shared/_tree.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/shared/_typo.scss",
+      "PackagePath": "staticwebassets/shared/_typo.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/shared/_utils.scss",
+      "PackagePath": "staticwebassets/shared/_utils.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/shared/_variables-shared-bootstrap.scss",
+      "PackagePath": "staticwebassets/shared/_variables-shared-bootstrap.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/shared/_variables-shared.scss",
+      "PackagePath": "staticwebassets/shared/_variables-shared.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/shared/references.scss",
+      "PackagePath": "staticwebassets/shared/references.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/skinning/_drift.scss",
+      "PackagePath": "staticwebassets/skinning/_drift.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/skinning/_fileupload.scss",
+      "PackagePath": "staticwebassets/skinning/_fileupload.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/skinning/_photoswipe.scss",
+      "PackagePath": "staticwebassets/skinning/_photoswipe.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/skinning/_pnotify.scss",
+      "PackagePath": "staticwebassets/skinning/_pnotify.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/skinning/_rtl.scss",
+      "PackagePath": "staticwebassets/skinning/_rtl.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/skinning/_select2-common.scss",
+      "PackagePath": "staticwebassets/skinning/_select2-common.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/skinning/_select2-drop.scss",
+      "PackagePath": "staticwebassets/skinning/_select2-drop.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/skinning/_select2-multiple.scss",
+      "PackagePath": "staticwebassets/skinning/_select2-multiple.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/skinning/_select2-single.scss",
+      "PackagePath": "staticwebassets/skinning/_select2-single.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/skinning/_select2.scss",
+      "PackagePath": "staticwebassets/skinning/_select2.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/skinning/_slick.scss",
+      "PackagePath": "staticwebassets/skinning/_slick.scss"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Web/wwwroot/skinning/references.scss",
+      "PackagePath": "staticwebassets/skinning/references.scss"
+    },
+    {
+      "Id": "obj/Debug/staticwebassets/msbuild.Smartstore.Web.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/staticwebassets/msbuild.build.Smartstore.Web.props",
+      "PackagePath": "build\\Smartstore.Web.props"
+    },
+    {
+      "Id": "obj/Debug/staticwebassets/msbuild.buildMultiTargeting.Smartstore.Web.props",
+      "PackagePath": "buildMultiTargeting\\Smartstore.Web.props"
+    },
+    {
+      "Id": "obj/Debug/staticwebassets/msbuild.buildTransitive.Smartstore.Web.props",
+      "PackagePath": "buildTransitive\\Smartstore.Web.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

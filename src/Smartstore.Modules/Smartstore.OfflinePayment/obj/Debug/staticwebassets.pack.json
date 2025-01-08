@@ -1,0 +1,49 @@
+{
+  "Files": [
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Modules/Smartstore.OfflinePayment/wwwroot/brands/payments.cashondelivery.png",
+      "PackagePath": "staticwebassets/brands/payments.cashondelivery.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Modules/Smartstore.OfflinePayment/wwwroot/brands/payments.directdebit.png",
+      "PackagePath": "staticwebassets/brands/payments.directdebit.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Modules/Smartstore.OfflinePayment/wwwroot/brands/payments.invoice.png",
+      "PackagePath": "staticwebassets/brands/payments.invoice.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Modules/Smartstore.OfflinePayment/wwwroot/brands/payments.manual.png",
+      "PackagePath": "staticwebassets/brands/payments.manual.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Modules/Smartstore.OfflinePayment/wwwroot/brands/payments.prepayment.png",
+      "PackagePath": "staticwebassets/brands/payments.prepayment.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Modules/Smartstore.OfflinePayment/wwwroot/brands/payments.purchaseordernumber.png",
+      "PackagePath": "staticwebassets/brands/payments.purchaseordernumber.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Modules/Smartstore.OfflinePayment/wwwroot/icon-Payments.CashOnDelivery.png",
+      "PackagePath": "staticwebassets/icon-Payments.CashOnDelivery.png"
+    },
+    {
+      "Id": "obj/Debug/staticwebassets/msbuild.Smartstore.OfflinePayment.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/staticwebassets/msbuild.build.Smartstore.OfflinePayment.props",
+      "PackagePath": "build\\Smartstore.OfflinePayment.props"
+    },
+    {
+      "Id": "obj/Debug/staticwebassets/msbuild.buildMultiTargeting.Smartstore.OfflinePayment.props",
+      "PackagePath": "buildMultiTargeting\\Smartstore.OfflinePayment.props"
+    },
+    {
+      "Id": "obj/Debug/staticwebassets/msbuild.buildTransitive.Smartstore.OfflinePayment.props",
+      "PackagePath": "buildTransitive\\Smartstore.OfflinePayment.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

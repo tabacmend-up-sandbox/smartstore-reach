@@ -1,0 +1,25 @@
+{
+  "Files": [
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Modules/Smartstore.Twitter.Auth/wwwroot/icon.png",
+      "PackagePath": "staticwebassets/icon.png"
+    },
+    {
+      "Id": "obj/Debug/staticwebassets/msbuild.Smartstore.Twitter.Auth.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/staticwebassets/msbuild.build.Smartstore.Twitter.Auth.props",
+      "PackagePath": "build\\Smartstore.Twitter.Auth.props"
+    },
+    {
+      "Id": "obj/Debug/staticwebassets/msbuild.buildMultiTargeting.Smartstore.Twitter.Auth.props",
+      "PackagePath": "buildMultiTargeting\\Smartstore.Twitter.Auth.props"
+    },
+    {
+      "Id": "obj/Debug/staticwebassets/msbuild.buildTransitive.Smartstore.Twitter.Auth.props",
+      "PackagePath": "buildTransitive\\Smartstore.Twitter.Auth.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../buildMultiTargeting/Smartstore.Google.Auth.props" />
+</Project>

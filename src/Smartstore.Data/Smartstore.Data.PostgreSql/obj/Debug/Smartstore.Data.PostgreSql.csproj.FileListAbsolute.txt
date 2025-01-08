@@ -1,0 +1,15 @@
+/root/Smartstore/src/Smartstore.Data/Smartstore.Data.PostgreSql/bin/Debug/Npgsql.dll
+/root/Smartstore/src/Smartstore.Data/Smartstore.Data.PostgreSql/bin/Debug/Npgsql.EntityFrameworkCore.PostgreSQL.dll
+/root/Smartstore/src/Smartstore.Data/Smartstore.Data.PostgreSql/bin/Debug/Smartstore.Data.PostgreSql.deps.json
+/root/Smartstore/src/Smartstore.Data/Smartstore.Data.PostgreSql/bin/Debug/Smartstore.Data.PostgreSql.dll
+/root/Smartstore/src/Smartstore.Data/Smartstore.Data.PostgreSql/bin/Debug/Smartstore.Data.PostgreSql.pdb
+/root/Smartstore/src/Smartstore.Data/Smartstore.Data.PostgreSql/obj/Debug/Smartstore.Data.PostgreSql.csproj.AssemblyReference.cache
+/root/Smartstore/src/Smartstore.Data/Smartstore.Data.PostgreSql/obj/Debug/Smartstore.Data.PostgreSql.GeneratedMSBuildEditorConfig.editorconfig
+/root/Smartstore/src/Smartstore.Data/Smartstore.Data.PostgreSql/obj/Debug/Smartstore.Data.PostgreSql.AssemblyInfoInputs.cache
+/root/Smartstore/src/Smartstore.Data/Smartstore.Data.PostgreSql/obj/Debug/Smartstore.Data.PostgreSql.AssemblyInfo.cs
+/root/Smartstore/src/Smartstore.Data/Smartstore.Data.PostgreSql/obj/Debug/Smartstore.Data.PostgreSql.csproj.CoreCompileInputs.cache
+/root/Smartstore/src/Smartstore.Data/Smartstore.Data.PostgreSql/obj/Debug/Smartstore.Data.PostgreSql.sourcelink.json
+/root/Smartstore/src/Smartstore.Data/Smartstore.Data.PostgreSql/obj/Debug/Smartstore.Data.PostgreSql.dll
+/root/Smartstore/src/Smartstore.Data/Smartstore.Data.PostgreSql/obj/Debug/refint/Smartstore.Data.PostgreSql.dll
+/root/Smartstore/src/Smartstore.Data/Smartstore.Data.PostgreSql/obj/Debug/Smartstore.Data.PostgreSql.pdb
+/root/Smartstore/src/Smartstore.Data/Smartstore.Data.PostgreSql/obj/Debug/ref/Smartstore.Data.PostgreSql.dll

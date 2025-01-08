@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "DjbeKBCkf9TpAWtFcDnBcTSSXmn2pgdI6mrhe6lxt+0=",
+  "Source": "Smartstore.Shipping",
+  "BasePath": "_content/Smartstore.Shipping",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

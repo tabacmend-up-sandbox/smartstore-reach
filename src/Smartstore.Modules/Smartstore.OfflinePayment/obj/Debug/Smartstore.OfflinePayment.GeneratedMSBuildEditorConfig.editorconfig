@@ -1,0 +1,43 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Smartstore.OfflinePayment
+build_property.RootNamespace = Smartstore.OfflinePayment
+build_property.ProjectDir = /root/Smartstore/src/Smartstore.Modules/Smartstore.OfflinePayment/
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = true
+build_property.MSBuildProjectDirectory = /root/Smartstore/src/Smartstore.Modules/Smartstore.OfflinePayment
+build_property._RazorSourceGeneratorDebug = 
+
+[/root/Smartstore/src/Smartstore.Modules/Smartstore.OfflinePayment/Views/OfflinePayment/GenericConfigure.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvT2ZmbGluZVBheW1lbnQvR2VuZXJpY0NvbmZpZ3VyZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/root/Smartstore/src/Smartstore.Modules/Smartstore.OfflinePayment/Views/OfflinePayment/ManualConfigure.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvT2ZmbGluZVBheW1lbnQvTWFudWFsQ29uZmlndXJlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/root/Smartstore/src/Smartstore.Modules/Smartstore.OfflinePayment/Views/Shared/Components/DirectDebit/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvRGlyZWN0RGViaXQvRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/root/Smartstore/src/Smartstore.Modules/Smartstore.OfflinePayment/Views/Shared/Components/ManualPayment/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvTWFudWFsUGF5bWVudC9EZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/root/Smartstore/src/Smartstore.Modules/Smartstore.OfflinePayment/Views/Shared/Components/PurchaseOrderNumber/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvUHVyY2hhc2VPcmRlck51bWJlci9EZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/root/Smartstore/src/Smartstore.Modules/Smartstore.OfflinePayment/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 

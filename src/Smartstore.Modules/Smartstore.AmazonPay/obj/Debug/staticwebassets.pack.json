@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Modules/Smartstore.AmazonPay/wwwroot/branding.png",
+      "PackagePath": "staticwebassets/branding.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Modules/Smartstore.AmazonPay/wwwroot/brands/default.png",
+      "PackagePath": "staticwebassets/brands/default.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Modules/Smartstore.AmazonPay/wwwroot/favicon.png",
+      "PackagePath": "staticwebassets/favicon.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Modules/Smartstore.AmazonPay/wwwroot/icon.png",
+      "PackagePath": "staticwebassets/icon.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Modules/Smartstore.AmazonPay/wwwroot/public.scss",
+      "PackagePath": "staticwebassets/public.scss"
+    },
+    {
+      "Id": "obj/Debug/staticwebassets/msbuild.Smartstore.AmazonPay.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/staticwebassets/msbuild.build.Smartstore.AmazonPay.props",
+      "PackagePath": "build\\Smartstore.AmazonPay.props"
+    },
+    {
+      "Id": "obj/Debug/staticwebassets/msbuild.buildMultiTargeting.Smartstore.AmazonPay.props",
+      "PackagePath": "buildMultiTargeting\\Smartstore.AmazonPay.props"
+    },
+    {
+      "Id": "obj/Debug/staticwebassets/msbuild.buildTransitive.Smartstore.AmazonPay.props",
+      "PackagePath": "buildTransitive\\Smartstore.AmazonPay.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

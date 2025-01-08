@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../buildMultiTargeting/Smartstore.Microsoft.Auth.props" />
+</Project>

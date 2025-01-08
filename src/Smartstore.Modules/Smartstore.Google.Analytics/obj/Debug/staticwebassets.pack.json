@@ -1,0 +1,29 @@
+{
+  "Files": [
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Modules/Smartstore.Google.Analytics/wwwroot/icon.png",
+      "PackagePath": "staticwebassets/icon.png"
+    },
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Modules/Smartstore.Google.Analytics/wwwroot/js/google-analytics.utils.js",
+      "PackagePath": "staticwebassets/js/google-analytics.utils.js"
+    },
+    {
+      "Id": "obj/Debug/staticwebassets/msbuild.Smartstore.Google.Analytics.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/staticwebassets/msbuild.build.Smartstore.Google.Analytics.props",
+      "PackagePath": "build\\Smartstore.Google.Analytics.props"
+    },
+    {
+      "Id": "obj/Debug/staticwebassets/msbuild.buildMultiTargeting.Smartstore.Google.Analytics.props",
+      "PackagePath": "buildMultiTargeting\\Smartstore.Google.Analytics.props"
+    },
+    {
+      "Id": "obj/Debug/staticwebassets/msbuild.buildTransitive.Smartstore.Google.Analytics.props",
+      "PackagePath": "buildTransitive\\Smartstore.Google.Analytics.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,39 @@
+{
+  "Version": 1,
+  "Hash": "8HnwxvhxqsPn3YV9/dVXbzxcaTpCIQfQ/KLgIxDvWUs=",
+  "Source": "Smartstore.Google.Auth",
+  "BasePath": "_content/Smartstore.Google.Auth",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Smartstore.Google.Auth/wwwroot",
+      "Source": "Smartstore.Google.Auth",
+      "ContentRoot": "/root/Smartstore/src/Smartstore.Modules/Smartstore.Google.Auth/wwwroot/",
+      "BasePath": "_content/Smartstore.Google.Auth",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/root/Smartstore/src/Smartstore.Modules/Smartstore.Google.Auth/wwwroot/icon.png",
+      "SourceId": "Smartstore.Google.Auth",
+      "SourceType": "Discovered",
+      "ContentRoot": "/root/Smartstore/src/Smartstore.Modules/Smartstore.Google.Auth/wwwroot/",
+      "BasePath": "_content/Smartstore.Google.Auth",
+      "RelativePath": "icon.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/icon.png"
+    }
+  ]
+}

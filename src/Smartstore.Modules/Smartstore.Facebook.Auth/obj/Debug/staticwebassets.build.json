@@ -1,0 +1,39 @@
+{
+  "Version": 1,
+  "Hash": "yoanZQPtp58QHfUcsAJv0RU2ldCoNQ9F2aLzpKYE+Hk=",
+  "Source": "Smartstore.Facebook.Auth",
+  "BasePath": "_content/Smartstore.Facebook.Auth",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Smartstore.Facebook.Auth/wwwroot",
+      "Source": "Smartstore.Facebook.Auth",
+      "ContentRoot": "/root/Smartstore/src/Smartstore.Modules/Smartstore.Facebook.Auth/wwwroot/",
+      "BasePath": "_content/Smartstore.Facebook.Auth",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/root/Smartstore/src/Smartstore.Modules/Smartstore.Facebook.Auth/wwwroot/icon.png",
+      "SourceId": "Smartstore.Facebook.Auth",
+      "SourceType": "Discovered",
+      "ContentRoot": "/root/Smartstore/src/Smartstore.Modules/Smartstore.Facebook.Auth/wwwroot/",
+      "BasePath": "_content/Smartstore.Facebook.Auth",
+      "RelativePath": "icon.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/icon.png"
+    }
+  ]
+}

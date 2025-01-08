@@ -1,0 +1,25 @@
+{
+  "Files": [
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Modules/Smartstore.Microsoft.Auth/wwwroot/icon.png",
+      "PackagePath": "staticwebassets/icon.png"
+    },
+    {
+      "Id": "obj/Debug/staticwebassets/msbuild.Smartstore.Microsoft.Auth.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/staticwebassets/msbuild.build.Smartstore.Microsoft.Auth.props",
+      "PackagePath": "build\\Smartstore.Microsoft.Auth.props"
+    },
+    {
+      "Id": "obj/Debug/staticwebassets/msbuild.buildMultiTargeting.Smartstore.Microsoft.Auth.props",
+      "PackagePath": "buildMultiTargeting\\Smartstore.Microsoft.Auth.props"
+    },
+    {
+      "Id": "obj/Debug/staticwebassets/msbuild.buildTransitive.Smartstore.Microsoft.Auth.props",
+      "PackagePath": "buildTransitive\\Smartstore.Microsoft.Auth.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

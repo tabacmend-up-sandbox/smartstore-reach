@@ -1,0 +1,1979 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Smartstore.WebApi</name>
+    </assembly>
+    <members>
+        <member name="F:Smartstore.Web.Api.WebApiSettings.SwaggerRoutePrefix">
+            <summary>
+            The URL path prefix used to provide all Swagger documents.
+            </summary>
+        </member>
+        <member name="F:Smartstore.Web.Api.WebApiSettings.DefaultMaxTop">
+            <summary>
+            Gets the max value of $top that a client can request.
+            Gets or sets a value indicating whether the Web API is active.
+            </summary>
+        </member>
+        <member name="P:Smartstore.Web.Api.WebApiSettings.IsActive">
+            <summary>
+            Gets or sets a value indicating whether the Web API is active.
+            </summary>
+        </member>
+        <member name="P:Smartstore.Web.Api.WebApiSettings.MaxTop">
+            <summary>
+            Gets or sets the max value of $top that a client can request.
+            </summary>
+        </member>
+        <member name="P:Smartstore.Web.Api.WebApiSettings.MaxExpansionDepth">
+            <summary>
+            Gets or sets the max expansion depth for the $expand query option.
+            </summary>
+        </member>
+        <member name="P:Smartstore.Web.Api.WebApiSettings.MaxBatchNestingDepth">
+            <summary>
+            Gets or sets the maximum depth of nesting allowed when reading or writing recursive batch payloads.
+            </summary>
+        </member>
+        <member name="P:Smartstore.Web.Api.WebApiSettings.MaxBatchOperationsPerChangeset">
+            <summary>
+            Gets or sets the maximum number of operations allowed in a single batch changeset.
+            </summary>
+        </member>
+        <member name="P:Smartstore.Web.Api.WebApiSettings.MaxBatchReceivedMessageSize">
+            <summary>
+            Gets or sets the maximum data size (in KB) that should be read from a batch message.
+            </summary>
+        </member>
+        <member name="T:Smartstore.Web.Api.Controllers.CategoriesController">
+            <summary>
+            The endpoint for operations on Category entity.
+            </summary>
+        </member>
+        <member name="M:Smartstore.Web.Api.Controllers.CategoriesController.ApplyDiscounts(System.Int32,System.Collections.Generic.IEnumerable{System.Int32})">
+            <summary>
+            Adds or removes discounts assigments.
+            </summary>
+            <remarks>
+            Identifiers of discounts that are not included in **discountIds** are assigned to the category.
+            Existing assignments to discounts that are not included in **discountIds** are removed.
+            </remarks>
+            <param name="discountIds">List of discount identifiers to apply.</param>
+        </member>
+        <member name="T:Smartstore.Web.Api.Controllers.DiscountsController">
+            <summary>
+            The endpoint for operations on Discount entity.
+            </summary>
+        </member>
+        <member name="T:Smartstore.Web.Api.Controllers.DiscountUsageHistoryController">
+            <summary>
+            The endpoint for operations on DiscountUsageHistory entity.
+            </summary>
+        </member>
+        <member name="T:Smartstore.Web.Api.Controllers.ManufacturersController">
+            <summary>
+            The endpoint for operations on Manufacturer entity.
+            </summary>
+        </member>
+        <member name="M:Smartstore.Web.Api.Controllers.ManufacturersController.ApplyDiscounts(System.Int32,System.Collections.Generic.IEnumerable{System.Int32})">
+            <summary>
+            Adds or removes discounts assigments.
+            </summary>
+            <remarks>
+            Identifiers of discounts that are not included in **discountIds** are assigned to the manufacturer.
+            Existing assignments to discounts that are not included in **discountIds** are removed.
+            </remarks>
+            <param name="discountIds">List of discount identifiers to apply.</param>
+        </member>
+        <member name="T:Smartstore.Web.Api.Controllers.PriceLabelsController">
+            <summary>
+            The endpoint for operations on PriceLabel entity.
+            </summary>
+        </member>
+        <member name="T:Smartstore.Web.Api.Controllers.ProductAttributeOptionsController">
+            <summary>
+            The endpoint for operations on ProductAttributeOption entity.
+            </summary>
+        </member>
+        <member name="T:Smartstore.Web.Api.Controllers.ProductAttributeOptionsSetsController">
+            <summary>
+            The endpoint for operations on ProductAttributeOptionsSet entity.
+            </summary>
+        </member>
+        <member name="T:Smartstore.Web.Api.Controllers.ProductAttributesController">
+            <summary>
+            The endpoint for operations on ProductAttribute entity.
+            </summary>
+        </member>
+        <member name="T:Smartstore.Web.Api.Controllers.ProductBundleItemsController">
+            <summary>
+            The endpoint for operations on ProductBundleItem entity.
+            </summary>
+        </member>
+        <member name="T:Smartstore.Web.Api.Controllers.ProductCategoriesController">
+            <summary>
+            The endpoint for operations on ProductCategory entity.
+            </summary>
+        </member>
+        <member name="T:Smartstore.Web.Api.Controllers.ProductManufacturersController">
+            <summary>
+            The endpoint for operations on ProductManufacturer entity.
+            </summary>
+        </member>
+        <member name="T:Smartstore.Web.Api.Controllers.ProductMediaFilesController">
+            <summary>
+            The endpoint for operations on ProductMediaFile entity.
+            </summary>
+        </member>
+        <member name="T:Smartstore.Web.Api.Controllers.ProductsController">
+            <summary>
+            The endpoint for operations on Product entity.
+            </summary>
+        </member>
+        <member name="M:Smartstore.Web.Api.Controllers.ProductsController.PostProductCategories(System.Int32,System.Int32,Smartstore.Core.Catalog.Categories.ProductCategory)">
+            <summary>
+            Creates a ProductCategory (assignment of a Product to a Category).
+            </summary>
+            <param name="relatedkey" example="123">The category identifier.</param>
+        </member>
+        <member name="M:Smartstore.Web.Api.Controllers.ProductsController.DeleteProductCategories(System.Int32,System.Int32)">
+            <summary>
+            Deletes a ProductCategory.
+            </summary>
+            <param name="relatedkey" example="123">The category identifier. 0 to remove all category assignments for the product.</param>
+        </member>
+        <member name="M:Smartstore.Web.Api.Controllers.ProductsController.PostProductManufacturers(System.Int32,System.Int32,Smartstore.Core.Catalog.Brands.ProductManufacturer)">
+            <summary>
+            Creates a ProductManufacturer (assignment of a Product to a Manufacturer).
+            </summary>
+            <param name="relatedkey" example="234">The manufacturer identifier.</param>
+        </member>
+        <member name="M:Smartstore.Web.Api.Controllers.ProductsController.DeleteProductManufacturers(System.Int32,System.Int32)">
+            <summary>
+            Deletes a ProductManufacturer.
+            </summary>
+            <param name="relatedkey" example="234">The manufacturer identifier. 0 to remove all manufacturer assignments for the product.</param>
+        </member>
+        <member name="M:Smartstore.Web.Api.Controllers.ProductsController.PostProductMediaFiles(System.Int32,System.Int32,Smartstore.Core.Catalog.Products.ProductMediaFile)">
+            <summary>
+            Creates a ProductMediaFile (assignment of a Product to a MediaFile).
+            </summary>
+            <param name="relatedkey" example="345">The media file identifier.</param>
+        </member>
+        <member name="M:Smartstore.Web.Api.Controllers.ProductsController.DeleteProductMediaFiles(System.Int32,System.Int32)">
+            <summary>
+            Deletes a ProductMediaFile.
+            </summary>
+            <param name="relatedkey" example="345">The media file identifier. 0 to remove all media file assignments for the product.</param>
+        </member>
+        <member name="M:Smartstore.Web.Api.Controllers.ProductsController.UpdateProductTags(System.Int32,System.Collections.Generic.IEnumerable{System.String})">
+            <summary>
+            Adds or removes assigments to product tags.
+            </summary>
+            <remarks>
+            Tags that are not included in **tagNames** are added and assigned to the product.
+            Existing assignments to tags that are not included in **tagNames** are removed.
+            </remarks>
+            <param name="tagNames">List of tag names to apply.</param>
+        </member>
+        <member name="M:Smartstore.Web.Api.Controllers.ProductsController.ApplyDiscounts(System.Int32,System.Collections.Generic.IEnumerable{System.Int32})">
+            <summary>
+            Adds or removes discounts assigments.
+            </summary>
+            <remarks>
+            Identifiers of discounts that are not included in **discountIds** are assigned to the product.
+            Existing assignments to discounts that are not included in **discountIds** are removed.
+            </remarks>
+            <param name="discountIds">List of discount identifiers to apply.</param>
+        </member>
+        <member name="M:Smartstore.Web.Api.Controllers.ProductsController.CalculatePrice(System.Int32,System.Boolean,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            Calculates a product price.
+            </summary>
+            <param name="forListing" example="false">
+            A value indicating whether to calculate the price for a product list.
+            Speeds up the calculation if true, since lowest and presselected price are not calculated.
+            </param>
+            <param name="quantity" example="1">The product quantity. 1 by default.</param>
+            <param name="customerId">The identifier of a customer to calculate the price for. Obtained from IWorkContext.CurrentCustomer if 0.</param>
+            <param name="targetCurrencyId">The target currency to use for money conversion. Obtained from IWorkContext.WorkingCurrency if 0.</param>
+        </member>
+        <member name="M:Smartstore.Web.Api.Controllers.ProductsController.CreateAttributeCombinations(System.Int32)">
+            <summary>
+            Creates all variant attributes combinations for a product.
+            Already existing combinations will be deleted before.
+            </summary>
+        </member>
+        <member name="M:Smartstore.Web.Api.Controllers.ProductsController.ManageAttributes(System.Int32,System.Collections.Generic.IEnumerable{Smartstore.Web.Api.Models.Catalog.ManagedProductAttribute},System.Boolean)">
+            <summary>
+            Manages\synchronizes the attributes and attribute values of a product.
+            </summary>
+            <param name="attributes">The attributes and attribute values to be processed.</param>
+            <param name="synchronize">
+            If set to false, only missing attributes and attribute values are inserted.
+            If set to true, existing records are also updated and values not included in the request body are removed from the database.
+            This means that if no attribute values are sent, then the attribute is removed along with all values for this product.
+            </param>
+        </member>
+        <member name="M:Smartstore.Web.Api.Controllers.ProductsController.SaveFiles(System.Int32,Microsoft.AspNetCore.Http.IFormFileCollection,System.String,System.String,System.String)">
+            <summary>
+            Saves files like images and assigns them to a product.
+            </summary>
+            <param name="key">
+            Identifier of the product to which the images should be assigned.
+            0 if the product is to be identified by SKU, GTIN or MPN.
+            </param>
+            <param name="files">The files to be saved.</param>
+            <param name="sku">SKU (stock keeping unit) of the product to which the images should be assigned.</param>
+            <param name="gtin">GTIN (global trade item number) of the product to which the images should be assigned.</param>
+            <param name="mpn">MPN (manufacturer part number) of the product to which the images should be assigned.</param>
+            <remarks>
+            It does not matter if one of the uploaded images already exists. The Web API automatically ensures that a product 
+            has no duplicate images by comparing both binary data streams.
+            
+            It is also possible to update/replace an existing image. To do so simply add the file identifier as **fileId** attribute
+            in the content disposition header of the file.
+            </remarks>
+        </member>
+        <member name="M:Smartstore.Web.Api.Controllers.ProductsController.Search(Smartstore.Web.Api.Models.Catalog.CatalogSearchQueryModel)">
+            <summary>
+            Searches for products.
+            </summary>
+        </member>
+        <member name="M:Smartstore.Web.Api.Controllers.ProductsController.RecycleBin">
+            <summary>
+            Gets the soft-deleted products of the recycle bin.
+            </summary>
+            <remarks>
+            Can only be used in conjunction with the methods **Restore** and **DeletePermanent** because soft-deleted products are excluded from other endpoints.
+            </remarks>
+        </member>
+        <member name="M:Smartstore.Web.Api.Controllers.ProductsController.DeletePermanent(System.Collections.Generic.IEnumerable{System.Int32})">
+            <summary>
+            Permanently deletes soft-deleted products.
+            </summary>
+            <param name="productIds">
+            Identifiers of products to be permanently deleted.
+            Use an empty list to delete all soft-deleted products (empty recycle bin).
+            </param>
+        </member>
+        <member name="M:Smartstore.Web.Api.Controllers.ProductsController.Restore(System.Collections.Generic.IEnumerable{System.Int32},System.Nullable{System.Boolean})">
+            <summary>
+            Restores soft-deleted products.
+            </summary>
+            <param name="productIds">Identifiers of products to restore.</param>
+            <param name="publishAfterRestore">A value indicating whether to publish restored products.</param>
+            <returns>Number of restored products.</returns>
+        </member>
+        <member name="T:Smartstore.Web.Api.Controllers.ProductSpecificationAttributesController">
+            <summary>
+            The endpoint for operations on ProductSpecificationAttribute entity.
+            </summary>
+        </member>
+        <member name="T:Smartstore.Web.Api.Controllers.ProductTagsController">
+            <summary>
+            The endpoint for operations on ProductTag entity.
+            </summary>
+        </member>
+        <member name="T:Smartstore.Web.Api.Controllers.ProductVariantAttributeCombinationsController">
+            <summary>
+            The endpoint for operations on ProductVariantAttributeCombination entity.
+            </summary>
+        </member>
+        <member name="T:Smartstore.Web.Api.Controllers.ProductVariantAttributesController">
+            <summary>
+            The endpoint for operations on ProductVariantAttribute entity.
+            </summary>
+        </member>
+        <member name="T:Smartstore.Web.Api.Controllers.ProductVariantAttributeValuesController">
+            <summary>
+            The endpoint for operations on ProductVariantAttributeValue entity.
+            </summary>
+        </member>
+        <member name="T:Smartstore.Web.Api.Controllers.RelatedProductsController">
+            <summary>
+            The endpoint for operations on RelatedProduct entity.
+            </summary>
+        </member>
+        <member name="T:Smartstore.Web.Api.Controllers.SpecificationAttributeOptionsController">
+            <summary>
+            The endpoint for operations on SpecificationAttributeOption entity.
+            </summary>
+        </member>
+        <member name="T:Smartstore.Web.Api.Controllers.SpecificationAttributesController">
+            <summary>
+            The endpoint for operations on SpecificationAttribute entity.
+            </summary>
+        </member>
+        <member name="T:Smartstore.Web.Api.Controllers.TierPricesController">
+            <summary>
+            The endpoint for operations on TierPrice entity.
+            </summary>
+        </member>
+        <member name="T:Smartstore.Web.Api.Controllers.CheckoutAttributesController">
+            <summary>
+            The endpoint for operations on CheckoutAttribute entity.
+            </summary>
+        </member>
+        <member name="T:Smartstore.Web.Api.Controllers.CheckoutAttributeValuesController">
+            <summary>
+            The endpoint for operations on CheckoutAttributeValue entity.
+            </summary>
+        </member>
+        <member name="T:Smartstore.Web.Api.Controllers.GiftCardsController">
+            <summary>
+            The endpoint for operations on GiftCard entity.
+            </summary>
+        </member>
+        <member name="T:Smartstore.Web.Api.Controllers.GiftCardUsageHistoryController">
+            <summary>
+            The endpoint for operations on GiftCardUsageHistory entity.
+            </summary>
+        </member>
+        <member name="T:Smartstore.Web.Api.Controllers.OrderItemsController">
+            <summary>
+            The endpoint for operations on OrderItem entity.
+            </summary>
+        </member>
+        <member name="M:Smartstore.Web.Api.Controllers.OrderItemsController.GetShipmentInfo(System.Int32)">
+            <summary>
+            Gets additional shipment information for an order item.
+            </summary>
+        </member>
+        <member name="T:Smartstore.Web.Api.Controllers.OrderNotesController">
+            <summary>
+            The endpoint for operations on OrderNote entity.
+            </summary>
+        </member>
+        <member name="M:Smartstore.Web.Api.Controllers.OrderNotesController.Post(Smartstore.Core.Checkout.Orders.OrderNote,System.Boolean)">
+            <param name="notifyCustomer">
+            A value indicating whether to send a notification to the customer about the new order note.
+            Only applicable if **DisplayToCustomer** is true.
+            </param>
+        </member>
+        <member name="T:Smartstore.Web.Api.Controllers.OrdersController">
+            <summary>
+            The endpoint for operations on Order entity.
+            </summary>
+        </member>
+        <member name="M:Smartstore.Web.Api.Controllers.OrdersController.GetWalletHistory(System.Int32)">
+            <summary>
+            Gets WalletHistory entities assigned to an Order.
+            </summary>
+            <remarks>Only applicable if a wallet plugin is installed.</remarks>
+        </member>
+        <member name="M:Smartstore.Web.Api.Controllers.OrdersController.GetDetails(System.Int32)">
+            <summary>
+            Gets prepared order details like the SKU or image URL of the ordered product variant.
+            </summary>
+        </member>
+        <member name="M:Smartstore.Web.Api.Controllers.OrdersController.GetShipmentInfo(System.Int32)">
+            <summary>
+            Gets additional shipment information for an order.
+            </summary>
+        </member>
+        <member name="M:Smartstore.Web.Api.Controllers.OrdersController.DownloadPdf(System.Int32)">
+            <summary>
+            Downloads an order as a PDF.
+            </summary>
+        </member>
+        <member name="M:Smartstore.Web.Api.Controllers.OrdersController.PaymentPending(System.Int32)">
+            <summary>
+            Sets the payment status of an order to pending.
+            </summary>
+        </member>
+        <member name="M:Smartstore.Web.Api.Controllers.OrdersController.PaymentPaid(System.Int32,System.String)">
+            <summary>
+            Sets the payment status of an order to paid.
+            </summary>
+            <param name="paymentMethodName" example="Payments.PayPalStandard">The system name of a payment methid to be set.</param>
+        </member>
+        <member name="M:Smartstore.Web.Api.Controllers.OrdersController.PaymentCapture(System.Int32)">
+            <summary>
+            Captures the order amount to be paid.
+            </summary>
+        </member>
+        <member name="M:Smartstore.Web.Api.Controllers.OrdersController.PaymentRefund(System.Int32,Smartstore.Web.Api.Models.Checkout.PaymentRefundModel)">
+            <summary>
+            Refunds the paid amount.
+            </summary>
+        </member>
+        <member name="M:Smartstore.Web.Api.Controllers.OrdersController.Cancel(System.Int32,System.Boolean)">
+            <summary>
+            Cancels an order.
+            </summary>
+            <param name="notifyCustomer">A value indicating whether to send a notification message to the customer about the cancelation.</param>
+        </member>
+        <member name="M:Smartstore.Web.Api.Controllers.OrdersController.CompleteOrder(System.Int32)">
+            <summary>
+            Marks an order as completed.
+            </summary>
+        </member>
+        <member name="M:Smartstore.Web.Api.Controllers.OrdersController.ReOrder(System.Int32)">
+            <summary>
+            Places items of an order into the shopping cart of the user who placed the order.
+            </summary>
+        </member>
+        <member name="M:Smartstore.Web.Api.Controllers.OrdersController.AddShipment(System.Int32,System.String,System.String,System.String,System.Boolean,System.Boolean)">
+            <summary>
+            Adds a shipment to an order.
+            </summary>
+            <param name="carrier">Name of the carrier if any.</param>
+            <param name="trackingNumber">Tracking number if any.</param>
+            <param name="trackingUrl">Tracking URL if any.</param>
+            <param name="isShipped">A value indicating whether to mark the shipment as shipped.</param>
+            <param name="notifyCustomer">A value indicating whether to notify the customer that the shipment has been sent. Only applicable if **isShipped** is true.</param>
+            <returns>New shipment or null if no shipment was added.</returns>
+        </member>
+        <member name="T:Smartstore.Web.Api.Controllers.PaymentMethodsController">
+            <summary>
+            The endpoint for operations on PaymentMethod entity.
+            </summary>
+        </member>
+        <member name="M:Smartstore.Web.Api.Controllers.PaymentMethodsController.Get">
+            <remarks>
+            Since payment methods are based on providers, a **PaymentMethod** entity does not necessarily have to exist for each method.
+            Only **GetAllPaymentMethods** returns a complete list of all payment method names because it queries the providers.
+            </remarks>
+        </member>
+        <member name="M:Smartstore.Web.Api.Controllers.PaymentMethodsController.GetAllPaymentMethods(System.Boolean,System.Int32)">
+            <summary>
+            Gets the system name of all payment providers.
+            </summary>
+            <param name="active" example="true">A value indicating whether to only include active payment methods. **False** to load all payment method names.</param>
+            <param name="storeId">Filter payment methods by store identifier. 0 to load all.</param>
+        </member>
+        <member name="T:Smartstore.Web.Api.Controllers.RecurringPaymentHistoryController">
+            <summary>
+            The endpoint for operations on RecurringPaymentHistory entity.
+            </summary>
+        </member>
+        <member name="T:Smartstore.Web.Api.Controllers.RecurringPaymentsController">
+            <summary>
+            The endpoint for operations on RecurringPayment entity.
+            </summary>
+        </member>
+        <member name="M:Smartstore.Web.Api.Controllers.RecurringPaymentsController.ProcessNextRecurringPayment(System.Int32)">
+            <summary>
+            Processes the next recurring payment.
+            </summary>
+        </member>
+        <member name="M:Smartstore.Web.Api.Controllers.RecurringPaymentsController.CancelRecurringPayment(System.Int32)">
+            <summary>
+            Cancels a recurring payment.
+            </summary>
+        </member>
+        <member name="T:Smartstore.Web.Api.Controllers.ShipmentItemsController">
+            <summary>
+            The endpoint for operations on ShipmentItem entity.
+            </summary>
+        </member>
+        <member name="T:Smartstore.Web.Api.Controllers.ShipmentsController">
+            <summary>
+            The endpoint for operations on Shipment entity.
+            </summary>
+        </member>
+        <member name="M:Smartstore.Web.Api.Controllers.ShipmentsController.Ship(System.Int32,System.Boolean)">
+            <summary>
+            Marks a shipment as shipped.
+            </summary>
+            <param name="notifyCustomer">A value indicating whether to send a notification message to the customer.</param>
+        </member>
+        <member name="M:Smartstore.Web.Api.Controllers.ShipmentsController.Deliver(System.Int32,System.Boolean)">
+            <summary>
+            Marks a shipment as delivered.
+            </summary>
+            <param name="notifyCustomer">A value indicating whether to send a notification message to the customer.</param>
+        </member>
+        <member name="T:Smartstore.Web.Api.Controllers.ShippingMethodsController">
+            <summary>
+            The endpoint for operations on ShippingMethod entity.
+            </summary>
+        </member>
+        <member name="T:Smartstore.Web.Api.Controllers.ShoppingCartItemsController">
+            <summary>
+            The endpoint for operations on ShoppingCartItem entity and managing shopping carts.
+            </summary>
+        </member>
+        <member name="M:Smartstore.Web.Api.Controllers.ShoppingCartItemsController.AddToCart(System.Int32,System.Int32,System.Int32,Smartstore.Core.Checkout.Cart.ShoppingCartType,System.Int32,Smartstore.Web.Api.Models.Checkout.AddToCartExtraData)">
+            <summary>
+            Adds a product to cart or wishlist.
+            </summary>
+            <remarks>
+            Returns the cart or the wishlist items of the customer depending on the value of the **shoppingCartType** parameter.
+            </remarks>
+            <param name="customerId" example="5678">Identifier of the customer who owns the cart.</param>
+            <param name="productId" example="1234">Identifier of the product to add.</param>
+            <param name="quantity" example="1">The quantity to add.</param>
+            <param name="shoppingCartType" example="1">**1** to add item to the shopping cart. **2** to add to wishlist.</param>
+            <param name="storeId" example="0">Identifier of the store the cart item belongs to. If **0**, then the current store is used.</param>
+            <param name="extraData">Optional extra data to apply, e.g. product attributes.</param>
+        </member>
+        <member name="M:Smartstore.Web.Api.Controllers.ShoppingCartItemsController.UpdateItem(System.Int32,System.Nullable{System.Int32},System.Nullable{System.Boolean})">
+            <summary>
+            Updates a shopping cart item.
+            </summary>
+            <param name="quantity" example="1">The quantity to set.</param>
+            <param name="enabled" example="true">A value indicating whether to enable or disable the cart item.</param>
+        </member>
+        <member name="M:Smartstore.Web.Api.Controllers.ShoppingCartItemsController.DeleteItem(System.Int32,System.Boolean,System.Boolean)">
+            <summary>
+            Deletes a shopping cart item.
+            </summary>
+            <param name="resetCheckoutData" example="false">
+            A value indicating whether to reset checkout data of the customer to whom the cart item belongs.
+            For example selected payment and shipping method.
+            </param>
+            <param name="removeInvalidCheckoutAttributes" example="false">
+            A value indicating whether to remove checkout attributes that require shipping, if the cart does not require shipping at all.
+            </param>
+        </member>
+        <member name="M:Smartstore.Web.Api.Controllers.ShoppingCartItemsController.DeleteCart(System.Int32,Smartstore.Core.Checkout.Cart.ShoppingCartType,System.Int32)">
+            <summary>
+            Deletes the shopping cart of a Customer. Returns the number of deleted shopping cart items.
+            </summary>
+            <param name="customerId" example="5678">Identifier of the customer who owns the cart.</param>
+            <param name="shoppingCartType" example="1">A value indicating whether to delete the shopping cart or the wishlist.</param>
+            <param name="storeId" example="0">Identifier to filter cart items by store. 0 to delete all items.</param>
+            <response code="200">Number of deleted shopping cart items.</response>
+        </member>
+        <member name="T:Smartstore.Web.Api.Controllers.TaxCategoriesController">
+            <summary>
+            The endpoint for operations on TaxCategory entity.
+            </summary>
+        </member>
+        <member name="T:Smartstore.Web.Api.Controllers.AddressesController">
+            <summary>
+            The endpoint for operations on Address entity.
+            </summary>
+        </member>
+        <member name="T:Smartstore.Web.Api.Controllers.CountriesController">
+            <summary>
+            The endpoint for operations on Country entity.
+            </summary>
+        </member>
+        <member name="T:Smartstore.Web.Api.Controllers.CurrenciesController">
+            <summary>
+            The endpoint for operations on Currency entity.
+            </summary>
+        </member>
+        <member name="T:Smartstore.Web.Api.Controllers.DeliveryTimesController">
+            <summary>
+            The endpoint for operations on DeliveryTime entity.
+            </summary>
+        </member>
+        <member name="M:Smartstore.Web.Api.Controllers.DeliveryTimesController.GetDeliveryDate(System.Int32)">
+            <summary>
+            Gets the calculated minimum and maximum delivery date (if any).
+            </summary>
+        </member>
+        <member name="T:Smartstore.Web.Api.Controllers.GenericAttributesController">
+            <summary>
+            The endpoint for operations on GenericAttribute entity.
+            </summary>
+        </member>
+        <member name="T:Smartstore.Web.Api.Controllers.MeasureDimensionsController">
+            <summary>
+            The endpoint for operations on MeasureDimension entity.
+            </summary>
+        </member>
+        <member name="T:Smartstore.Web.Api.Controllers.MeasureWeightsController">
+            <summary>
+            The endpoint for operations on MeasureWeight entity.
+            </summary>
+        </member>
+        <member name="T:Smartstore.Web.Api.Controllers.QuantityUnitsController">
+            <summary>
+            The endpoint for operations on QuantityUnit entity.
+            </summary>
+        </member>
+        <member name="T:Smartstore.Web.Api.Controllers.StateProvincesController">
+            <summary>
+            The endpoint for operations on StateProvince entity.
+            </summary>
+        </member>
+        <member name="T:Smartstore.Web.Api.Controllers.SettingsController">
+            <summary>
+            The endpoint for operations on Setting entity.
+            </summary>
+        </member>
+        <member name="T:Smartstore.Web.Api.Controllers.DownloadsController">
+            <summary>
+            The endpoint for operations on Download entity.
+            </summary>
+        </member>
+        <member name="T:Smartstore.Web.Api.Controllers.MediaFilesController">
+            <summary>
+            The endpoint for operations on MediaFile entity. Returns type FileItemInfo which enriches MediaFile.
+            </summary>
+        </member>
+        <member name="M:Smartstore.Web.Api.Controllers.MediaFilesController.GetFileByPath(System.String)">
+            <summary>
+            Gets a file by path.
+            </summary>
+            <param name="path" example="content/my-file.jpg">The path of the file.</param>
+        </member>
+        <member name="M:Smartstore.Web.Api.Controllers.MediaFilesController.GetFilesByIds(System.Int32[])">
+            <summary>
+            Gets files by identifiers.
+            </summary>
+            <param name="ids" example="[1,2,3]">Comma separated list of MediaFile identifiers.</param>
+        </member>
+        <member name="M:Smartstore.Web.Api.Controllers.MediaFilesController.DownloadFile(System.Int32)">
+            <summary>
+            Downloads a file.
+            </summary>
+        </member>
+        <member name="M:Smartstore.Web.Api.Controllers.MediaFilesController.SearchFiles(Smartstore.Core.Content.Media.MediaSearchQuery)">
+            <summary>
+            Searches for files using filter criteria.
+            </summary>
+            <param name="query">The query that defines the search criteria.</param>
+        </member>
+        <member name="M:Smartstore.Web.Api.Controllers.MediaFilesController.CountFiles(Smartstore.Core.Content.Media.MediaSearchQuery)">
+            <summary>
+            Ges the number of files that match the filter criteria in query property.
+            </summary>
+            <param name="query">The query that defines the filter criteria.</param>
+        </member>
+        <member name="M:Smartstore.Web.Api.Controllers.MediaFilesController.CountFilesGrouped(Smartstore.Core.Content.Media.MediaFilesFilter)">
+            <summary>
+            Gets the number of files that match filter criteria.
+            </summary>
+            <param name="filter">Filter criteria.</param>
+        </member>
+        <member name="M:Smartstore.Web.Api.Controllers.MediaFilesController.FileExists(System.String)">
+            <summary>
+            Gets a value indicating whether a file exists.
+            </summary>
+            <param name="path" example="content/my-file.jpg">The path of the file.</param>
+        </member>
+        <member name="M:Smartstore.Web.Api.Controllers.MediaFilesController.CheckUniqueFileName(System.String)">
+            <summary>
+            Checks the uniqueness of a file name.
+            </summary>
+            <param name="path" example="content/my-file.jpg">The path of the file.</param>
+        </member>
+        <member name="M:Smartstore.Web.Api.Controllers.MediaFilesController.MoveFile(System.Int32,System.String,Smartstore.Core.Content.Media.DuplicateFileHandling)">
+            <summary>
+            Moves a file.
+            </summary>
+            <param name="destinationFileName" example="content/updated-file-name.jpg">The destination file name.</param>
+            <param name="duplicateFileHandling" example="0">A value indicating how to proceed if the destination file already exists.</param>
+        </member>
+        <member name="M:Smartstore.Web.Api.Controllers.MediaFilesController.CopyFile(System.Int32,System.String,Smartstore.Core.Content.Media.DuplicateFileHandling)">
+            <summary>
+            Copies a file.
+            </summary>
+            <param name="destinationFileName" example="content/new-file.jpg">The destination file name.</param>
+            <param name="duplicateFileHandling" example="0">A value indicating how to proceed if the destination file already exists.</param>
+        </member>
+        <member name="M:Smartstore.Web.Api.Controllers.MediaFilesController.DeleteFile(System.Int32,System.Boolean,System.Boolean)">
+            <summary>
+            Deletes a file.
+            </summary>
+            <param name="permanent" example="false">A value indicating whether to permanently delete the file.</param>
+            <param name="force" example="false">A value indicating whether to delete the file if it is referenced by another entity.</param>
+        </member>
+        <member name="M:Smartstore.Web.Api.Controllers.MediaFilesController.SaveFile(Microsoft.AspNetCore.Http.IFormFile,System.String,System.Boolean,Smartstore.Core.Content.Media.DuplicateFileHandling)">
+            <summary>
+            Saves a file.
+            </summary>
+            <param name="file">The file to be saved.</param>
+            <param name="path" example="file/my-file.jpg">The path of the file.</param>
+            <param name="isTransient" example="true">A value indicating whether the file is transient/preliminary.</param>
+            <param name="duplicateFileHandling">A value of indicating how to proceed if the uploaded file already exists.</param>
+        </member>
+        <member name="T:Smartstore.Web.Api.Controllers.MediaFoldersController">
+            <summary>
+            The endpoint for operations on MediaFolder entity. Returns type FolderNodeInfo which wraps and enriches MediaFolder.
+            </summary>
+        </member>
+        <member name="M:Smartstore.Web.Api.Controllers.MediaFoldersController.FolderExists(System.String)">
+            <summary>
+            Gets a value indicating whether a folder exists.
+            </summary>
+            <param name="path" example="content/my-folder">The path of the folder.</param>
+        </member>
+        <member name="M:Smartstore.Web.Api.Controllers.MediaFoldersController.CheckUniqueFolderName(System.String)">
+            <summary>
+            Checks the uniqueness of a folder name.
+            </summary>
+            <param name="path" example="content/my-folder">The path of the folder.</param>
+        </member>
+        <member name="M:Smartstore.Web.Api.Controllers.MediaFoldersController.GetRootNode">
+            <summary>
+            Gets the root folder node.
+            </summary>
+        </member>
+        <member name="M:Smartstore.Web.Api.Controllers.MediaFoldersController.GetNodeByPath(System.String)">
+            <summary>
+            Gets a folder node by path.
+            </summary>
+            <param name="path" example="content/my-folder">The path of the folder.</param>
+        </member>
+        <member name="M:Smartstore.Web.Api.Controllers.MediaFoldersController.CreateFolder(System.String)">
+            <summary>
+            Creates a folder.
+            </summary>
+            <param name="path" example="content/my-folder">The path of the folder.</param>
+        </member>
+        <member name="M:Smartstore.Web.Api.Controllers.MediaFoldersController.MoveFolder(System.String,System.String)">
+            <summary>
+            Moves a folder.
+            </summary>
+            <param name="path" example="content/my-folder">The path of the folder.</param>
+            <param name="destinationPath" example="content/my-renamed-folder">The destination folder path.</param>
+        </member>
+        <member name="M:Smartstore.Web.Api.Controllers.MediaFoldersController.CopyFolder(System.String,System.String,Smartstore.Core.Content.Media.DuplicateEntryHandling)">
+            <summary>
+            Copies a folder.
+            </summary>
+            <param name="path" example="content/my-folder">The path of the folder.</param>
+            <param name="destinationPath" example="content/my-new-folder">The destination folder path.</param>
+            <param name="duplicateEntryHandling" example="0">A value indicating how to proceed if the destination folder already exists.</param>
+        </member>
+        <member name="M:Smartstore.Web.Api.Controllers.MediaFoldersController.DeleteFolder(System.String,Smartstore.Core.Content.Media.FileHandling)">
+            <summary>
+            Deletes a folder.
+            </summary>
+            <param name="path" example="content/my-folder">The path of the folder.</param>
+            <param name="fileHandling" example="0">A value indicating how to proceed with the files of the deleted folder.</param>
+        </member>
+        <member name="T:Smartstore.Web.Api.Controllers.ImportProfilesController">
+            <summary>
+            The endpoint for operations on ImportProfile entity.
+            </summary>
+        </member>
+        <member name="M:Smartstore.Web.Api.Controllers.ImportProfilesController.SaveFiles(System.Int32,Microsoft.AspNetCore.Http.IFormFileCollection,System.String,System.Boolean,System.Boolean)">
+            <summary>
+            Saves import files and assigns them to an ImportProfile.
+            </summary>
+            <param name="key">
+            Identifier of the import profile to which the files should be assigned.
+            0 if the profile is to be identified by name.
+            </param>
+            <param name="files">The files to be saved.</param>
+            <param name="name">Optional name by which the import profile is to be identified.</param>
+            <param name="clearDirectory">A value indicating whether to clear the content directory of the profile.</param>
+            <param name="startImport">A value indicating whether the import should be started.</param>
+        </member>
+        <member name="T:Smartstore.Web.Api.Controllers.SyncMappingsController">
+            <summary>
+            The endpoint for operations on SyncMapping entity.
+            </summary>
+        </member>
+        <member name="T:Smartstore.Web.Api.Controllers.CustomerRoleMappingsController">
+            <summary>
+            The endpoint for operations on CustomerRoleMapping entity.
+            </summary>
+        </member>
+        <member name="T:Smartstore.Web.Api.Controllers.CustomerRolesController">
+            <summary>
+            The endpoint for operations on CustomerRole entity.
+            </summary>
+        </member>
+        <member name="T:Smartstore.Web.Api.Controllers.CustomersController">
+            <summary>
+            The endpoint for operations on Customer entity.
+            </summary>
+        </member>
+        <member name="M:Smartstore.Web.Api.Controllers.CustomersController.GetWalletHistory(System.Int32)">
+            <summary>
+            Gets WalletHistory entities assigned to a Customer.
+            </summary>
+            <remarks>Only applicable if a wallet plugin is installed.</remarks>
+        </member>
+        <member name="M:Smartstore.Web.Api.Controllers.CustomersController.PostAddresses(System.Int32,System.Int32)">
+            <summary>
+            Assigns an Address to a Customer.
+            </summary>
+            <remarks>
+            The assignment is created only if it does not already exist.
+            </remarks>
+            <param name="relatedkey">The Address identifier.</param>
+        </member>
+        <member name="M:Smartstore.Web.Api.Controllers.CustomersController.DeleteAddresses(System.Int32,System.Int32)">
+            <summary>
+            Removes the assignment of an Address to a Customer.
+            </summary>
+            <param name="relatedkey">The Address identifier. 0 to remove all address assignments.</param>
+        </member>
+        <member name="T:Smartstore.Web.Api.Controllers.RewardPointsHistoryController">
+            <summary>
+            The endpoint for operations on RewardPointsHistory entity.
+            </summary>
+        </member>
+        <member name="T:Smartstore.Web.Api.Controllers.LanguagesController">
+            <summary>
+            The endpoint for operations on Language entity.
+            </summary>
+        </member>
+        <member name="T:Smartstore.Web.Api.Controllers.LocalizedPropertiesController">
+            <summary>
+            The endpoint for operations on LocalizedProperty entity.
+            </summary>
+        </member>
+        <member name="T:Smartstore.Web.Api.Controllers.NewsletterSubscriptionsController">
+            <summary>
+            The endpoint for operations on NewsLetterSubscription entity.
+            </summary>
+        </member>
+        <member name="M:Smartstore.Web.Api.Controllers.NewsletterSubscriptionsController.Subscribe(System.Int32)">
+            <summary>
+            Activates a newsletter subscription.
+            </summary>
+            <remarks>Also sends an activation message to the related email address.</remarks>
+        </member>
+        <member name="M:Smartstore.Web.Api.Controllers.NewsletterSubscriptionsController.Unsubscribe(System.Int32)">
+            <summary>
+            Deactivates a newsletter subscription.
+            </summary>
+            <remarks>Also sends a deactivation message to the related email address.</remarks>
+        </member>
+        <member name="T:Smartstore.Web.Api.Controllers.UrlRecordsController">
+            <summary>
+            The endpoint for operations on UrlRecord entity.
+            </summary>
+        </member>
+        <member name="T:Smartstore.Web.Api.Controllers.StoreMappingsController">
+            <summary>
+            The endpoint for operations on StoreMapping entity.
+            </summary>
+        </member>
+        <member name="T:Smartstore.Web.Api.Controllers.StoresController">
+            <summary>
+            The endpoint for operations on Address entity.
+            </summary>
+        </member>
+        <member name="T:Smartstore.Web.Api.Models.Catalog.CalculatedProductPrice">
+            <summary>
+            Represents the result of a price calculation process for a single product.
+            </summary>
+        </member>
+        <member name="P:Smartstore.Web.Api.Models.Catalog.CalculatedProductPrice.ProductId">
+            <summary>
+            The identifier of the product for which a price was calculated.
+            </summary>
+        </member>
+        <member name="P:Smartstore.Web.Api.Models.Catalog.CalculatedProductPrice.CurrencyId">
+            <summary>
+            The identifier of the currency into which the prices were converted.
+            </summary>
+        </member>
+        <member name="P:Smartstore.Web.Api.Models.Catalog.CalculatedProductPrice.CurrencyCode">
+            <summary>
+            The ISO code of the currency into which the prices were converted.
+            </summary>
+        </member>
+        <member name="P:Smartstore.Web.Api.Models.Catalog.CalculatedProductPrice.FinalPrice">
+            <summary>
+            The final price of the product.
+            </summary>
+        </member>
+        <member name="P:Smartstore.Web.Api.Models.Catalog.CalculatedProductPrice.RegularPrice">
+            <summary>
+            The regular unit price of the product.
+            Usually Product.Price, Product.ComparePrice or Product.SpecialPrice.
+            </summary>
+        </member>
+        <member name="P:Smartstore.Web.Api.Models.Catalog.CalculatedProductPrice.RetailPrice">
+            <summary>
+            The retail unit price (MSRP) of the product.
+            A retail price is given Product.ComparePrice is not 0 and Product.ComparePriceLabelId referes to an MSRP label.
+            </summary>
+        </member>
+        <member name="P:Smartstore.Web.Api.Models.Catalog.CalculatedProductPrice.OfferPrice">
+            <summary>
+            The special offer price, if any (see Product.SpecialPrice).
+            </summary>
+        </member>
+        <member name="P:Smartstore.Web.Api.Models.Catalog.CalculatedProductPrice.ValidUntilUtc">
+            <summary>
+            The date until <see cref="P:Smartstore.Web.Api.Models.Catalog.CalculatedProductPrice.FinalPrice"/> is valid.
+            </summary>
+        </member>
+        <member name="P:Smartstore.Web.Api.Models.Catalog.CalculatedProductPrice.PreselectedPrice">
+            <summary>
+            The price that is initially displayed on the product detail page, if any.
+            Includes price adjustments of preselected attributes and prices of attribute combinations.
+            </summary>
+        </member>
+        <member name="P:Smartstore.Web.Api.Models.Catalog.CalculatedProductPrice.LowestPrice">
+            <summary>
+            The lowest possible price of a product, if any.
+            Includes prices of attribute combinations and tier prices. Ignores price adjustments of attributes.
+            </summary>
+        </member>
+        <member name="P:Smartstore.Web.Api.Models.Catalog.CalculatedProductPrice.DiscountAmount">
+            <summary>
+            The discount amount applied to FinalPrice.
+            </summary>
+        </member>
+        <member name="P:Smartstore.Web.Api.Models.Catalog.CalculatedProductPrice.Saving">
+            <summary>
+            A price saving in relation to FinalPrice.
+            The saving results from the applied discounts, if any, otherwise from the difference to the Product.ComparePrice.
+            </summary>
+        </member>
+        <member name="P:Smartstore.Web.Api.Models.Catalog.CalculatedProductPrice.ProductPriceSaving.HasSaving">
+            <summary>
+            A value indicating whether there is a price saving on the calculated final price.
+            </summary>
+        </member>
+        <member name="P:Smartstore.Web.Api.Models.Catalog.CalculatedProductPrice.ProductPriceSaving.SavingPrice">
+            <summary>
+            The price that represents the saving. Often displayed as a crossed-out price.
+            Always greater than the final price if HasSaving is true.
+            </summary>
+        </member>
+        <member name="P:Smartstore.Web.Api.Models.Catalog.CalculatedProductPrice.ProductPriceSaving.SavingPercent">
+            <summary>
+            The saving, in percent, compared to the final price.
+            </summary>
+        </member>
+        <member name="P:Smartstore.Web.Api.Models.Catalog.CalculatedProductPrice.ProductPriceSaving.SavingAmount">
+            <summary>
+            The saving, as money amount, compared to the final price.
+            </summary>
+        </member>
+        <member name="T:Smartstore.Web.Api.Models.Catalog.CatalogSearchQueryModel">
+            <summary>
+            Represents query parameters for a catalog search.
+            </summary>
+        </member>
+        <member name="P:Smartstore.Web.Api.Models.Catalog.CatalogSearchQueryModel.Term">
+            <summary>
+            The search term.
+            </summary>
+            <example>iphone</example>
+        </member>
+        <member name="P:Smartstore.Web.Api.Models.Catalog.CatalogSearchQueryModel.PageIndex">
+            <summary>
+            The page index, starting from 1. **$skip** is ignored. Example: 1.
+            </summary>
+        </member>
+        <member name="P:Smartstore.Web.Api.Models.Catalog.CatalogSearchQueryModel.PageSize">
+            <summary>
+            The page size. **$top** is ignored.  Example: 100.
+            </summary>
+        </member>
+        <member name="P:Smartstore.Web.Api.Models.Catalog.CatalogSearchQueryModel.OrderBy">
+            <summary>
+            Product sorting. **$orderby** is ignored.
+            </summary>
+        </member>
+        <member name="P:Smartstore.Web.Api.Models.Catalog.CatalogSearchQueryModel.CategoryIds">
+            <summary>
+            Comma separated list of category identifiers. Example: **2,3**.
+            </summary>
+        </member>
+        <member name="P:Smartstore.Web.Api.Models.Catalog.CatalogSearchQueryModel.ManufacturerIds">
+            <summary>
+            Comma separated list of manufacturer identifiers. Example: **5**.
+            </summary>
+        </member>
+        <member name="P:Smartstore.Web.Api.Models.Catalog.CatalogSearchQueryModel.DeliveryTimeIds">
+            <summary>
+            Comma separated list of delivery time identifiers. Example: **8,9**.
+            </summary>
+        </member>
+        <member name="P:Smartstore.Web.Api.Models.Catalog.CatalogSearchQueryModel.PriceRange">
+            <summary>
+            Price range (from~to or from(~) or ~to). Example: **100~150**.
+            </summary>
+        </member>
+        <member name="P:Smartstore.Web.Api.Models.Catalog.CatalogSearchQueryModel.Rating">
+            <summary>
+            Minimum rating. Example: **2**.
+            </summary>
+        </member>
+        <member name="P:Smartstore.Web.Api.Models.Catalog.CatalogSearchQueryModel.Availability">
+            <summary>
+            Availability. Example: **true**.
+            </summary>
+        </member>
+        <member name="P:Smartstore.Web.Api.Models.Catalog.CatalogSearchQueryModel.NewArrivals">
+            <summary>
+            New arrivals. Example: **true**.
+            </summary>
+        </member>
+        <member name="T:Smartstore.Web.Api.Models.Catalog.ManagedProductAttribute">
+            <summary>
+            Represents a managed product attributes and its values.
+            </summary>
+        </member>
+        <member name="P:Smartstore.Web.Api.Models.Catalog.ManagedProductAttribute.Name">
+            <summary>
+            The name of the product attribute.
+            </summary>
+            <example>Color</example>
+        </member>
+        <member name="P:Smartstore.Web.Api.Models.Catalog.ManagedProductAttribute.IsRequired">
+            <summary>
+            A value indicating whether the attribute is required (mandatory to be selected).
+            </summary>
+        </member>
+        <member name="P:Smartstore.Web.Api.Models.Catalog.ManagedProductAttribute.ControlType">
+            <summary>
+            The input control type of the attribute.
+            </summary>
+        </member>
+        <member name="P:Smartstore.Web.Api.Models.Catalog.ManagedProductAttribute.CustomData">
+            <summary>
+            Any custom data. It's not used by Smartstore but is being passed to the choice partial view.
+            </summary>
+        </member>
+        <member name="P:Smartstore.Web.Api.Models.Catalog.ManagedProductAttribute.Values">
+            <summary>
+            A list of attribute values.
+            </summary>
+        </member>
+        <member name="P:Smartstore.Web.Api.Models.Catalog.ManagedProductAttribute.ManageProductAttributeValue.Name">
+            <summary>
+            The name of of the attribute value.
+            </summary>
+            <example>Green</example>
+        </member>
+        <member name="P:Smartstore.Web.Api.Models.Catalog.ManagedProductAttribute.ManageProductAttributeValue.Alias">
+            <summary>
+            The SEO friendly search alias.
+            </summary>
+        </member>
+        <member name="P:Smartstore.Web.Api.Models.Catalog.ManagedProductAttribute.ManageProductAttributeValue.Color">
+            <summary>
+            The color RGB value (used with "Boxes" attribute type).
+            </summary>
+            <example>#00ff00</example>
+        </member>
+        <member name="P:Smartstore.Web.Api.Models.Catalog.ManagedProductAttribute.ManageProductAttributeValue.PriceAdjustment">
+            <summary>
+            A price adjustment\surcharge.
+            </summary>
+            <example>2.5</example>
+        </member>
+        <member name="P:Smartstore.Web.Api.Models.Catalog.ManagedProductAttribute.ManageProductAttributeValue.WeightAdjustment">
+            <summary>
+            A weight adjustment.
+            </summary>
+        </member>
+        <member name="P:Smartstore.Web.Api.Models.Catalog.ManagedProductAttribute.ManageProductAttributeValue.IsPreSelected">
+            <summary>
+            A value indicating whether the value is preselected.
+            </summary>
+        </member>
+        <member name="T:Smartstore.Web.Api.Models.Checkout.AddToCartExtraData">
+            <summary>
+            Represents optional extra data when adding an item to shopping cart or wishlist.
+            </summary>
+        </member>
+        <member name="P:Smartstore.Web.Api.Models.Checkout.AddToCartExtraData.Attributes">
+            <summary>
+            Product attributes to apply. Requires product variant identifiers to specify.
+            Alternatively, if you do not know the identifiers, then you can use **searchAttributes**.
+            
+            Use **attributes** or **searchAttributes**, but not both together.
+            Both do the same thing (applying attributes), just in different ways.
+            </summary>
+        </member>
+        <member name="P:Smartstore.Web.Api.Models.Checkout.AddToCartExtraData.SearchAttributes">
+            <summary>
+            Searches for attributes associated with the product and applies them.
+            Simple attributes such as **color** or **size** can be specified more easily this way than via **attributes**.
+            
+            Use **attributes** or **searchAttributes**, but not both together.
+            Both do the same thing (applying attributes), just in different ways.
+            </summary>
+        </member>
+        <member name="P:Smartstore.Web.Api.Models.Checkout.AddToCartExtraData.CheckoutAttributes">
+            <summary>
+            Checkout attributes to apply. Requires checkout attribute identifiers to specify.
+            Alternatively, if you do not know the identifiers, then you can use **searchCheckoutAttributes**.
+            
+            Use **checkoutAttributes** or **searchCheckoutAttributes**, but not both together.
+            Both do the same thing (applying checkout attributes), just in different ways.
+            </summary>
+        </member>
+        <member name="P:Smartstore.Web.Api.Models.Checkout.AddToCartExtraData.SearchCheckoutAttributes">
+            <summary>
+            Searches for checkout attributes and applies them.
+            
+            Use **checkoutAttributes** or **searchCheckoutAttributes**, but not both together.
+            Both do the same thing (applying checkout attributes), just in different ways.
+            </summary>
+        </member>
+        <member name="P:Smartstore.Web.Api.Models.Checkout.AddToCartExtraData.GiftCard">
+            <summary>
+            Gift card properties to apply. Only applicable if the product is a gift card.
+            </summary>
+        </member>
+        <member name="P:Smartstore.Web.Api.Models.Checkout.AddToCartExtraData.CustomerEnteredPrice">
+            <summary>
+            A price entered by customer. Only applicable if the product supports it.
+            </summary>
+        </member>
+        <member name="T:Smartstore.Web.Api.Models.Checkout.AddToCartExtraData.AddToCartPrice">
+            <summary>
+            Represents a price entered by customer.
+            </summary>
+        </member>
+        <member name="P:Smartstore.Web.Api.Models.Checkout.AddToCartExtraData.AddToCartPrice.Price">
+            <summary>
+            Customer entered price. Only applicable if the product supports it.
+            </summary>
+            <example>9.89</example>
+        </member>
+        <member name="P:Smartstore.Web.Api.Models.Checkout.AddToCartExtraData.AddToCartPrice.CurrencyCode">
+            <summary>
+            Currency code for **price**.
+            If empty, then **price** must be in the primary currency of the store.
+            </summary>
+            <example>EUR</example>
+        </member>
+        <member name="T:Smartstore.Web.Api.Models.Checkout.AddToCartExtraData.SearchAttribute">
+            <summary>
+            Represents a product or checkout attribute to search for.
+            </summary>
+        </member>
+        <member name="P:Smartstore.Web.Api.Models.Checkout.AddToCartExtraData.SearchAttribute.Name">
+            <summary>
+            The name of the attribute.
+            </summary>
+            <example>Color</example>
+        </member>
+        <member name="P:Smartstore.Web.Api.Models.Checkout.AddToCartExtraData.SearchAttribute.Value">
+            <summary>
+            The value of the attribute.
+            </summary>
+            <example>Green</example>
+        </member>
+        <member name="T:Smartstore.Web.Api.Models.Checkout.OrderDetails">
+            <summary>
+            Provides prepared order data.
+            Returns data in context of language, currency conversion rate etc. that was applied at the time the order was placed.
+            </summary>
+        </member>
+        <member name="P:Smartstore.Web.Api.Models.Checkout.OrderDetails.Id">
+            <summary>
+            Get the order identifier.
+            </summary>
+        </member>
+        <member name="P:Smartstore.Web.Api.Models.Checkout.OrderDetails.OrderSubtotal">
+            <summary>
+            Gets the order subtotal.
+            </summary>
+        </member>
+        <member name="P:Smartstore.Web.Api.Models.Checkout.OrderDetails.OrderTotal">
+            <summary>
+            Gets the order total.
+            </summary>
+        </member>
+        <member name="P:Smartstore.Web.Api.Models.Checkout.OrderDetails.ShowSku">
+            <summary>
+            Gets a value indicating whether to display the product SKU according to <see cref="P:Smartstore.Core.Catalog.CatalogSettings.ShowProductSku"/>.
+            </summary>
+        </member>
+        <member name="P:Smartstore.Web.Api.Models.Checkout.OrderDetails.ShowProductImages">
+            <summary>
+            Gets a value indicating whether to display the product images according to <see cref="P:Smartstore.Core.Checkout.Cart.ShoppingCartSettings.ShowProductImagesOnShoppingCart"/>.
+            </summary>
+        </member>
+        <member name="P:Smartstore.Web.Api.Models.Checkout.OrderDetails.Items">
+            <summary>
+            Gets a list of ordered items.
+            </summary>
+        </member>
+        <member name="T:Smartstore.Web.Api.Models.Checkout.OrderDetails.OrderItemDetails">
+            <summary>
+            Provides prepared order item data like the SKU or image URL of the ordered product variant.
+            </summary>
+        </member>
+        <member name="P:Smartstore.Web.Api.Models.Checkout.OrderDetails.OrderItemDetails.OrderItemId">
+            <summary>
+            Get the order item identifier.
+            </summary>
+        </member>
+        <member name="P:Smartstore.Web.Api.Models.Checkout.OrderDetails.OrderItemDetails.ProductId">
+            <summary>
+            Get the product identifier.
+            </summary>
+        </member>
+        <member name="P:Smartstore.Web.Api.Models.Checkout.OrderDetails.OrderItemDetails.IsProductSoftDeleted">
+            <summary>
+            Gets a value indicating whether the product is soft-deleted.
+            </summary>
+        </member>
+        <member name="P:Smartstore.Web.Api.Models.Checkout.OrderDetails.OrderItemDetails.Sku">
+            <summary>
+            Gets the product variant SKU if a product variant was ordered, otherwise the product SKU.
+            </summary>
+        </member>
+        <member name="P:Smartstore.Web.Api.Models.Checkout.OrderDetails.OrderItemDetails.ProductName">
+            <summary>
+            Gets the product name in the language chosen by the buyer at the time the order was placed.
+            </summary>
+        </member>
+        <member name="P:Smartstore.Web.Api.Models.Checkout.OrderDetails.OrderItemDetails.ProductSlug">
+            <summary>
+            Gets the slug of the product URL.
+            </summary>
+            <example>my-red-iphone</example>
+        </member>
+        <member name="P:Smartstore.Web.Api.Models.Checkout.OrderDetails.OrderItemDetails.ProductUrl">
+            <summary>
+            Gets the product URL.
+            </summary>
+            <example>/my-red-iphone?pvari4011-0-10-811=3360</example>
+        </member>
+        <member name="P:Smartstore.Web.Api.Models.Checkout.OrderDetails.OrderItemDetails.UnitPrice">
+            <summary>
+            Gets the unit price converted to the rate that was applied at the time the order was placed.
+            </summary>
+            <example>37.23</example>
+        </member>
+        <member name="P:Smartstore.Web.Api.Models.Checkout.OrderDetails.OrderItemDetails.SubTotal">
+            <summary>
+            Gets the subtotal converted to the rate that was applied at the time the order was placed.
+            </summary>
+            <example>186.15</example>
+        </member>
+        <member name="P:Smartstore.Web.Api.Models.Checkout.OrderDetails.OrderItemDetails.ProductImageUrl">
+            <summary>
+            The URL of the product image.
+            The current host name is prepended if <see cref="P:Smartstore.Core.Content.Media.MediaSettings.AutoGenerateAbsoluteUrls"/> is enabled.
+            </summary>
+            <example>//www.my-shop.com/media/40/catalog/my-red-iphone.jpg</example>
+        </member>
+        <member name="P:Smartstore.Web.Api.Models.Checkout.OrderDetails.OrderItemDetails.ProductThumbUrl">
+            <summary>
+            The thumbnail URL of the product image.
+            The current host name is prepended if <see cref="P:Smartstore.Core.Content.Media.MediaSettings.AutoGenerateAbsoluteUrls"/> is enabled.
+            </summary>
+            <example>//www.my-shop.com/media/40/catalog/my-red-iphone.jpg?size=256</example>
+        </member>
+        <member name="T:Smartstore.Web.Api.Models.Checkout.OrderItemShipmentInfo">
+            <summary>
+            Provides additional shipment information for an order item.
+            </summary>
+        </member>
+        <member name="P:Smartstore.Web.Api.Models.Checkout.OrderItemShipmentInfo.ItemsCanBeAddedToShipmentCount">
+            <summary>
+            Gets the total number of items which can be added to new shipments.
+            </summary>
+        </member>
+        <member name="P:Smartstore.Web.Api.Models.Checkout.OrderItemShipmentInfo.ShipmentItemsCount">
+            <summary>
+            Gets the total number of items in all shipments.
+            </summary>
+        </member>
+        <member name="P:Smartstore.Web.Api.Models.Checkout.OrderItemShipmentInfo.DispatchedItemsCount">
+            <summary>
+            Gets the total number of dispatched items.
+            </summary>
+        </member>
+        <member name="P:Smartstore.Web.Api.Models.Checkout.OrderItemShipmentInfo.NotDispatchedItemsCount">
+            <summary>
+            Gets the total number of not dispatched items.
+            </summary>
+        </member>
+        <member name="P:Smartstore.Web.Api.Models.Checkout.OrderItemShipmentInfo.DeliveredItemsCount">
+            <summary>
+            Gets the total number of already delivered items.
+            </summary>
+        </member>
+        <member name="P:Smartstore.Web.Api.Models.Checkout.OrderItemShipmentInfo.NotDeliveredItemsCount">
+            <summary>
+            Gets the total number of not delivered items.
+            </summary>
+        </member>
+        <member name="T:Smartstore.Web.Api.Models.Checkout.OrderShipmentInfo">
+            <summary>
+            Provides additional shipment information for an order.
+            </summary>
+        </member>
+        <member name="P:Smartstore.Web.Api.Models.Checkout.OrderShipmentInfo.HasItemsToDispatch">
+            <summary>
+            Gets a value indicating whether an order has items to dispatch.
+            </summary>
+        </member>
+        <member name="P:Smartstore.Web.Api.Models.Checkout.OrderShipmentInfo.HasItemsToDeliver">
+            <summary>
+            Gets a value indicating whether an order has items to deliver.
+            </summary>
+        </member>
+        <member name="P:Smartstore.Web.Api.Models.Checkout.OrderShipmentInfo.CanAddItemsToShipment">
+            <summary>
+            Gets a value indicating whether an order has items to be added to a shipment.
+            </summary>
+        </member>
+        <member name="P:Smartstore.Web.Api.Models.Checkout.PaymentRefundModel.Online">
+            <summary>
+            A value indicating whether to refund online (refunding via payment provider) 
+            or offline (just mark as refunded without calling the payment provider).
+            </summary>
+        </member>
+        <member name="P:Smartstore.Web.Api.Models.Checkout.PaymentRefundModel.AmountToRefund">
+            <summary>
+            The amount to refund. 0 to refund the maximum refundable amount (default).
+            </summary>
+        </member>
+        <member name="P:Smartstore.Web.Api.Models.Media.CheckUniquenessResult.Result">
+            <summary>
+            True when passed path exists already.
+            </summary>
+        </member>
+        <member name="P:Smartstore.Web.Api.Models.Media.CheckUniquenessResult.NewPath">
+            <summary>
+            The new unique path if the passed path already exists, otherwise null.
+            </summary>
+        </member>
+        <member name="T:Smartstore.Web.Api.Models.Media.FileItemInfo">
+            <summary>
+            Represents a media file.
+            </summary>
+        </member>
+        <member name="P:Smartstore.Web.Api.Models.Media.FileItemInfo.Id">
+            <summary>
+            The MediaFile identifier.
+            </summary>
+        </member>
+        <member name="P:Smartstore.Web.Api.Models.Media.FileItemInfo.Directory">
+            <summary>
+            The relative path without the file part (but with trailing slash).
+            </summary>
+            <example>catalog</example>
+        </member>
+        <member name="P:Smartstore.Web.Api.Models.Media.FileItemInfo.Path">
+            <summary>
+            The path of the file.
+            </summary>
+            <example>content/my-file.jpg</example>
+        </member>
+        <member name="P:Smartstore.Web.Api.Models.Media.FileItemInfo.Url">
+            <summary>
+            The URL of the file.
+            </summary>
+            <example>media/40/catalog/my-picture.jpg</example>
+        </member>
+        <member name="P:Smartstore.Web.Api.Models.Media.FileItemInfo.ThumbUrl">
+            <summary>
+            The thumbnail URL of the file.
+            </summary>
+            <example>media/40/catalog/my-picture.jpg?size=256</example>
+        </member>
+        <member name="P:Smartstore.Web.Api.Models.Media.FileItemInfo.Name">
+            <summary>
+            Gets or sets the SEO friendly name of the media file including file extension.
+            </summary>
+        </member>
+        <member name="P:Smartstore.Web.Api.Models.Media.FileItemInfo.Extension">
+            <summary>
+            Gets or sets the (dotless) file extension.
+            </summary>
+        </member>
+        <member name="P:Smartstore.Web.Api.Models.Media.FileItemInfo.Length">
+            <summary>
+            Gets or sets the file size in bytes.
+            </summary>
+        </member>
+        <member name="P:Smartstore.Web.Api.Models.Media.FileItemInfo.Width">
+            <summary>
+            Gets or sets the image width (if file is an image).
+            </summary>
+        </member>
+        <member name="P:Smartstore.Web.Api.Models.Media.FileItemInfo.Height">
+            <summary>
+            Gets or sets the image height (if file is an image).
+            </summary>
+        </member>
+        <member name="P:Smartstore.Web.Api.Models.Media.FileItemInfo.FolderId">
+            <summary>
+            Gets or sets the associated folder identifier.
+            </summary>
+        </member>
+        <member name="P:Smartstore.Web.Api.Models.Media.FileItemInfo.MimeType">
+            <summary>
+            Gets or sets the file MIME type.
+            </summary>
+        </member>
+        <member name="P:Smartstore.Web.Api.Models.Media.FileItemInfo.MediaType">
+            <summary>
+            Gets or sets the file media type (image, video, audio, document etc.).
+            </summary>
+        </member>
+        <member name="P:Smartstore.Web.Api.Models.Media.FileItemInfo.IsTransient">
+            <summary>
+            Gets or sets a value indicating whether the file is transient/preliminary.
+            </summary>
+        </member>
+        <member name="P:Smartstore.Web.Api.Models.Media.FileItemInfo.CreatedOn">
+            <summary>
+            Gets or sets the date and time of file creation (in UTC).
+            </summary>
+        </member>
+        <member name="P:Smartstore.Web.Api.Models.Media.FileItemInfo.LastModified">
+            <summary>
+            Gets or sets the date and time of file update (in UTC).
+            </summary>
+        </member>
+        <member name="P:Smartstore.Web.Api.Models.Media.FileItemInfo.Alt">
+            <summary>
+            Gets or sets the localizable image ALT text.
+            </summary>
+        </member>
+        <member name="P:Smartstore.Web.Api.Models.Media.FileItemInfo.TitleAttribute">
+            <summary>
+            Gets or sets the localizable media file title text.
+            </summary>
+        </member>
+        <member name="P:Smartstore.Web.Api.Models.Media.FileItemInfo.AdminComment">
+            <summary>
+            Gets or sets an internal admin comment.
+            </summary>
+        </member>
+        <member name="T:Smartstore.Web.Api.Models.Media.FolderNodeInfo">
+            <summary>
+            Represents a folder of media files.
+            </summary>
+        </member>
+        <member name="P:Smartstore.Web.Api.Models.Media.FolderNodeInfo.Id">
+            <summary>
+            The MediaFolder identifier.
+            </summary>
+        </member>
+        <member name="P:Smartstore.Web.Api.Models.Media.FolderNodeInfo.ParentId">
+            <summary>
+            The identifier of the parent node (if any).
+            </summary>
+        </member>
+        <member name="P:Smartstore.Web.Api.Models.Media.FolderNodeInfo.IsAlbum">
+            <summary>
+            A value indicating whether the folder is a root album node.
+            </summary>
+        </member>
+        <member name="P:Smartstore.Web.Api.Models.Media.FolderNodeInfo.AlbumName">
+            <summary>
+            The root album name.
+            </summary>
+        </member>
+        <member name="P:Smartstore.Web.Api.Models.Media.FolderNodeInfo.Order">
+            <summary>
+            The media album display order. 0 if the folder is not an album.
+            </summary>
+        </member>
+        <member name="P:Smartstore.Web.Api.Models.Media.FolderNodeInfo.Name">
+            <summary>
+            The folder name.
+            </summary>
+        </member>
+        <member name="P:Smartstore.Web.Api.Models.Media.FolderNodeInfo.Path">
+            <summary>
+            The path of the folder.
+            </summary>
+            <example>content/my-folder</example>
+        </member>
+        <member name="P:Smartstore.Web.Api.Models.Media.FolderNodeInfo.FilesCount">
+            <summary>
+            The current number of files. Unused, always 0 at the moment.
+            </summary>
+        </member>
+        <member name="P:Smartstore.Web.Api.Models.Media.FolderNodeInfo.HasChildren">
+            <summary>
+            A value indicating whether the folder has subfolders.
+            </summary>
+        </member>
+        <member name="T:Smartstore.Web.Api.Models.Media.MediaCountResult">
+            <summary>
+            Represents the result of counting files.
+            </summary>
+        </member>
+        <member name="P:Smartstore.Web.Api.Models.Media.MediaCountResult.Total">
+            <summary>
+            The total number of files.
+            </summary>
+        </member>
+        <member name="P:Smartstore.Web.Api.Models.Media.MediaCountResult.Trash">
+            <summary>
+            The number of files in trash.
+            </summary>
+        </member>
+        <member name="P:Smartstore.Web.Api.Models.Media.MediaCountResult.Unassigned">
+            <summary>
+            The number of unassigned files.
+            </summary>
+        </member>
+        <member name="P:Smartstore.Web.Api.Models.Media.MediaCountResult.Transient">
+            <summary>
+            The number of transient/preliminary files.
+            </summary>
+        </member>
+        <member name="P:Smartstore.Web.Api.Models.Media.MediaCountResult.Orphan">
+            <summary>
+            The number of orphaned files.
+            </summary>
+        </member>
+        <member name="P:Smartstore.Web.Api.Models.Media.MediaCountResult.Folders">
+            <summary>
+            The number of files by folder.
+            </summary>
+        </member>
+        <member name="P:Smartstore.Web.Api.Models.Media.MediaCountResult.FolderCount.FolderId">
+            <summary>
+            The folder identifier.
+            </summary>
+        </member>
+        <member name="P:Smartstore.Web.Api.Models.Media.MediaCountResult.FolderCount.Count">
+            <summary>
+            The number of files.
+            </summary>
+        </member>
+        <member name="T:Smartstore.Web.Api.Models.Media.MediaFileOperationResult">
+            <summary>
+            Represents a file operation.
+            </summary>
+        </member>
+        <member name="P:Smartstore.Web.Api.Models.Media.MediaFileOperationResult.DestinationFileId">
+            <summary>
+            The identifier of the destination file.
+            </summary>
+        </member>
+        <member name="P:Smartstore.Web.Api.Models.Media.MediaFileOperationResult.IsDuplicate">
+            <summary>
+            A value indicating whether the file is a duplicate.
+            </summary>
+        </member>
+        <member name="P:Smartstore.Web.Api.Models.Media.MediaFileOperationResult.UniquePath">
+            <summary>
+            The full path of the file. null if the file is a duplicate.
+            </summary>
+        </member>
+        <member name="T:Smartstore.Web.Api.Models.Media.MediaFolderDeleteResult">
+            <summary>
+            Represents the result of an order deletion.
+            </summary>
+        </member>
+        <member name="P:Smartstore.Web.Api.Models.Media.MediaFolderDeleteResult.DeletedFolderIds">
+            <summary>
+            Collection of identifiers of deleted folders.
+            </summary>
+        </member>
+        <member name="P:Smartstore.Web.Api.Models.Media.MediaFolderDeleteResult.DeletedFileNames">
+            <summary>
+            Collection of names of deleted folders.
+            </summary>
+        </member>
+        <member name="T:Smartstore.Web.Api.Models.Media.MediaFolderOperationResult">
+            <summary>
+            Represents a folder operation.
+            </summary>
+        </member>
+        <member name="P:Smartstore.Web.Api.Models.Media.MediaFolderOperationResult.FolderId">
+            <summary>
+            The folder identifier.
+            </summary>
+        </member>
+        <member name="P:Smartstore.Web.Api.Models.Media.MediaFolderOperationResult.Folder">
+            <summary>
+            Folder info.
+            </summary>
+        </member>
+        <member name="P:Smartstore.Web.Api.Models.Media.MediaFolderOperationResult.DuplicateFiles">
+            <summary>
+            Collection of file duplicates.
+            </summary>
+        </member>
+        <member name="P:Smartstore.Web.Api.Models.Media.MediaFolderOperationResult.DuplicateFileInfo.SourceFileId">
+            <summary>
+            The identifier of the source file.
+            </summary>
+        </member>
+        <member name="P:Smartstore.Web.Api.Models.Media.MediaFolderOperationResult.DuplicateFileInfo.DestinationFileId">
+            <summary>
+            The identifier of the destination file.
+            </summary>
+        </member>
+        <member name="P:Smartstore.Web.Api.Models.Media.MediaFolderOperationResult.DuplicateFileInfo.UniquePath">
+            <summary>
+            The full path of the destination file.
+            </summary>
+        </member>
+        <member name="T:Smartstore.Web.Api.Models.SimpleRange`1">
+            <summary>
+            Represents a simple value range.
+            </summary>
+        </member>
+        <member name="P:Smartstore.Web.Api.Models.SimpleRange`1.Minimum">
+            <summary>
+            The minimum value.
+            </summary>
+        </member>
+        <member name="P:Smartstore.Web.Api.Models.SimpleRange`1.Maximum">
+            <summary>
+            The maximum value.
+            </summary>
+        </member>
+        <member name="P:Smartstore.Web.Api.Models.WebApiState.IsActive">
+            <summary>
+            A value indicating whether the Web API is active.
+            </summary>
+        </member>
+        <member name="P:Smartstore.Web.Api.Models.WebApiState.ModuleVersion">
+            <summary>
+            The version of the Web API module.
+            </summary>
+        </member>
+        <member name="P:Smartstore.Web.Api.Models.WebApiState.MaxTop">
+            <summary>
+            The max value of $top that a client can request.
+            </summary>
+        </member>
+        <member name="P:Smartstore.Web.Api.Models.WebApiState.MaxExpansionDepth">
+            <summary>
+            The max expansion depth for the $expand query option. If 0 then the maximum expansion depth check is disabled.
+            </summary>
+        </member>
+        <member name="P:Smartstore.Web.Api.Models.WebApiState.Version">
+            <summary>
+            Current API version.
+            </summary>
+        </member>
+        <member name="P:Smartstore.Web.Api.Models.WebApiUser.GenericAttributeId">
+            <summary>
+            The identifier of the generic attribute where the user's access data is stored.
+            </summary>
+        </member>
+        <member name="P:Smartstore.Web.Api.Models.WebApiUser.CustomerId">
+            <summary>
+            Customer identifier.
+            </summary>
+        </member>
+        <member name="P:Smartstore.Web.Api.Models.WebApiUser.Enabled">
+            <summary>
+            A value indicating whether the user has access to the API.
+            </summary>
+        </member>
+        <member name="P:Smartstore.Web.Api.Models.WebApiUser.PublicKey">
+            <summary>
+            The user's public access key.
+            </summary>
+        </member>
+        <member name="P:Smartstore.Web.Api.Models.WebApiUser.SecretKey">
+            <summary>
+            The user's secret access key.
+            </summary>
+        </member>
+        <member name="P:Smartstore.Web.Api.Models.WebApiUser.LastRequest">
+            <summary>
+            The date on which the last API request took place (in UTC).
+            </summary>
+        </member>
+        <member name="P:Smartstore.Web.Api.Models.WebApiUser.IsValid">
+            <summary>
+            A value indicating whether the user data is valid.
+            </summary>
+        </member>
+        <member name="T:Smartstore.Web.Api.ApiControllerModelConvention">
+            <summary>
+            Convention to omit controllers and actions from API explorer that are not decorated with <see cref="T:Microsoft.AspNetCore.Mvc.ApiExplorerSettingsAttribute"/>.
+            </summary>
+        </member>
+        <member name="M:Smartstore.Web.Api.IWebApiService.GetState(System.Nullable{System.Int32})">
+            <summary>
+            Gets the current state of the API including configuration settings.
+            </summary>
+            <param name="storeId">
+            Store identifier to get the state for.
+            If <c>null</c>, identifier will be obtained via <see cref="P:Smartstore.Core.Stores.IStoreContext.CurrentStore"/>.
+            </param>
+            <returns>Web API state.</returns>
+        </member>
+        <member name="M:Smartstore.Web.Api.IWebApiService.GetApiUsersAsync">
+            <summary>
+            Gets a map with all users who have access to the API.
+            The key is the public API access key of the user.
+            </summary>
+            <returns>Map of public access key to API user.</returns>
+        </member>
+        <member name="T:Smartstore.Web.Api.Security.AccessDeniedReason">
+            <summary>
+            Represents the reason for denying an API request.
+            </summary>
+        </member>
+        <member name="F:Smartstore.Web.Api.Security.AccessDeniedReason.ApiDisabled">
+            <summary>
+            The API is disabled.
+            </summary>
+        </member>
+        <member name="F:Smartstore.Web.Api.Security.AccessDeniedReason.SslRequired">
+            <summary>
+            HTTPS is required in any case unless the request takes place in a development environment.
+            </summary>
+        </member>
+        <member name="F:Smartstore.Web.Api.Security.AccessDeniedReason.InvalidAuthorizationHeader">
+            <summary>
+            The HTTP authorization header is missing or invalid.
+            Must have the format 'PublicKey:SecretKey'.
+            </summary>
+        </member>
+        <member name="F:Smartstore.Web.Api.Security.AccessDeniedReason.InvalidCredentials">
+            <summary>
+            The credentials sent by the HTTP authorization header do not match those of the user.
+            </summary>
+        </member>
+        <member name="F:Smartstore.Web.Api.Security.AccessDeniedReason.UserUnknown">
+            <summary>
+            The user is unknown.
+            </summary>
+        </member>
+        <member name="F:Smartstore.Web.Api.Security.AccessDeniedReason.UserDisabled">
+            <summary>
+            The user is known but his access via the API is disabled.
+            </summary>
+        </member>
+        <member name="T:Smartstore.Web.Api.Security.BasicAuthenticationHandler">
+            <summary>
+            Verifies the identity of a user using basic authentication.
+            Also ensures that requests are sent via HTTPS (except in a development environment).
+            </summary>
+        </member>
+        <member name="T:Smartstore.Web.Api.Security.BasicAuthenticationOptions">
+            <summary>
+            Contains the options used by <see cref="T:Smartstore.Web.Api.Security.BasicAuthenticationHandler"/>.
+            </summary>
+        </member>
+        <member name="P:Smartstore.Web.Api.Security.BasicAuthenticationOptions.SuppressWWWAuthenticateHeader">
+            <summary>
+            Gets or sets a value indicating whether the WWW-Authenticate header will be suppressed on unauthorized responses.
+            </summary>
+            <remarks>
+            "WWW-Authenticate" header causes the browser to prompt for credentials.
+            If it is missing the server just sends 401 status code.
+            </remarks>
+        </member>
+        <member name="P:Smartstore.Web.Api.Security.BasicAuthenticationOptions.SslRequired">
+            <summary>
+            Gets or sets a value indicating whether SSL is required.
+            <c>False</c> is unsafe and should only be used with caution.
+            </summary>
+        </member>
+        <member name="M:Smartstore.Web.Api.Swagger.OpenApiUtility.InvalidOperationIdCharsRegex">
+            <remarks>
+            Pattern:<br/>
+            <code>[{}\\$]</code><br/>
+            Options:<br/>
+            <code>RegexOptions.Compiled | RegexOptions.Singleline</code><br/>
+            Explanation:<br/>
+            <code>
+            ○ Match a character in the set [${}].<br/>
+            </code>
+            </remarks>
+        </member>
+        <member name="M:Smartstore.Web.Api.Swagger.OpenApiUtility.GetDocumentName(System.String)">
+            <summary>
+            Gets a humanized name for one of the names of <see cref="T:Smartstore.Web.Api.WebApiGroupNames"/>.
+            </summary>
+        </member>
+        <member name="M:Smartstore.Web.Api.Swagger.OpenApiUtility.GetOperationId(Microsoft.AspNetCore.Mvc.ApiExplorer.ApiDescription)">
+            <summary>
+            Gets a unique and valid OpenAPI Operation-ID. By default <see cref="P:Microsoft.AspNetCore.Mvc.ApiExplorer.ApiDescription.RelativePath"/> is used but it is not unique.
+            Some OpenAPI validators expect URL friendly characters.
+            </summary>
+            <remarks>
+            Also prevents multiple descriptions from expanding at the same time when clicking a method in Swagger UI.
+            </remarks>
+        </member>
+        <member name="M:Smartstore.Web.Api.Swagger.OpenApiUtility.GetSchemaId(System.Type,System.Boolean)">
+            <summary>
+            Gets a unique OpenAPI schema ID for an object type.
+            Avoids "Conflicting schemaIds" (multiple types with the same name but different namespaces).
+            </summary>
+        </member>
+        <member name="T:Smartstore.Web.Api.Swagger.SwaggerDocumentFilter">
+            <summary>
+            Removes Open API paths and schemas that should not be displayed in the Swagger documentation.
+            </summary>
+            <remarks>
+            It would be nice if we could strip off the OData route here: /odata/v1/categories({key}) -> /categories({key})
+            but that would let Swagger execute against /categories({key}) always resulting in 404 NotFound.
+            To achieve this a custom Swagger template would be required. Perhaps there is an extension somewhere.
+            </remarks>
+        </member>
+        <member name="M:Smartstore.Web.Api.Swagger.SwaggerDocumentFilter.PathsToIgnoreRegex">
+            <remarks>
+            Pattern:<br/>
+            <code>[a-z0-9\\/](\\$count|\\{key\\}|default\\.)</code><br/>
+            Options:<br/>
+            <code>RegexOptions.IgnoreCase | RegexOptions.Compiled | RegexOptions.Singleline</code><br/>
+            Explanation:<br/>
+            <code>
+            ○ Match a character in the set [/-9A-Za-z\u0130\u212A].<br/>
+            ○ 1st capture group.<br/>
+                ○ Match with 3 alternative expressions, atomically.<br/>
+                    ○ Match a sequence of expressions.<br/>
+                        ○ Match '$'.<br/>
+                        ○ Match a character in the set [Cc].<br/>
+                        ○ Match a character in the set [Oo].<br/>
+                        ○ Match a character in the set [Uu].<br/>
+                        ○ Match a character in the set [Nn].<br/>
+                        ○ Match a character in the set [Tt].<br/>
+                    ○ Match a sequence of expressions.<br/>
+                        ○ Match '{'.<br/>
+                        ○ Match a character in the set [Kk\u212A].<br/>
+                        ○ Match a character in the set [Ee].<br/>
+                        ○ Match a character in the set [Yy].<br/>
+                        ○ Match '}'.<br/>
+                    ○ Match a sequence of expressions.<br/>
+                        ○ Match a character in the set [Dd].<br/>
+                        ○ Match a character in the set [Ee].<br/>
+                        ○ Match a character in the set [Ff].<br/>
+                        ○ Match a character in the set [Aa].<br/>
+                        ○ Match a character in the set [Uu].<br/>
+                        ○ Match a character in the set [Ll].<br/>
+                        ○ Match a character in the set [Tt].<br/>
+                        ○ Match '.'.<br/>
+            </code>
+            </remarks>
+        </member>
+        <member name="M:Smartstore.Web.Api.Swagger.SwaggerDocumentFilter.FilterSchemas(Swashbuckle.AspNetCore.SwaggerGen.DocumentFilterContext)">
+            <summary>
+            Removes unexpected, unwanted schemas.
+            </summary>
+        </member>
+        <member name="M:Smartstore.Web.Api.Swagger.SwaggerDocumentFilter.FilterPaths(Microsoft.OpenApi.Models.OpenApiDocument)">
+            <summary>
+            Removes duplicate and unusual, unexpected documents.
+            </summary>
+        </member>
+        <member name="T:Smartstore.Web.Api.Swagger.SwaggerOperationFilter">
+            <summary>
+            Adds information to <see cref="T:Microsoft.OpenApi.Models.OpenApiOperation"/> like describing <see cref="T:Microsoft.OpenApi.Models.OpenApiResponse"/> objects
+            for repeating methods in OData controllers (like Get, Post, Put, Patch, Delete etc.).
+            Fixes lots of Swashbuckle bugs.
+            Only takes into account OData controllers that inherit from SmartODataController.
+            </summary>
+        </member>
+        <member name="M:Smartstore.Web.Api.Swagger.SwaggerOperationFilter.AddOperationInfo(Smartstore.Web.Api.Swagger.SwaggerOperationHelper)">
+            <summary>
+            Adds info to known OData methods.
+            </summary>
+        </member>
+        <member name="M:Smartstore.Web.Api.Swagger.SwaggerOperationFilter.AddParameterInfo(Smartstore.Web.Api.Swagger.SwaggerOperationHelper)">
+            <summary>
+            Adds extra info to known parameters.
+            </summary>
+        </member>
+        <member name="M:Smartstore.Web.Api.Swagger.SwaggerOperationFilter.AddQueryParameters(Smartstore.Web.Api.Swagger.SwaggerOperationHelper)">
+            <summary>
+            Adds OData query parameters.
+            </summary>
+        </member>
+        <member name="M:Smartstore.Web.Api.Swagger.SwaggerOperationFilter.FixOdataActions(Smartstore.Web.Api.Swagger.SwaggerOperationHelper)">
+            <summary>
+            Adds missing request body.
+            Removes parameters for FromODataBodyAttribute that are falsely offered as query parameters.
+            </summary>
+            <remarks>This is a workaround that will probably become obsolete in future Swashbuckle versions when OData is fully supported.</remarks>
+        </member>
+        <member name="M:Smartstore.Web.Api.Swagger.SwaggerOperationFilter.FixOdataFunctions(Smartstore.Web.Api.Swagger.SwaggerOperationHelper)">
+            <summary>
+            Fixes wrong identifier arrays in OData URL path.
+            </summary>
+            <remarks>This is a workaround that will probably become obsolete in future Swashbuckle versions when OData is fully supported.</remarks>
+        </member>
+        <member name="M:Smartstore.Web.Api.Swagger.SwaggerOperationFilter.RemoveParameters(Smartstore.Web.Api.Swagger.SwaggerOperationHelper)">
+            <summary>
+            Removes unwanted parameters.
+            </summary>
+        </member>
+        <member name="P:Smartstore.Web.Api.Swagger.SwaggerOperationHelper.EntityType">
+            <summary>
+            Gets the generic entity type of the <see cref="T:Smartstore.Web.Api.WebApiController`1"/>.
+            </summary>
+        </member>
+        <member name="P:Smartstore.Web.Api.Swagger.SwaggerOperationHelper.ResponseType">
+            <summary>
+            Gets the response type specified by <see cref="T:Microsoft.AspNetCore.Mvc.ProducesResponseTypeAttribute"/> (if any).
+            </summary>
+        </member>
+        <member name="M:Smartstore.Web.Api.WebApiService.CreateKeys(System.String@,System.String@,System.Int32)">
+            <summary>
+            Creates a pair of of cryptographic random numbers as a hex string.
+            </summary>
+            <param name="key1">First created key.</param>
+            <param name="key2">Second created key.</param>
+            <param name="length">The length of the keys to be generated.</param>
+            <returns><c>true</c> succeeded otherwise <c>false</c>.</returns>
+        </member>
+        <member name="T:System.Text.RegularExpressions.Generated.InvalidOperationIdCharsRegex_0">
+            <summary>Custom <see cref="T:System.Text.RegularExpressions.Regex"/>-derived type for the InvalidOperationIdCharsRegex method.</summary>
+        </member>
+        <member name="F:System.Text.RegularExpressions.Generated.InvalidOperationIdCharsRegex_0.Instance">
+            <summary>Cached, thread-safe singleton instance.</summary>
+        </member>
+        <member name="M:System.Text.RegularExpressions.Generated.InvalidOperationIdCharsRegex_0.#ctor">
+            <summary>Initializes the instance.</summary>
+        </member>
+        <member name="T:System.Text.RegularExpressions.Generated.InvalidOperationIdCharsRegex_0.RunnerFactory">
+            <summary>Provides a factory for creating <see cref="T:System.Text.RegularExpressions.RegexRunner"/> instances to be used by methods on <see cref="T:System.Text.RegularExpressions.Regex"/>.</summary>
+        </member>
+        <member name="M:System.Text.RegularExpressions.Generated.InvalidOperationIdCharsRegex_0.RunnerFactory.CreateInstance">
+            <summary>Creates an instance of a <see cref="T:System.Text.RegularExpressions.RegexRunner"/> used by methods on <see cref="T:System.Text.RegularExpressions.Regex"/>.</summary>
+        </member>
+        <member name="T:System.Text.RegularExpressions.Generated.InvalidOperationIdCharsRegex_0.RunnerFactory.Runner">
+            <summary>Provides the runner that contains the custom logic implementing the specified regular expression.</summary>
+        </member>
+        <member name="M:System.Text.RegularExpressions.Generated.InvalidOperationIdCharsRegex_0.RunnerFactory.Runner.Scan(System.ReadOnlySpan{System.Char})">
+            <summary>Scan the <paramref name="inputSpan"/> starting from base.runtextstart for the next match.</summary>
+            <param name="inputSpan">The text being scanned by the regular expression.</param>
+        </member>
+        <member name="M:System.Text.RegularExpressions.Generated.InvalidOperationIdCharsRegex_0.RunnerFactory.Runner.TryFindNextPossibleStartingPosition(System.ReadOnlySpan{System.Char})">
+            <summary>Search <paramref name="inputSpan"/> starting from base.runtextpos for the next location a match could possibly start.</summary>
+            <param name="inputSpan">The text being scanned by the regular expression.</param>
+            <returns>true if a possible match was found; false if no more matches are possible.</returns>
+        </member>
+        <member name="T:System.Text.RegularExpressions.Generated.PathsToIgnoreRegex_1">
+            <summary>Custom <see cref="T:System.Text.RegularExpressions.Regex"/>-derived type for the PathsToIgnoreRegex method.</summary>
+        </member>
+        <member name="F:System.Text.RegularExpressions.Generated.PathsToIgnoreRegex_1.Instance">
+            <summary>Cached, thread-safe singleton instance.</summary>
+        </member>
+        <member name="M:System.Text.RegularExpressions.Generated.PathsToIgnoreRegex_1.#ctor">
+            <summary>Initializes the instance.</summary>
+        </member>
+        <member name="T:System.Text.RegularExpressions.Generated.PathsToIgnoreRegex_1.RunnerFactory">
+            <summary>Provides a factory for creating <see cref="T:System.Text.RegularExpressions.RegexRunner"/> instances to be used by methods on <see cref="T:System.Text.RegularExpressions.Regex"/>.</summary>
+        </member>
+        <member name="M:System.Text.RegularExpressions.Generated.PathsToIgnoreRegex_1.RunnerFactory.CreateInstance">
+            <summary>Creates an instance of a <see cref="T:System.Text.RegularExpressions.RegexRunner"/> used by methods on <see cref="T:System.Text.RegularExpressions.Regex"/>.</summary>
+        </member>
+        <member name="T:System.Text.RegularExpressions.Generated.PathsToIgnoreRegex_1.RunnerFactory.Runner">
+            <summary>Provides the runner that contains the custom logic implementing the specified regular expression.</summary>
+        </member>
+        <member name="M:System.Text.RegularExpressions.Generated.PathsToIgnoreRegex_1.RunnerFactory.Runner.Scan(System.ReadOnlySpan{System.Char})">
+            <summary>Scan the <paramref name="inputSpan"/> starting from base.runtextstart for the next match.</summary>
+            <param name="inputSpan">The text being scanned by the regular expression.</param>
+        </member>
+        <member name="M:System.Text.RegularExpressions.Generated.PathsToIgnoreRegex_1.RunnerFactory.Runner.TryFindNextPossibleStartingPosition(System.ReadOnlySpan{System.Char})">
+            <summary>Search <paramref name="inputSpan"/> starting from base.runtextpos for the next location a match could possibly start.</summary>
+            <param name="inputSpan">The text being scanned by the regular expression.</param>
+            <returns>true if a possible match was found; false if no more matches are possible.</returns>
+        </member>
+        <member name="M:System.Text.RegularExpressions.Generated.PathsToIgnoreRegex_1.RunnerFactory.Runner.TryMatchAtCurrentPosition(System.ReadOnlySpan{System.Char})">
+            <summary>Determine whether <paramref name="inputSpan"/> at base.runtextpos is a match for the regular expression.</summary>
+            <param name="inputSpan">The text being scanned by the regular expression.</param>
+            <returns>true if the regular expression matches at the current position; otherwise, false.</returns>
+        </member>
+        <member name="T:System.Text.RegularExpressions.Generated.Utilities">
+            <summary>Helper methods used by generated <see cref="T:System.Text.RegularExpressions.Regex"/>-derived implementations.</summary>
+        </member>
+        <member name="F:System.Text.RegularExpressions.Generated.Utilities.s_defaultTimeout">
+            <summary>Default timeout value set in <see cref="T:System.AppContext"/>, or <see cref="F:System.Text.RegularExpressions.Regex.InfiniteMatchTimeout"/> if none was set.</summary>
+        </member>
+        <member name="F:System.Text.RegularExpressions.Generated.Utilities.s_hasTimeout">
+            <summary>Whether <see cref="F:System.Text.RegularExpressions.Generated.Utilities.s_defaultTimeout"/> is non-infinite.</summary>
+        </member>
+        <member name="F:System.Text.RegularExpressions.Generated.Utilities.s_ascii_100000001000000010000008">
+            <summary>Supports searching for characters in or not in "$Dd{".</summary>
+        </member>
+    </members>
+</doc>

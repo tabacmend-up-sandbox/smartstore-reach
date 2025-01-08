@@ -1,0 +1,25 @@
+{
+  "Files": [
+    {
+      "Id": "/root/Smartstore/src/Smartstore.Modules/Smartstore.Facebook.Auth/wwwroot/icon.png",
+      "PackagePath": "staticwebassets/icon.png"
+    },
+    {
+      "Id": "obj/Debug/staticwebassets/msbuild.Smartstore.Facebook.Auth.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/staticwebassets/msbuild.build.Smartstore.Facebook.Auth.props",
+      "PackagePath": "build\\Smartstore.Facebook.Auth.props"
+    },
+    {
+      "Id": "obj/Debug/staticwebassets/msbuild.buildMultiTargeting.Smartstore.Facebook.Auth.props",
+      "PackagePath": "buildMultiTargeting\\Smartstore.Facebook.Auth.props"
+    },
+    {
+      "Id": "obj/Debug/staticwebassets/msbuild.buildTransitive.Smartstore.Facebook.Auth.props",
+      "PackagePath": "buildTransitive\\Smartstore.Facebook.Auth.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
